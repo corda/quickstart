@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab377411-8e5f-4985-8873-421ad53c0ef0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Run_Contract_Tests___Java.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Run_Contract_Tests___Java.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Run_Contract_Tests___Kotlin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Run_Contract_Tests___Kotlin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Run_Flow_Tests___Java.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Run_Flow_Tests___Java.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Run_Integration_Tests___Java.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Run_Integration_Tests___Java.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/contract/IOUContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/contract/IOUContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cordapp-example" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cordapp-example" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="cordapp-example" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1aAIuzON9qARS8Kww0Y4or03ONW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/workflows-java/build/nodes/PartyA/cordapps" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/workflows-java/build/nodes/PartyA/cordapps" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Run Integration Tests - Java">
+    <configuration name="cordapp-example [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Run Example Cordapp - Java" />
+      <item itemvalue="Gradle.Unit tests" />
+      <item itemvalue="Gradle.cordapp-example [jar]" />
+      <item itemvalue="JUnit.Run Contract Tests - Java" />
+      <item itemvalue="JUnit.Run Contract Tests - Kotlin" />
+      <item itemvalue="JUnit.Run Flow Tests - Java" />
+      <item itemvalue="JUnit.Run Flow Tests - Kotlin" />
+      <item itemvalue="JUnit.Run Integration Tests - Java" />
+      <item itemvalue="JUnit.Run Integration Tests - Kotlin" />
+      <item itemvalue="Kotlin.Run Example Cordapp - Kotlin" />
+      <item itemvalue="Remote.Debug CorDapp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.cordapp-example [jar]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab377411-8e5f-4985-8873-421ad53c0ef0" name="Default Changelist" comment="" />
+      <created>1586172197910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586172197910</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="452" y="205" key="#Run_Contract_Tests_-_Java" timestamp="1586353339848">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state x="452" y="205" key="#Run_Contract_Tests_-_Java/0.23.1792.1042@0.23.1792.1042" timestamp="1586287066326" />
+    <state x="452" y="205" key="#Run_Contract_Tests_-_Java/0.23.1792.1043@0.23.1792.1043" timestamp="1586353339848" />
+    <state x="452" y="205" key="#Run_Contract_Tests_-_Kotlin" timestamp="1586353142917">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state x="452" y="205" key="#Run_Contract_Tests_-_Kotlin/0.23.1792.1043@0.23.1792.1043" timestamp="1586353142917" />
+    <state x="452" y="205" key="#Run_Flow_Tests_-_Java" timestamp="1586353601416">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state x="452" y="205" key="#Run_Flow_Tests_-_Java/0.23.1792.1043@0.23.1792.1043" timestamp="1586353601416" />
+    <state x="452" y="205" key="#Run_Integration_Tests_-_Java" timestamp="1586354672500">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state x="452" y="205" key="#Run_Integration_Tests_-_Java/0.23.1792.1042@0.23.1792.1042" timestamp="1586354672500" />
+    <state x="350" y="206" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586354832949">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state x="350" y="206" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1042@0.23.1792.1042" timestamp="1586354832949" />
+    <state x="350" y="206" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1043@0.23.1792.1043" timestamp="1586353670259" />
+    <state x="338" y="351" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586248009343">
+      <screen x="0" y="23" width="1792" height="1041" />
+    </state>
+    <state x="338" y="351" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1041@0.23.1792.1041" timestamp="1586248009343" />
+    <state width="1582" height="271" key="GridCell.Tab.0.bottom" timestamp="1586354710203">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="1582" height="271" key="GridCell.Tab.0.bottom/0.23.1792.1042@0.23.1792.1042" timestamp="1586354710203" />
+    <state width="1582" height="271" key="GridCell.Tab.0.bottom/0.23.1792.1043@0.23.1792.1043" timestamp="1586353901569" />
+    <state width="1582" height="271" key="GridCell.Tab.0.center" timestamp="1586354710203">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="1582" height="271" key="GridCell.Tab.0.center/0.23.1792.1042@0.23.1792.1042" timestamp="1586354710203" />
+    <state width="1582" height="271" key="GridCell.Tab.0.center/0.23.1792.1043@0.23.1792.1043" timestamp="1586353901568" />
+    <state width="1582" height="271" key="GridCell.Tab.0.left" timestamp="1586354710202">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="1582" height="271" key="GridCell.Tab.0.left/0.23.1792.1042@0.23.1792.1042" timestamp="1586354710202" />
+    <state width="1582" height="271" key="GridCell.Tab.0.left/0.23.1792.1043@0.23.1792.1043" timestamp="1586353901568" />
+    <state width="1582" height="271" key="GridCell.Tab.0.right" timestamp="1586354710203">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state width="1582" height="271" key="GridCell.Tab.0.right/0.23.1792.1042@0.23.1792.1042" timestamp="1586354710203" />
+    <state width="1582" height="271" key="GridCell.Tab.0.right/0.23.1792.1043@0.23.1792.1043" timestamp="1586353901569" />
+    <state x="554" y="215" key="NewModule_or_Project.wizard" timestamp="1586353127406">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state x="554" y="215" key="NewModule_or_Project.wizard/0.23.1792.1043@0.23.1792.1043" timestamp="1586353127406" />
+    <state x="430" y="96" key="SettingsEditor" timestamp="1586353131540">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state x="430" y="96" key="SettingsEditor/0.23.1792.1042@0.23.1792.1042" timestamp="1586286986575" />
+    <state x="430" y="96" key="SettingsEditor/0.23.1792.1043@0.23.1792.1043" timestamp="1586353131540" />
+    <state x="573" y="374" key="com.intellij.ide.util.TipDialog" timestamp="1586260050480">
+      <screen x="0" y="23" width="1792" height="1042" />
+    </state>
+    <state x="573" y="374" key="com.intellij.ide.util.TipDialog/1792.243.1600.877/0.23.1792.1042@0.23.1792.1042" timestamp="1586260050480" />
+    <state x="554" y="177" width="1006" height="731" key="find.popup" timestamp="1586353884005">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state x="554" y="177" width="683" height="729" key="find.popup/0.23.1792.1041@0.23.1792.1041" timestamp="1586254601882" />
+    <state x="554" y="177" width="1006" height="730" key="find.popup/0.23.1792.1042@0.23.1792.1042" timestamp="1586273835951" />
+    <state x="554" y="177" width="1006" height="731" key="find.popup/0.23.1792.1043@0.23.1792.1043" timestamp="1586353884005" />
+    <state x="561" y="263" width="670" height="678" key="search.everywhere.popup" timestamp="1586353151366">
+      <screen x="0" y="23" width="1792" height="1043" />
+    </state>
+    <state x="561" y="263" width="670" height="676" key="search.everywhere.popup/0.23.1792.1041@0.23.1792.1041" timestamp="1586251017724" />
+    <state x="561" y="263" width="670" height="678" key="search.everywhere.popup/0.23.1792.1043@0.23.1792.1043" timestamp="1586353151366" />
+  </component>
+</project>
