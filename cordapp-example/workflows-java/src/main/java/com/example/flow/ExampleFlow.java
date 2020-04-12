@@ -119,6 +119,7 @@ public class ExampleFlow {
         }
     }
 
+    @Suspendable
     @InitiatedBy(Initiator.class)
     public static class Acceptor extends FlowLogic<SignedTransaction> {
 

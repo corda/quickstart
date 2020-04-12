@@ -1,0 +1,1 @@
+/Users/garryjackson/Documents/GitHub/quickstart/node-ping/workflows-kotlin/build/classes/kotlin/main/net/corda/examples/pingpong/flows/Ping.class:/Users/garryjackson/Documents/GitHub/quickstart/node-ping/workflows-kotlin/build/classes/kotlin/main/net/corda/examples/pingpong/flows/Pong.class

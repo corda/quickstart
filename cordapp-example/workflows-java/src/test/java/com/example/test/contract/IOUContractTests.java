@@ -9,6 +9,7 @@ import net.corda.testing.core.TestIdentity;
 import net.corda.testing.node.MockServices;
 import org.junit.Test;
 
+
 import static java.util.Arrays.*;
 
 import static net.corda.testing.node.NodeTestUtils.ledger;
@@ -100,16 +101,5 @@ public class IOUContractTests {
         }));
     }
 
-    @Test
-    public void cannotCreateNegativeValueIOUs() {
-        ledger(ledgerServices, (ledger -> {
-            ledger.transaction(tx -> {
-                tx.output(IOUContract.ID, new IOUState(-1, miniCorp.getParty(), megaCorp.getParty(), new UniqueIdentifier()));
-                tx.command(ImmutableList.of(megaCorp.getPublicKey(), miniCorp.getPublicKey()), new IOUContract.Commands.Create());
-                tx.failsWith("The IOU's value must be non-negative.");
-                return null;
-            });
-            return null;
-        }));
-    }
+
 }

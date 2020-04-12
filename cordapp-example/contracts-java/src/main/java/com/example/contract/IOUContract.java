@@ -34,6 +34,7 @@ public class IOUContract implements Contract {
     @Override
     public void verify(LedgerTransaction tx) {
         final CommandWithParties<Commands.Create> command = requireSingleCommand(tx.getCommands(), Commands.Create.class);
+        System.out.println(tx.getInputs().size());
         requireThat(require -> {
             // Generic constraints around the IOU transaction.
             require.using("No inputs should be consumed when issuing an IOU.",

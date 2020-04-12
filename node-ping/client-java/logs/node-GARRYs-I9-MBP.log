@@ -1,0 +1,319 @@
+[INFO ] 2020-04-11T18:50:24,777Z [driver-pool-thread-0] network.NodeInfoFilesCopier. - Now watching: /Users/garryjackson/Documents/GitHub/samples/ping-pong/client-java/build/node-driver/20200411-185022.047/NotaryService {}
+[INFO ] 2020-04-11T18:50:25,087Z [driver-pool-thread-1] internal.DriverDSLImpl. - Starting in-process Node Notary Service {}
+[INFO ] 2020-04-11T18:50:25,214Z [driver-pool-thread-1] cordapp.JarScanningCordappLoader. - Looking for CorDapps in [/Users/garryjackson/Documents/GitHub/samples/ping-pong/client-java/build/node-driver/20200411-185022.047/NotaryService/cordapps] {}
+[INFO ] 2020-04-11T18:50:25,228Z [driver-pool-thread-1] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/samples/ping-pong/client-java/build/node-driver/20200411-185022.047/NotaryService/cordapps/custom-cordapp_1_6_84398c13-0f68-4060-be98-aa69a7fbd708.jar, rootPackageName=null) {}
+[INFO ] 2020-04-11T18:50:25,236Z [driver-pool-thread-1] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/samples/ping-pong/client-java/build/node-driver/20200411-185022.047/NotaryService/cordapps/custom-cordapp_1_6_84398c13-0f68-4060-be98-aa69a7fbd708.jar {}
+[INFO ] 2020-04-11T18:50:25,824Z [driver-pool-thread-1] internal.Node. - Flow external operation executor has a max of 10 threads {}
+[INFO ] 2020-04-11T18:50:25,855Z [driver-pool-thread-1] internal.Node. - Node starting up ... {}
+[INFO ] 2020-04-11T18:50:25,898Z [driver-pool-thread-1] internal.NodeFlowManager. - Registered net.corda.examples.pingpong.flows.Ping to initiate net.corda.examples.pingpong.flows.Pong (version 1) {}
+[INFO ] 2020-04-11T18:50:26,012Z [driver-pool-thread-1] internal.Node. - Loaded network parameters: NetworkParameters {
+      minimumPlatformVersion=1
+      notaries=[NotaryInfo(identity=O=Notary Service, L=Zurich, C=CH, validating=true)]
+      maxMessageSize=10485760
+      maxTransactionSize=524288000
+      whitelistedContractImplementations {
+        
+      }
+      eventHorizon=PT720H
+      packageOwnership {
+        
+      }
+      modifiedTime=2020-04-11T18:50:22.060Z
+      epoch=1
+  } {}
+[INFO ] 2020-04-11T18:50:29,430Z [driver-pool-thread-1] persistence.AttachmentVersionNumberMigration. - Start executing... {changeSet=migration/node-services.changelog-init.xml::update-version-of-whitelisted-jars::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:29,433Z [driver-pool-thread-1] persistence.AttachmentVersionNumberMigration. - Attachment version creation from whitelisted JARs using network parameters from /Users/garryjackson/Documents/GitHub/samples/ping-pong/client-java/build/node-driver/20200411-185022.047/NotaryService/network-parameters, whitelistedContractImplementations: {}. {changeSet=migration/node-services.changelog-init.xml::update-version-of-whitelisted-jars::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:29,433Z [driver-pool-thread-1] persistence.AttachmentVersionNumberMigration. - Attachment version creation from whitelisted JARs skipped, no attachments not found. {changeSet=migration/node-services.changelog-init.xml::update-version-of-whitelisted-jars::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:29,488Z [driver-pool-thread-1] migration.VaultStateMigration. - Migrating vault state data to V4 tables {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:29,555Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [VaultMigrationSchemaV1(name=net.corda.node.migration.VaultMigrationSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1)] {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:29,574Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Creating session factory for schemas: [VaultMigrationSchemaV1(name=net.corda.node.migration.VaultMigrationSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1)] {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:31,924Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Created session factory for schemas: [VaultMigrationSchemaV1(name=net.corda.node.migration.VaultMigrationSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1)] {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:32,415Z [driver-pool-thread-1] migration.VaultStateMigration. - Finished performing vault state data migration for 0 states {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:32,416Z [driver-pool-thread-1] migration.PersistentIdentityMigrationNewTable. - Migrating persistent identities with certificates table into persistent table with no certificate data. {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:32,419Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [MappedSchema(name=net.corda.node.migration.PersistentIdentitiesMigrationSchema, version=1)] {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:32,419Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Creating session factory for schemas: [MappedSchema(name=net.corda.node.migration.PersistentIdentitiesMigrationSchema, version=1)] {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:32,482Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Created session factory for schemas: [MappedSchema(name=net.corda.node.migration.PersistentIdentitiesMigrationSchema, version=1)] {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:32,517Z [driver-pool-thread-1] internal.Node. - Connected to H2 database. {}
+[INFO ] 2020-04-11T18:50:32,532Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), NodeNotarySchemaV1(name=net.corda.node.services.transactions.NodeNotarySchema, version=1)] {}
+[INFO ] 2020-04-11T18:50:32,532Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Creating session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), NodeNotarySchemaV1(name=net.corda.node.services.transactions.NodeNotarySchema, version=1)] {}
+[INFO ] 2020-04-11T18:50:32,713Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Created session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), NodeNotarySchemaV1(name=net.corda.node.services.transactions.NodeNotarySchema, version=1)] {}
+[INFO ] 2020-04-11T18:50:32,719Z [driver-pool-thread-1] internal.Node. - Node-info has changed so submitting update. Old node-info was null {}
+[INFO ] 2020-04-11T18:50:32,719Z [driver-pool-thread-1] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10081], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=6, serial=1586631032719) {}
+[INFO ] 2020-04-11T18:50:32,723Z [driver-pool-thread-1] network.PersistentNetworkMapCache. - No previous node found for O=Notary Service, L=Zurich, C=CH {}
+[INFO ] 2020-04-11T18:50:32,832Z [driver-pool-thread-1] internal.Node. - New node-info: NodeInfo(addresses=[localhost:10081], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=6, serial=1586631032719) {}
+[INFO ] 2020-04-11T18:50:32,876Z [driver-pool-thread-1] network.NetworkMapUpdater. - Auto-accept enabled for network parameter changes which modify only: [epoch, modifiedTime, packageOwnership, whitelistedContractImplementations] {}
+[INFO ] 2020-04-11T18:50:32,885Z [InProcessNode-1-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10081], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=6, serial=1586631032719) {}
+[INFO ] 2020-04-11T18:50:32,897Z [driver-pool-thread-1] security.RPCSecurityManagerImpl. - Constructing realm from list of users in config [User(default, permissions=[ALL])] {}
+[INFO ] 2020-04-11T18:50:32,909Z [InProcessNode-1-2] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2020-04-11T18:50:33,198Z [driver-pool-thread-1] BasicInfo. - Advertised P2P messaging addresses      : localhost:10081 {}
+[INFO ] 2020-04-11T18:50:33,201Z [driver-pool-thread-1] BasicInfo. - RPC connection address                  : localhost:10082 {}
+[INFO ] 2020-04-11T18:50:33,201Z [driver-pool-thread-1] BasicInfo. - RPC admin connection address            : localhost:10083 {}
+[INFO ] 2020-04-11T18:50:34,211Z [driver-pool-thread-1] messaging.ArtemisMessagingServer. - P2P messaging server listening on 0.0.0.0:10081 {}
+[INFO ] 2020-04-11T18:50:34,407Z [driver-pool-thread-1] internal.ArtemisMessagingClient. - Connecting to message broker: localhost:10081 {}
+[INFO ] 2020-04-11T18:50:34,835Z [driver-pool-thread-1] internal.ArtemisMessagingClient. - Connecting to message broker: localhost:10081 {}
+[INFO ] 2020-04-11T18:50:35,096Z [driver-pool-thread-1] messaging.P2PMessagingClient. - Connecting to message broker: localhost:10081 {}
+[INFO ] 2020-04-11T18:50:35,130Z [driver-pool-thread-1] messaging.P2PMessagingClient. - Create fresh queue p2p.inbound.DLBAFDAFbPw8e4ZpTni1YqLQpQzgF9Y4u4cr6EuPChikPC bound on same address {}
+[INFO ] 2020-04-11T18:50:35,182Z [Thread-0 (ActiveMQ-client-factory-threads-189785509)] bridging.BridgeControlListener. - Received bridge control message NodeToBridgeSnapshot(nodeIdentity=O=Notary Service, L=Zurich, C=CH, inboxQueues=[p2p.inbound.DLBAFDAFbPw8e4ZpTni1YqLQpQzgF9Y4u4cr6EuPChikPC], sendQueues=[]) {}
+[INFO ] 2020-04-11T18:50:35,185Z [driver-pool-thread-1] utilities.NotaryLoader. - Starting notary service: class net.corda.node.services.transactions.SimpleNotaryService {}
+[INFO ] 2020-04-11T18:50:35,187Z [driver-pool-thread-1] notary.SinglePartyNotaryService. - Starting notary in validating mode {}
+[INFO ] 2020-04-11T18:50:35,525Z [driver-pool-thread-1] statemachine.SingleThreadedStateMachineManager. - Node ready, info: NodeInfo(addresses=[localhost:10081], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=6, serial=1586631032719) {}
+[INFO ] 2020-04-11T18:50:35,536Z [Node thread-1] internal.Node. - Registering JMX reporter: {}
+[INFO ] 2020-04-11T18:50:35,537Z [Node thread-1] internal.Node. - Registering Jolokia JMX reporter: {}
+[INFO ] 2020-04-11T18:50:35,543Z [Notary Service] rpc.RPCServer. - Starting RPC server with configuration RPCServerConfiguration(rpcThreadPoolSize=4, reapInterval=PT1S, deduplicationCacheExpiry=PT24H) {}
+[INFO ] 2020-04-11T18:50:35,583Z [Notary Service] BasicInfo. - Running P2PMessaging loop {}
+[INFO ] 2020-04-11T18:50:35,709Z [driver-pool-thread-1] internal.RPCClient. - Startup took 143 msec {}
+[INFO ] 2020-04-11T18:50:35,796Z [Test worker] network.NodeInfoFilesCopier. - Now watching: /Users/garryjackson/Documents/GitHub/samples/ping-pong/client-java/build/node-driver/20200411-185022.047/BankA {}
+[INFO ] 2020-04-11T18:50:35,796Z [driver-pool-thread-0] internal.DriverDSLImpl. - Starting in-process Node Bank A {}
+[INFO ] 2020-04-11T18:50:35,797Z [driver-pool-thread-0] cordapp.JarScanningCordappLoader. - Looking for CorDapps in [/Users/garryjackson/Documents/GitHub/samples/ping-pong/client-java/build/node-driver/20200411-185022.047/BankA/cordapps] {}
+[INFO ] 2020-04-11T18:50:35,798Z [driver-pool-thread-0] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/samples/ping-pong/client-java/build/node-driver/20200411-185022.047/BankA/cordapps/custom-cordapp_1_6_84398c13-0f68-4060-be98-aa69a7fbd708.jar, rootPackageName=null) {}
+[INFO ] 2020-04-11T18:50:35,798Z [driver-pool-thread-0] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/samples/ping-pong/client-java/build/node-driver/20200411-185022.047/BankA/cordapps/custom-cordapp_1_6_84398c13-0f68-4060-be98-aa69a7fbd708.jar {}
+[INFO ] 2020-04-11T18:50:35,805Z [driver-pool-thread-0] internal.Node. - Flow external operation executor has a max of 10 threads {}
+[INFO ] 2020-04-11T18:50:35,805Z [driver-pool-thread-0] internal.Node. - Node starting up ... {}
+[INFO ] 2020-04-11T18:50:35,828Z [driver-pool-thread-0] internal.NodeFlowManager. - Registered net.corda.examples.pingpong.flows.Ping to initiate net.corda.examples.pingpong.flows.Pong (version 1) {}
+[INFO ] 2020-04-11T18:50:35,830Z [driver-pool-thread-0] internal.Node. - Loaded network parameters: NetworkParameters {
+      minimumPlatformVersion=1
+      notaries=[NotaryInfo(identity=O=Notary Service, L=Zurich, C=CH, validating=true)]
+      maxMessageSize=10485760
+      maxTransactionSize=524288000
+      whitelistedContractImplementations {
+        
+      }
+      eventHorizon=PT720H
+      packageOwnership {
+        
+      }
+      modifiedTime=2020-04-11T18:50:22.060Z
+      epoch=1
+  } {}
+[INFO ] 2020-04-11T18:50:36,234Z [driver-pool-thread-0] persistence.AttachmentVersionNumberMigration. - Start executing... {changeSet=migration/node-services.changelog-init.xml::update-version-of-whitelisted-jars::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:36,237Z [driver-pool-thread-0] persistence.AttachmentVersionNumberMigration. - Attachment version creation from whitelisted JARs using network parameters from /Users/garryjackson/Documents/GitHub/samples/ping-pong/client-java/build/node-driver/20200411-185022.047/BankA/network-parameters, whitelistedContractImplementations: {}. {changeSet=migration/node-services.changelog-init.xml::update-version-of-whitelisted-jars::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:36,237Z [driver-pool-thread-0] persistence.AttachmentVersionNumberMigration. - Attachment version creation from whitelisted JARs skipped, no attachments not found. {changeSet=migration/node-services.changelog-init.xml::update-version-of-whitelisted-jars::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:36,255Z [driver-pool-thread-0] migration.VaultStateMigration. - Migrating vault state data to V4 tables {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:36,258Z [driver-pool-thread-0] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [VaultMigrationSchemaV1(name=net.corda.node.migration.VaultMigrationSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1)] {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:36,258Z [driver-pool-thread-0] persistence.HibernateConfiguration. - Creating session factory for schemas: [VaultMigrationSchemaV1(name=net.corda.node.migration.VaultMigrationSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1)] {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:36,377Z [driver-pool-thread-0] persistence.HibernateConfiguration. - Created session factory for schemas: [VaultMigrationSchemaV1(name=net.corda.node.migration.VaultMigrationSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1)] {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:36,386Z [driver-pool-thread-0] migration.VaultStateMigration. - Finished performing vault state data migration for 0 states {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:36,387Z [driver-pool-thread-0] migration.PersistentIdentityMigrationNewTable. - Migrating persistent identities with certificates table into persistent table with no certificate data. {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:36,388Z [driver-pool-thread-0] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [MappedSchema(name=net.corda.node.migration.PersistentIdentitiesMigrationSchema, version=1)] {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:36,388Z [driver-pool-thread-0] persistence.HibernateConfiguration. - Creating session factory for schemas: [MappedSchema(name=net.corda.node.migration.PersistentIdentitiesMigrationSchema, version=1)] {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:36,435Z [driver-pool-thread-0] persistence.HibernateConfiguration. - Created session factory for schemas: [MappedSchema(name=net.corda.node.migration.PersistentIdentitiesMigrationSchema, version=1)] {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:36,439Z [driver-pool-thread-0] internal.Node. - Connected to H2 database. {}
+[INFO ] 2020-04-11T18:50:36,441Z [driver-pool-thread-0] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1)] {}
+[INFO ] 2020-04-11T18:50:36,441Z [driver-pool-thread-0] persistence.HibernateConfiguration. - Creating session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1)] {}
+[INFO ] 2020-04-11T18:50:36,521Z [driver-pool-thread-0] persistence.HibernateConfiguration. - Created session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1)] {}
+[INFO ] 2020-04-11T18:50:36,522Z [driver-pool-thread-0] internal.Node. - identity-private-key not found in key store, generating fresh key! {}
+[INFO ] 2020-04-11T18:50:36,537Z [driver-pool-thread-0] internal.Node. - Node-info has changed so submitting update. Old node-info was null {}
+[INFO ] 2020-04-11T18:50:36,537Z [driver-pool-thread-0] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10085], legalIdentitiesAndCerts=[O=Bank A, L=, C=GB], platformVersion=6, serial=1586631036537) {}
+[INFO ] 2020-04-11T18:50:36,538Z [driver-pool-thread-0] network.PersistentNetworkMapCache. - No previous node found for O=Bank A, L=, C=GB {}
+[INFO ] 2020-04-11T18:50:36,545Z [driver-pool-thread-0] internal.Node. - New node-info: NodeInfo(addresses=[localhost:10085], legalIdentitiesAndCerts=[O=Bank A, L=, C=GB], platformVersion=6, serial=1586631036537) {}
+[INFO ] 2020-04-11T18:50:36,553Z [driver-pool-thread-0] network.NetworkMapUpdater. - Auto-accept enabled for network parameter changes which modify only: [epoch, modifiedTime, packageOwnership, whitelistedContractImplementations] {}
+[INFO ] 2020-04-11T18:50:36,553Z [driver-pool-thread-0] security.RPCSecurityManagerImpl. - Constructing realm from list of users in config [User(user1, permissions=[ALL, InvokeRpc.nodeInfo, InvokeRpc.networkMapFeed, InvokeRpc.networkMapSnapshot, InvokeRpc.notaryIdentities, InvokeRpc.stateMachinesFeed, InvokeRpc.stateMachineRecordedTransactionMappingFeed, InvokeRpc.nodeInfoFromParty, InvokeRpc.internalVerifiedTransactionsFeed, InvokeRpc.internalFindVerifiedTransaction, InvokeRpc.vaultQueryBy, InvokeRpc.vaultTrackBy, InvokeRpc.registeredFlows, InvokeRpc.killFlow])] {}
+[INFO ] 2020-04-11T18:50:36,555Z [driver-pool-thread-0] BasicInfo. - Advertised P2P messaging addresses      : localhost:10085 {}
+[INFO ] 2020-04-11T18:50:36,555Z [driver-pool-thread-0] BasicInfo. - RPC connection address                  : localhost:10086 {}
+[INFO ] 2020-04-11T18:50:36,555Z [driver-pool-thread-0] BasicInfo. - RPC admin connection address            : localhost:10087 {}
+[INFO ] 2020-04-11T18:50:36,556Z [InProcessNode-2-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10081], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=6, serial=1586631032719) {}
+[INFO ] 2020-04-11T18:50:36,558Z [InProcessNode-2-2] network.PersistentNetworkMapCache. - No previous node found for O=Notary Service, L=Zurich, C=CH {}
+[INFO ] 2020-04-11T18:50:36,575Z [InProcessNode-2-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10085], legalIdentitiesAndCerts=[O=Bank A, L=, C=GB], platformVersion=6, serial=1586631036537) {}
+[INFO ] 2020-04-11T18:50:36,578Z [InProcessNode-2-2] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2020-04-11T18:50:36,644Z [driver-pool-thread-0] messaging.ArtemisMessagingServer. - P2P messaging server listening on 0.0.0.0:10085 {}
+[INFO ] 2020-04-11T18:50:36,719Z [driver-pool-thread-0] internal.ArtemisMessagingClient. - Connecting to message broker: localhost:10085 {}
+[INFO ] 2020-04-11T18:50:36,749Z [driver-pool-thread-0] internal.ArtemisMessagingClient. - Connecting to message broker: localhost:10085 {}
+[INFO ] 2020-04-11T18:50:36,776Z [driver-pool-thread-0] messaging.P2PMessagingClient. - Connecting to message broker: localhost:10085 {}
+[INFO ] 2020-04-11T18:50:36,799Z [driver-pool-thread-0] messaging.P2PMessagingClient. - Create fresh queue p2p.inbound.DL44B7jmny6hQXUFkYvoSLWMpe3Njne1y3e5cW8WbzhafA bound on same address {}
+[INFO ] 2020-04-11T18:50:36,815Z [Thread-0 (ActiveMQ-client-factory-threads-1232380424)] bridging.BridgeControlListener. - Received bridge control message NodeToBridgeSnapshot(nodeIdentity=O=Bank A, L=, C=GB, inboxQueues=[p2p.inbound.DL44B7jmny6hQXUFkYvoSLWMpe3Njne1y3e5cW8WbzhafA], sendQueues=[]) {}
+[INFO ] 2020-04-11T18:50:36,824Z [driver-pool-thread-0] statemachine.SingleThreadedStateMachineManager. - Node ready, info: NodeInfo(addresses=[localhost:10085], legalIdentitiesAndCerts=[O=Bank A, L=, C=GB], platformVersion=6, serial=1586631036537) {}
+[INFO ] 2020-04-11T18:50:36,826Z [Node thread-2] internal.Node. - Registering JMX reporter: {}
+[INFO ] 2020-04-11T18:50:36,826Z [Node thread-2] internal.Node. - Registering Jolokia JMX reporter: {}
+[INFO ] 2020-04-11T18:50:36,826Z [Bank A] rpc.RPCServer. - Starting RPC server with configuration RPCServerConfiguration(rpcThreadPoolSize=4, reapInterval=PT1S, deduplicationCacheExpiry=PT24H) {}
+[INFO ] 2020-04-11T18:50:36,868Z [Bank A] BasicInfo. - Running P2PMessaging loop {}
+[INFO ] 2020-04-11T18:50:36,879Z [driver-pool-thread-0] internal.RPCClient. - Startup took 52 msec {}
+[INFO ] 2020-04-11T18:50:37,881Z [InProcessNode-1-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10085], legalIdentitiesAndCerts=[O=Bank A, L=, C=GB], platformVersion=6, serial=1586631036537) {}
+[INFO ] 2020-04-11T18:50:37,882Z [InProcessNode-1-2] network.PersistentNetworkMapCache. - No previous node found for O=Bank A, L=, C=GB {}
+[INFO ] 2020-04-11T18:50:37,891Z [InProcessNode-1-2] messaging.P2PMessagingClient. - Updating bridges on network map change: NodeInfo(addresses=[localhost:10085], legalIdentitiesAndCerts=[O=Bank A, L=, C=GB], platformVersion=6, serial=1586631036537) {}
+[INFO ] 2020-04-11T18:50:37,978Z [Test worker] network.NodeInfoFilesCopier. - Now watching: /Users/garryjackson/Documents/GitHub/samples/ping-pong/client-java/build/node-driver/20200411-185022.047/BankB {}
+[INFO ] 2020-04-11T18:50:37,979Z [driver-pool-thread-1] internal.DriverDSLImpl. - Starting in-process Node Bank B {}
+[INFO ] 2020-04-11T18:50:37,980Z [driver-pool-thread-1] cordapp.JarScanningCordappLoader. - Looking for CorDapps in [/Users/garryjackson/Documents/GitHub/samples/ping-pong/client-java/build/node-driver/20200411-185022.047/BankB/cordapps] {}
+[INFO ] 2020-04-11T18:50:37,980Z [driver-pool-thread-1] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/samples/ping-pong/client-java/build/node-driver/20200411-185022.047/BankB/cordapps/custom-cordapp_1_6_84398c13-0f68-4060-be98-aa69a7fbd708.jar, rootPackageName=null) {}
+[INFO ] 2020-04-11T18:50:37,980Z [driver-pool-thread-1] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/samples/ping-pong/client-java/build/node-driver/20200411-185022.047/BankB/cordapps/custom-cordapp_1_6_84398c13-0f68-4060-be98-aa69a7fbd708.jar {}
+[INFO ] 2020-04-11T18:50:37,990Z [driver-pool-thread-1] internal.Node. - Flow external operation executor has a max of 10 threads {}
+[INFO ] 2020-04-11T18:50:37,990Z [driver-pool-thread-1] internal.Node. - Node starting up ... {}
+[INFO ] 2020-04-11T18:50:38,004Z [driver-pool-thread-1] internal.NodeFlowManager. - Registered net.corda.examples.pingpong.flows.Ping to initiate net.corda.examples.pingpong.flows.Pong (version 1) {}
+[INFO ] 2020-04-11T18:50:38,005Z [driver-pool-thread-1] internal.Node. - Loaded network parameters: NetworkParameters {
+      minimumPlatformVersion=1
+      notaries=[NotaryInfo(identity=O=Notary Service, L=Zurich, C=CH, validating=true)]
+      maxMessageSize=10485760
+      maxTransactionSize=524288000
+      whitelistedContractImplementations {
+        
+      }
+      eventHorizon=PT720H
+      packageOwnership {
+        
+      }
+      modifiedTime=2020-04-11T18:50:22.060Z
+      epoch=1
+  } {}
+[INFO ] 2020-04-11T18:50:38,312Z [driver-pool-thread-1] persistence.AttachmentVersionNumberMigration. - Start executing... {changeSet=migration/node-services.changelog-init.xml::update-version-of-whitelisted-jars::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:38,313Z [driver-pool-thread-1] persistence.AttachmentVersionNumberMigration. - Attachment version creation from whitelisted JARs using network parameters from /Users/garryjackson/Documents/GitHub/samples/ping-pong/client-java/build/node-driver/20200411-185022.047/BankB/network-parameters, whitelistedContractImplementations: {}. {changeSet=migration/node-services.changelog-init.xml::update-version-of-whitelisted-jars::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:38,313Z [driver-pool-thread-1] persistence.AttachmentVersionNumberMigration. - Attachment version creation from whitelisted JARs skipped, no attachments not found. {changeSet=migration/node-services.changelog-init.xml::update-version-of-whitelisted-jars::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:38,325Z [driver-pool-thread-1] migration.VaultStateMigration. - Migrating vault state data to V4 tables {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:38,327Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [VaultMigrationSchemaV1(name=net.corda.node.migration.VaultMigrationSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1)] {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:38,327Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Creating session factory for schemas: [VaultMigrationSchemaV1(name=net.corda.node.migration.VaultMigrationSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1)] {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:38,403Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Created session factory for schemas: [VaultMigrationSchemaV1(name=net.corda.node.migration.VaultMigrationSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1)] {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:38,408Z [driver-pool-thread-1] migration.VaultStateMigration. - Finished performing vault state data migration for 0 states {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:38,408Z [driver-pool-thread-1] migration.PersistentIdentityMigrationNewTable. - Migrating persistent identities with certificates table into persistent table with no certificate data. {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:38,410Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [MappedSchema(name=net.corda.node.migration.PersistentIdentitiesMigrationSchema, version=1)] {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:38,410Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Creating session factory for schemas: [MappedSchema(name=net.corda.node.migration.PersistentIdentitiesMigrationSchema, version=1)] {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:38,442Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Created session factory for schemas: [MappedSchema(name=net.corda.node.migration.PersistentIdentitiesMigrationSchema, version=1)] {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-11T18:50:38,446Z [driver-pool-thread-1] internal.Node. - Connected to H2 database. {}
+[INFO ] 2020-04-11T18:50:38,447Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1)] {}
+[INFO ] 2020-04-11T18:50:38,447Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Creating session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1)] {}
+[INFO ] 2020-04-11T18:50:38,534Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Created session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1)] {}
+[INFO ] 2020-04-11T18:50:38,535Z [driver-pool-thread-1] internal.Node. - identity-private-key not found in key store, generating fresh key! {}
+[INFO ] 2020-04-11T18:50:38,547Z [driver-pool-thread-1] internal.Node. - Node-info has changed so submitting update. Old node-info was null {}
+[INFO ] 2020-04-11T18:50:38,547Z [driver-pool-thread-1] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10089], legalIdentitiesAndCerts=[O=Bank B, L=, C=GB], platformVersion=6, serial=1586631038547) {}
+[INFO ] 2020-04-11T18:50:38,549Z [driver-pool-thread-1] network.PersistentNetworkMapCache. - No previous node found for O=Bank B, L=, C=GB {}
+[INFO ] 2020-04-11T18:50:38,554Z [driver-pool-thread-1] internal.Node. - New node-info: NodeInfo(addresses=[localhost:10089], legalIdentitiesAndCerts=[O=Bank B, L=, C=GB], platformVersion=6, serial=1586631038547) {}
+[INFO ] 2020-04-11T18:50:38,558Z [driver-pool-thread-1] network.NetworkMapUpdater. - Auto-accept enabled for network parameter changes which modify only: [epoch, modifiedTime, packageOwnership, whitelistedContractImplementations] {}
+[INFO ] 2020-04-11T18:50:38,558Z [driver-pool-thread-1] security.RPCSecurityManagerImpl. - Constructing realm from list of users in config [User(user1, permissions=[ALL, InvokeRpc.nodeInfo, InvokeRpc.networkMapFeed, InvokeRpc.networkMapSnapshot, InvokeRpc.notaryIdentities, InvokeRpc.stateMachinesFeed, InvokeRpc.stateMachineRecordedTransactionMappingFeed, InvokeRpc.nodeInfoFromParty, InvokeRpc.internalVerifiedTransactionsFeed, InvokeRpc.internalFindVerifiedTransaction, InvokeRpc.vaultQueryBy, InvokeRpc.vaultTrackBy, InvokeRpc.registeredFlows, InvokeRpc.killFlow])] {}
+[INFO ] 2020-04-11T18:50:38,559Z [driver-pool-thread-1] BasicInfo. - Advertised P2P messaging addresses      : localhost:10089 {}
+[INFO ] 2020-04-11T18:50:38,560Z [driver-pool-thread-1] BasicInfo. - RPC connection address                  : localhost:10090 {}
+[INFO ] 2020-04-11T18:50:38,560Z [driver-pool-thread-1] BasicInfo. - RPC admin connection address            : localhost:10091 {}
+[INFO ] 2020-04-11T18:50:38,563Z [InProcessNode-3-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10081], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=6, serial=1586631032719) {}
+[INFO ] 2020-04-11T18:50:38,569Z [InProcessNode-3-2] network.PersistentNetworkMapCache. - No previous node found for O=Notary Service, L=Zurich, C=CH {}
+[INFO ] 2020-04-11T18:50:38,582Z [InProcessNode-3-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10089], legalIdentitiesAndCerts=[O=Bank B, L=, C=GB], platformVersion=6, serial=1586631038547) {}
+[INFO ] 2020-04-11T18:50:38,584Z [InProcessNode-3-2] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2020-04-11T18:50:38,584Z [InProcessNode-3-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10085], legalIdentitiesAndCerts=[O=Bank A, L=, C=GB], platformVersion=6, serial=1586631036537) {}
+[INFO ] 2020-04-11T18:50:38,585Z [InProcessNode-3-2] network.PersistentNetworkMapCache. - No previous node found for O=Bank A, L=, C=GB {}
+[INFO ] 2020-04-11T18:50:38,644Z [driver-pool-thread-1] messaging.ArtemisMessagingServer. - P2P messaging server listening on 0.0.0.0:10089 {}
+[INFO ] 2020-04-11T18:50:38,722Z [driver-pool-thread-1] internal.ArtemisMessagingClient. - Connecting to message broker: localhost:10089 {}
+[INFO ] 2020-04-11T18:50:38,754Z [driver-pool-thread-1] internal.ArtemisMessagingClient. - Connecting to message broker: localhost:10089 {}
+[INFO ] 2020-04-11T18:50:38,780Z [driver-pool-thread-1] messaging.P2PMessagingClient. - Connecting to message broker: localhost:10089 {}
+[INFO ] 2020-04-11T18:50:38,805Z [driver-pool-thread-1] messaging.P2PMessagingClient. - Create fresh queue p2p.inbound.DL3HUuKirGajRJkuZRsvazWjXM7k1dFmbfKM9oTN9fuuX7 bound on same address {}
+[INFO ] 2020-04-11T18:50:38,826Z [Thread-0 (ActiveMQ-client-factory-threads-197627145)] bridging.BridgeControlListener. - Received bridge control message NodeToBridgeSnapshot(nodeIdentity=O=Bank B, L=, C=GB, inboxQueues=[p2p.inbound.DL3HUuKirGajRJkuZRsvazWjXM7k1dFmbfKM9oTN9fuuX7], sendQueues=[]) {}
+[INFO ] 2020-04-11T18:50:38,834Z [driver-pool-thread-1] statemachine.SingleThreadedStateMachineManager. - Node ready, info: NodeInfo(addresses=[localhost:10089], legalIdentitiesAndCerts=[O=Bank B, L=, C=GB], platformVersion=6, serial=1586631038547) {}
+[INFO ] 2020-04-11T18:50:38,837Z [Node thread-3] internal.Node. - Registering JMX reporter: {}
+[INFO ] 2020-04-11T18:50:38,837Z [Node thread-3] internal.Node. - Registering Jolokia JMX reporter: {}
+[INFO ] 2020-04-11T18:50:38,838Z [Bank B] rpc.RPCServer. - Starting RPC server with configuration RPCServerConfiguration(rpcThreadPoolSize=4, reapInterval=PT1S, deduplicationCacheExpiry=PT24H) {}
+[INFO ] 2020-04-11T18:50:38,878Z [Bank B] BasicInfo. - Running P2PMessaging loop {}
+[INFO ] 2020-04-11T18:50:38,892Z [driver-pool-thread-1] internal.RPCClient. - Startup took 54 msec {}
+[INFO ] 2020-04-11T18:50:39,559Z [InProcessNode-2-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10089], legalIdentitiesAndCerts=[O=Bank B, L=, C=GB], platformVersion=6, serial=1586631038547) {}
+[INFO ] 2020-04-11T18:50:39,560Z [InProcessNode-2-2] network.PersistentNetworkMapCache. - No previous node found for O=Bank B, L=, C=GB {}
+[INFO ] 2020-04-11T18:50:39,572Z [InProcessNode-2-2] messaging.P2PMessagingClient. - Updating bridges on network map change: NodeInfo(addresses=[localhost:10089], legalIdentitiesAndCerts=[O=Bank B, L=, C=GB], platformVersion=6, serial=1586631038547) {}
+[INFO ] 2020-04-11T18:50:39,882Z [InProcessNode-1-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10089], legalIdentitiesAndCerts=[O=Bank B, L=, C=GB], platformVersion=6, serial=1586631038547) {}
+[INFO ] 2020-04-11T18:50:39,883Z [InProcessNode-1-2] network.PersistentNetworkMapCache. - No previous node found for O=Bank B, L=, C=GB {}
+[INFO ] 2020-04-11T18:50:39,888Z [InProcessNode-1-2] messaging.P2PMessagingClient. - Updating bridges on network map change: NodeInfo(addresses=[localhost:10089], legalIdentitiesAndCerts=[O=Bank B, L=, C=GB], platformVersion=6, serial=1586631038547) {}
+[INFO ] 2020-04-11T18:50:39,911Z [Test worker] internal.RPCClient. - Startup took 13 msec {}
+[INFO ] 2020-04-11T18:50:40,151Z [Node thread-2] messaging.P2PMessagingClient. - Create fresh queue internal.peers.DL3HUuKirGajRJkuZRsvazWjXM7k1dFmbfKM9oTN9fuuX7 bound on same address {actor_id=user1, actor_owning_identity=O=Bank A, L=, C=GB, actor_store_id=NODE_CONFIG, fiber-id=10000001, flow-id=3fb90a0c-aeee-4a83-b614-5a2b8feba8e4, invocation_id=3f9f95ff-e197-4e11-b0fd-941ecca37abe, invocation_timestamp=2020-04-11T18:50:39.936Z, origin=user1, session_id=77671eef-10c2-4b66-98e7-1dd54234ec51, session_timestamp=2020-04-11T18:50:39.898Z, thread-id=301}
+[INFO ] 2020-04-11T18:50:40,162Z [Thread-0 (ActiveMQ-client-factory-threads-1232380424)] bridging.BridgeControlListener. - Received bridge control message Create(nodeIdentity=O=Bank A, L=, C=GB, bridgeInfo=BridgeEntry(queueName=internal.peers.DL3HUuKirGajRJkuZRsvazWjXM7k1dFmbfKM9oTN9fuuX7, targets=[localhost:10089], legalNames=[O=Bank B, L=, C=GB])) {}
+[INFO ] 2020-04-11T18:50:40,174Z [Thread-0 (ActiveMQ-client-factory-threads-1232380424)] bridging.AMQPBridgeManager$AMQPBridge. - Create new AMQP bridge {legalNames=O=Bank B, L=, C=GB, maxMessageSize=10485760, queueName=internal.peers.DL3HUuKirGajRJkuZRsvazWjXM7k1dFmbfKM9oTN9fuuX7, targets=localhost:10089}
+[INFO ] 2020-04-11T18:50:40,175Z [Thread-0 (ActiveMQ-client-factory-threads-1232380424)] netty.AMQPClient. - connect to: localhost:10089 {}
+[INFO ] 2020-04-11T18:50:40,242Z [nioEventLoopGroup-8-1] netty.AMQPClient. - Connected to localhost:10089 {}
+[INFO ] 2020-04-11T18:50:40,245Z [nioEventLoopGroup-8-1] netty.AMQPChannelHandler. - New client connection 428cc8ae from localhost/127.0.0.1:10089 to /127.0.0.1:52514 {allowedRemoteLegalNames=O=Bank B, L=, C=GB, localCert=null, remoteAddress=localhost/127.0.0.1:10089, remoteCert=null, serverMode=false}
+[INFO ] 2020-04-11T18:50:40,251Z [nioEventLoopGroup-8-1] netty.LoggingTrustManagerWrapper. - Check Server Certpath:
+  C=GB,L=,O=Bank B[B35A9DD2B20ADA0F964E82637E65B5401EEB801D] issued by C=GB,L=,O=Bank B[F7E0E7DB5A37A6448B2163F170C454449395EAA4]
+  C=GB,L=,O=Bank B[F7E0E7DB5A37A6448B2163F170C454449395EAA4] issued by C=US,L=New York,OU=Corda,O=R3 HoldCo LLC,CN=Corda Doorman CA[EBEE2E30152940AE19981ED86FE37D7F07A2C213]
+  C=US,L=New York,OU=Corda,O=R3 HoldCo LLC,CN=Corda Doorman CA[EBEE2E30152940AE19981ED86FE37D7F07A2C213] issued by CN=Corda Node Root CA,O=R3,OU=corda,L=London,C=UK[7CAEA9DFB948012B13890B9AE645851C39170773]
+  CN=Corda Node Root CA,O=R3,OU=corda,L=London,C=UK[7CAEA9DFB948012B13890B9AE645851C39170773] issued by CN=Corda Node Root CA,O=R3,OU=corda,L=London,C=UK[null] {}
+[INFO ] 2020-04-11T18:50:40,274Z [nioEventLoopGroup-8-1] netty.AMQPChannelHandler. - Handshake completed with subject: O=Bank B, L=, C=GB {allowedRemoteLegalNames=O=Bank B, L=, C=GB, localCert=O=Bank A, L=, C=GB, remoteAddress=localhost/127.0.0.1:10089, remoteCert=O=Bank B, L=, C=GB, serverMode=false}
+[INFO ] 2020-04-11T18:50:40,519Z [nioEventLoopGroup-8-1] bridging.AMQPBridgeManager$AMQPBridge. - Bridge Connected {legalNames=O=Bank B, L=, C=GB, maxMessageSize=10485760, queueName=internal.peers.DL3HUuKirGajRJkuZRsvazWjXM7k1dFmbfKM9oTN9fuuX7, targets=localhost:10089}
+[INFO ] 2020-04-11T18:50:40,528Z [nioEventLoopGroup-8-1] engine.ConnectionStateMachine. - Connection local open [id: 0x428cc8ae, L:/127.0.0.1:52514 - R:localhost/127.0.0.1:10089] {conn=[id: 0x428cc8ae, L:/127.0.0.1:52514 - R:localhost/127.0.0.1:10089], localLegalName=O=Bank A, L=, C=GB, remoteLegalName=O=Bank B, L=, C=GB, serverMode=false}
+[INFO ] 2020-04-11T18:50:40,687Z [Node thread-3] messaging.P2PMessagingClient. - Create fresh queue internal.peers.DL44B7jmny6hQXUFkYvoSLWMpe3Njne1y3e5cW8WbzhafA bound on same address {fiber-id=10000002, flow-id=ec913e11-e176-4a62-80ae-fea9ba537e04, invocation_id=6b3b0605-96c8-4839-af29-aec06440768d, invocation_timestamp=2020-04-11T18:50:40.672Z, origin=O=Bank A, L=, C=GB, session_id=6b3b0605-96c8-4839-af29-aec06440768d, session_timestamp=2020-04-11T18:50:40.672Z, thread-id=449}
+[INFO ] 2020-04-11T18:50:40,696Z [Thread-0 (ActiveMQ-client-factory-threads-197627145)] bridging.BridgeControlListener. - Received bridge control message Create(nodeIdentity=O=Bank B, L=, C=GB, bridgeInfo=BridgeEntry(queueName=internal.peers.DL44B7jmny6hQXUFkYvoSLWMpe3Njne1y3e5cW8WbzhafA, targets=[localhost:10085], legalNames=[O=Bank A, L=, C=GB])) {}
+[INFO ] 2020-04-11T18:50:40,698Z [Thread-0 (ActiveMQ-client-factory-threads-197627145)] bridging.AMQPBridgeManager$AMQPBridge. - Create new AMQP bridge {legalNames=O=Bank A, L=, C=GB, maxMessageSize=10485760, queueName=internal.peers.DL44B7jmny6hQXUFkYvoSLWMpe3Njne1y3e5cW8WbzhafA, targets=localhost:10085}
+[INFO ] 2020-04-11T18:50:40,698Z [Thread-0 (ActiveMQ-client-factory-threads-197627145)] netty.AMQPClient. - connect to: localhost:10085 {}
+[INFO ] 2020-04-11T18:50:40,702Z [nioEventLoopGroup-14-1] netty.AMQPClient. - Connected to localhost:10085 {}
+[INFO ] 2020-04-11T18:50:40,702Z [nioEventLoopGroup-14-1] netty.AMQPChannelHandler. - New client connection 99bb3b98 from localhost/127.0.0.1:10085 to /127.0.0.1:52515 {allowedRemoteLegalNames=O=Bank A, L=, C=GB, localCert=null, remoteAddress=localhost/127.0.0.1:10085, remoteCert=null, serverMode=false}
+[INFO ] 2020-04-11T18:50:40,706Z [nioEventLoopGroup-14-1] netty.LoggingTrustManagerWrapper. - Check Server Certpath:
+  C=GB,L=,O=Bank A[8F22F2B3DAC03C4B498A2D0C95DE6DA54C4E79A3] issued by C=GB,L=,O=Bank A[14530C400CC2FBA885EA8C935C531D89B8CDDF9B]
+  C=GB,L=,O=Bank A[14530C400CC2FBA885EA8C935C531D89B8CDDF9B] issued by C=US,L=New York,OU=Corda,O=R3 HoldCo LLC,CN=Corda Doorman CA[EBEE2E30152940AE19981ED86FE37D7F07A2C213]
+  C=US,L=New York,OU=Corda,O=R3 HoldCo LLC,CN=Corda Doorman CA[EBEE2E30152940AE19981ED86FE37D7F07A2C213] issued by CN=Corda Node Root CA,O=R3,OU=corda,L=London,C=UK[7CAEA9DFB948012B13890B9AE645851C39170773]
+  CN=Corda Node Root CA,O=R3,OU=corda,L=London,C=UK[7CAEA9DFB948012B13890B9AE645851C39170773] issued by CN=Corda Node Root CA,O=R3,OU=corda,L=London,C=UK[null] {}
+[INFO ] 2020-04-11T18:50:40,717Z [nioEventLoopGroup-14-1] netty.AMQPChannelHandler. - Handshake completed with subject: O=Bank A, L=, C=GB {allowedRemoteLegalNames=O=Bank A, L=, C=GB, localCert=O=Bank B, L=, C=GB, remoteAddress=localhost/127.0.0.1:10085, remoteCert=O=Bank A, L=, C=GB, serverMode=false}
+[INFO ] 2020-04-11T18:50:40,719Z [nioEventLoopGroup-14-1] bridging.AMQPBridgeManager$AMQPBridge. - Bridge Connected {legalNames=O=Bank A, L=, C=GB, maxMessageSize=10485760, queueName=internal.peers.DL44B7jmny6hQXUFkYvoSLWMpe3Njne1y3e5cW8WbzhafA, targets=localhost:10085}
+[INFO ] 2020-04-11T18:50:40,722Z [nioEventLoopGroup-14-1] engine.ConnectionStateMachine. - Connection local open [id: 0x99bb3b98, L:/127.0.0.1:52515 - R:localhost/127.0.0.1:10085] {conn=[id: 0x99bb3b98, L:/127.0.0.1:52515 - R:localhost/127.0.0.1:10085], localLegalName=O=Bank B, L=, C=GB, remoteLegalName=O=Bank A, L=, C=GB, serverMode=false}
+[INFO ] 2020-04-11T18:50:40,771Z [Test worker] pingpong.Client$RPCClient. - 
+Successfully pinged O=Bank B, L=, C=GB {}
+[ERROR] 2020-04-11T18:50:40,783Z [Test worker] internal.DriverDSLImpl. - Driver shutting down because of exception [errorCode=1gvajl9, moreInformationAt=https://errors.corda.net/OS/4.4/1gvajl9] {}
+java.lang.IllegalArgumentException: Peer O=Bank C, L=, C=GB not found in the network map
+	at net.corda.examples.pingpong.Client$RPCClient.pingCounterparty(Client.java:62) ~[main/:?]
+	at net.corda.examples.pingpong.Client$RPCClient.ping(Client.java:53) ~[main/:?]
+	at net.corda.examples.pingpong.DriverBasedTest.lambda$runDriverTest$0(DriverBasedTest.java:50) ~[integrationTest/:?]
+	at net.corda.testing.node.internal.DriverDSLImplKt.genericDriver(DriverDSLImpl.kt:1194) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.testing.driver.Driver.driver(Driver.kt:185) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.examples.pingpong.DriverBasedTest.runDriverTest(DriverBasedTest.java:33) ~[integrationTest/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.12.jar:4.12]
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239) ~[junit-4.12.jar:4.12]
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) ~[?:?]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175) ~[?:?]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157) ~[?:?]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) ~[?:?]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_241]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_241]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_241]
+[INFO ] 2020-04-11T18:50:40,815Z [Thread-0 (ActiveMQ-client-factory-threads-223153165)] rpc.RPCServer. - Detected RPC client disconnect on address rpc.client.user1.4570534562586421910, scheduling for reaping {actor_id=user1, actor_owning_identity=O=Bank B, L=, C=GB, actor_store_id=NODE_CONFIG, invocation_id=d3e1ecc1-6b61-4d84-b2d6-b5472fd7feb2, invocation_timestamp=2020-04-11T18:50:39.893Z, origin=user1, session_id=522e0eb1-ba99-41b3-8d92-7f24eb6310c0, session_timestamp=2020-04-11T18:50:38.838Z}
+[INFO ] 2020-04-11T18:50:40,828Z [Test worker] BasicInfo. - Shutting down ... {}
+[INFO ] 2020-04-11T18:50:40,875Z [Test worker] bridging.AMQPBridgeManager$AMQPBridge. - Stopping AMQP bridge {legalNames=O=Bank A, L=, C=GB, maxMessageSize=10485760, queueName=internal.peers.DL44B7jmny6hQXUFkYvoSLWMpe3Njne1y3e5cW8WbzhafA, targets=localhost:10085}
+[INFO ] 2020-04-11T18:50:40,878Z [Test worker] netty.AMQPClient. - disconnect from: localhost:10085 {}
+[INFO ] 2020-04-11T18:50:40,879Z [nioEventLoopGroup-14-1] netty.AMQPClient. - Disconnected from localhost:10085 {}
+[INFO ] 2020-04-11T18:50:40,879Z [Test worker] netty.AMQPClient. - stopped connection to localhost:10085 {}
+[INFO ] 2020-04-11T18:50:40,879Z [nioEventLoopGroup-14-1] netty.AMQPChannelHandler. - Closed client connection 99bb3b98 from localhost/127.0.0.1:10085 to /127.0.0.1:52515 {allowedRemoteLegalNames=O=Bank A, L=, C=GB, localCert=O=Bank B, L=, C=GB, remoteAddress=localhost/127.0.0.1:10085, remoteCert=O=Bank A, L=, C=GB, serverMode=false}
+[INFO ] 2020-04-11T18:50:40,879Z [nioEventLoopGroup-14-1] engine.ConnectionStateMachine. - Connection local close [id: 0x99bb3b98, L:/127.0.0.1:52515 ! R:localhost/127.0.0.1:10085] {conn=[id: 0x99bb3b98, L:/127.0.0.1:52515 ! R:localhost/127.0.0.1:10085], localLegalName=O=Bank B, L=, C=GB, remoteLegalName=O=Bank A, L=, C=GB, serverMode=false}
+[INFO ] 2020-04-11T18:50:40,881Z [nioEventLoopGroup-14-1] engine.ConnectionStateMachine. - Transport Error [id: 0x99bb3b98, L:/127.0.0.1:52515 ! R:localhost/127.0.0.1:10085] {conn=[id: 0x99bb3b98, L:/127.0.0.1:52515 ! R:localhost/127.0.0.1:10085], localLegalName=O=Bank B, L=, C=GB, remoteLegalName=O=Bank A, L=, C=GB, serverMode=false}
+[INFO ] 2020-04-11T18:50:40,881Z [nioEventLoopGroup-14-1] engine.ConnectionStateMachine. - Error: connection aborted {conn=[id: 0x99bb3b98, L:/127.0.0.1:52515 ! R:localhost/127.0.0.1:10085], localLegalName=O=Bank B, L=, C=GB, remoteLegalName=O=Bank A, L=, C=GB, serverMode=false}
+[INFO ] 2020-04-11T18:50:40,883Z [nioEventLoopGroup-14-1] engine.ConnectionStateMachine. - Connection unbound [id: 0x99bb3b98, L:/127.0.0.1:52515 ! R:localhost/127.0.0.1:10085] {conn=[id: 0x99bb3b98, L:/127.0.0.1:52515 ! R:localhost/127.0.0.1:10085], localLegalName=O=Bank B, L=, C=GB, remoteLegalName=O=Bank A, L=, C=GB, serverMode=false}
+[INFO ] 2020-04-11T18:50:43,153Z [nioEventLoopGroup-8-1] engine.ConnectionStateMachine. - Connection local close [id: 0x428cc8ae, L:/127.0.0.1:52514 - R:localhost/127.0.0.1:10089] {conn=[id: 0x428cc8ae, L:/127.0.0.1:52514 - R:localhost/127.0.0.1:10089], localLegalName=O=Bank A, L=, C=GB, remoteLegalName=O=Bank B, L=, C=GB, serverMode=false}
+[INFO ] 2020-04-11T18:50:43,155Z [nioEventLoopGroup-8-1] netty.AMQPClient. - Disconnected from localhost:10089 {}
+[INFO ] 2020-04-11T18:50:43,159Z [nioEventLoopGroup-8-1] netty.AMQPChannelHandler. - Closed client connection 428cc8ae from localhost/127.0.0.1:10089 to /127.0.0.1:52514 {allowedRemoteLegalNames=O=Bank B, L=, C=GB, localCert=O=Bank A, L=, C=GB, remoteAddress=localhost/127.0.0.1:10089, remoteCert=O=Bank B, L=, C=GB, serverMode=false}
+[INFO ] 2020-04-11T18:50:43,160Z [nioEventLoopGroup-8-1] bridging.AMQPBridgeManager$AMQPBridge. - Bridge Disconnected {legalNames=O=Bank B, L=, C=GB, maxMessageSize=10485760, queueName=internal.peers.DL3HUuKirGajRJkuZRsvazWjXM7k1dFmbfKM9oTN9fuuX7, targets=localhost:10089}
+[INFO ] 2020-04-11T18:50:43,173Z [Test worker] internal.Node. - Shutdown complete {}
+[INFO ] 2020-04-11T18:50:43,180Z [Test worker] BasicInfo. - Shutting down ... {}
+[INFO ] 2020-04-11T18:50:43,181Z [Thread-0 (ActiveMQ-client-factory-threads-1535577504)] rpc.RPCServer. - Detected RPC client disconnect on address rpc.client.user1.811149986631608725, scheduling for reaping {actor_id=user1, actor_owning_identity=O=Bank A, L=, C=GB, actor_store_id=NODE_CONFIG, invocation_id=ab53045f-6380-42c5-ab2d-b266e6d07872, invocation_timestamp=2020-04-11T18:50:40.778Z, origin=user1, session_id=77671eef-10c2-4b66-98e7-1dd54234ec51, session_timestamp=2020-04-11T18:50:39.898Z}
+[INFO ] 2020-04-11T18:50:43,196Z [Test worker] bridging.AMQPBridgeManager$AMQPBridge. - Stopping AMQP bridge {legalNames=O=Bank B, L=, C=GB, maxMessageSize=10485760, queueName=internal.peers.DL3HUuKirGajRJkuZRsvazWjXM7k1dFmbfKM9oTN9fuuX7, targets=localhost:10089}
+[INFO ] 2020-04-11T18:50:43,196Z [Test worker] netty.AMQPClient. - disconnect from: localhost:10089 {}
+[INFO ] 2020-04-11T18:50:43,196Z [Test worker] netty.AMQPClient. - stopped connection to localhost:10089 {}
+[WARN ] 2020-04-11T18:50:45,441Z [Thread-0 (ActiveMQ-client-factory-threads-945209612)] internal.RPCClientProxyHandler. - Terminating observables. {}
+[INFO ] 2020-04-11T18:50:45,452Z [Test worker] internal.Node. - Shutdown complete {}
+[INFO ] 2020-04-11T18:50:45,457Z [Test worker] BasicInfo. - Shutting down ... {}
+[INFO ] 2020-04-11T18:50:45,458Z [Thread-0 (ActiveMQ-client-factory-threads-1902594987)] rpc.RPCServer. - Detected RPC client disconnect on address rpc.client.default.1632799977718674735, scheduling for reaping {actor_id=default, actor_owning_identity=O=Notary Service, L=Zurich, C=CH, actor_store_id=NODE_CONFIG, invocation_id=f322e27c-f159-4bce-9939-de534a73a576, invocation_timestamp=2020-04-11T18:50:35.773Z, origin=default, session_id=9613f67a-025f-4b78-8c70-0c2a86ef821f, session_timestamp=2020-04-11T18:50:35.569Z}
+[INFO ] 2020-04-11T18:50:47,705Z [Test worker] internal.Node. - Shutdown complete {}

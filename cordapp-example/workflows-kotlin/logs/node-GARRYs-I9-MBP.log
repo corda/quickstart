@@ -1,0 +1,38 @@
+[INFO ] 2020-04-09T15:52:50,681Z [driver-pool-thread-0] network.NodeInfoFilesCopier. - Now watching: /Users/garryjackson/Documents/GitHub/quickstart/cordapp-example/workflows-kotlin/build/node-driver/20200409-155247.774/NotaryService {}
+[INFO ] 2020-04-09T15:52:51,115Z [driver-pool-thread-1] internal.DriverDSLImpl. - Starting in-process Node Notary Service {}
+[INFO ] 2020-04-09T15:52:51,234Z [driver-pool-thread-1] cordapp.JarScanningCordappLoader. - Looking for CorDapps in [/Users/garryjackson/Documents/GitHub/quickstart/cordapp-example/workflows-kotlin/build/node-driver/20200409-155247.774/NotaryService/cordapps] {}
+[INFO ] 2020-04-09T15:52:51,248Z [driver-pool-thread-1] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/cordapp-example/workflows-kotlin/build/node-driver/20200409-155247.774/NotaryService/cordapps/custom-cordapp_1_6_b4d453f0-b135-4b2e-86f4-f5c72475bbc8.jar, rootPackageName=null) {}
+[INFO ] 2020-04-09T15:52:51,257Z [driver-pool-thread-1] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/cordapp-example/workflows-kotlin/build/node-driver/20200409-155247.774/NotaryService/cordapps/custom-cordapp_1_6_b4d453f0-b135-4b2e-86f4-f5c72475bbc8.jar {}
+[INFO ] 2020-04-09T15:52:52,038Z [driver-pool-thread-1] internal.Node. - Flow external operation executor has a max of 10 threads {}
+[INFO ] 2020-04-09T15:52:52,080Z [driver-pool-thread-1] internal.Node. - Node starting up ... {}
+[INFO ] 2020-04-09T15:52:52,148Z [driver-pool-thread-1] internal.NodeFlowManager. - Registered com.example.flow.ExampleFlow$Initiator to initiate com.example.flow.ExampleFlow$Acceptor (version 1) {}
+[INFO ] 2020-04-09T15:52:52,305Z [driver-pool-thread-1] internal.Node. - Loaded network parameters: NetworkParameters {
+      minimumPlatformVersion=1
+      notaries=[NotaryInfo(identity=O=Notary Service, L=Zurich, C=CH, validating=true)]
+      maxMessageSize=10485760
+      maxTransactionSize=524288000
+      whitelistedContractImplementations {
+        
+      }
+      eventHorizon=PT720H
+      packageOwnership {
+        
+      }
+      modifiedTime=2020-04-09T15:52:47.790Z
+      epoch=1
+  } {}
+[INFO ] 2020-04-09T15:52:56,729Z [driver-pool-thread-1] persistence.AttachmentVersionNumberMigration. - Start executing... {changeSet=migration/node-services.changelog-init.xml::update-version-of-whitelisted-jars::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-09T15:52:56,739Z [driver-pool-thread-1] persistence.AttachmentVersionNumberMigration. - Attachment version creation from whitelisted JARs using network parameters from /Users/garryjackson/Documents/GitHub/quickstart/cordapp-example/workflows-kotlin/build/node-driver/20200409-155247.774/NotaryService/network-parameters, whitelistedContractImplementations: {}. {changeSet=migration/node-services.changelog-init.xml::update-version-of-whitelisted-jars::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-09T15:52:56,739Z [driver-pool-thread-1] persistence.AttachmentVersionNumberMigration. - Attachment version creation from whitelisted JARs skipped, no attachments not found. {changeSet=migration/node-services.changelog-init.xml::update-version-of-whitelisted-jars::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-09T15:52:56,807Z [driver-pool-thread-1] migration.VaultStateMigration. - Migrating vault state data to V4 tables {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-09T15:52:56,944Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [VaultMigrationSchemaV1(name=net.corda.node.migration.VaultMigrationSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1)] {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-09T15:52:56,950Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Creating session factory for schemas: [VaultMigrationSchemaV1(name=net.corda.node.migration.VaultMigrationSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1)] {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-09T15:53:01,204Z [driver-pool-thread-1] security.RPCSecurityManagerImpl. - Constructing realm from list of users in config [User(default, permissions=[ALL])] {}
+[INFO ] 2020-04-09T15:53:01,439Z [driver-pool-thread-1] BasicInfo. - Advertised P2P messaging addresses      : localhost:10053 {}
+[INFO ] 2020-04-09T15:53:01,441Z [driver-pool-thread-1] BasicInfo. - RPC connection address                  : localhost:10054 {}
+[INFO ] 2020-04-09T15:53:01,441Z [driver-pool-thread-1] BasicInfo. - RPC admin connection address            : localhost:10055 {}
+[INFO ] 2020-04-09T15:53:02,359Z [driver-pool-thread-1] messaging.ArtemisMessagingServer. - P2P messaging server listening on 0.0.0.0:10053 {}
+[INFO ] 2020-04-09T15:53:02,547Z [driver-pool-thread-1] internal.ArtemisMessagingClient. - Connecting to message broker: localhost:10053 {}
+[INFO ] 2020-04-09T15:53:03,171Z [driver-pool-thread-1] internal.ArtemisMessagingClient. - Connecting to message broker: localhost:10053 {}
+[INFO ] 2020-04-09T15:53:03,344Z [Thread-0 (ActiveMQ-client-factory-threads-1941004549)] bridging.BridgeControlListener. - Received bridge control message NodeToBridgeSnapshot(nodeIdentity=O=Notary Service, L=Zurich, C=CH, inboxQueues=[p2p.inbound.DLBTAJywWnWXQT5da9aU5buD5nboKK1GbEtJsESjCDEs13], sendQueues=[]) {}
+[INFO ] 2020-04-09T15:53:03,370Z [driver-pool-thread-1] notary.SinglePartyNotaryService. - Starting notary in validating mode {}
