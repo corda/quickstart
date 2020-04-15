@@ -37,6 +37,7 @@ class MainController(rpc: NodeRPCConnection) {
     @GetMapping(value = [ "me" ], produces = [ APPLICATION_JSON_VALUE ])
     fun whoami() = mapOf("me" to myLegalName)
 
+
     /**
      * Returns all parties registered with the network map service. These names can be used to look up identities using
      * the identity service.

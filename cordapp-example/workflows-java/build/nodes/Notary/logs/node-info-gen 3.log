@@ -1,0 +1,12 @@
+
+   ______               __
+  / ____/     _________/ /___ _
+ / /     __  / ___/ __  / __ `/         I met my bank manager yesterday and asked
+/ /___  /_/ / /  / /_/ / /_/ /          to check my balance ... he pushed me over!
+\____/     /_/   \__,_/\__,_/
+
+--- Corda Open Source 4.4 (21e8c4f) -------------------------------------------------------------
+
+
+Logs can be found in                    : /Users/garryjackson/Documents/GitHub/quickstart/cordapp-example/workflows-java/build/nodes/Notary/logs
+Database connection url is              : jdbc:h2:tcp://localhost:10001/node

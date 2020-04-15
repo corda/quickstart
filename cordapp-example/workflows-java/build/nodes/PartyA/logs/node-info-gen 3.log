@@ -1,0 +1,12 @@
+
+   ______               __
+  / ____/     _________/ /___ _
+ / /     __  / ___/ __  / __ `/         You should really try a seafood diet.
+/ /___  /_/ / /  / /_/ / /_/ /          It's easy: you see food and eat it.
+\____/     /_/   \__,_/\__,_/
+
+--- Corda Open Source 4.4 (21e8c4f) -------------------------------------------------------------
+
+
+Logs can be found in                    : /Users/garryjackson/Documents/GitHub/quickstart/cordapp-example/workflows-java/build/nodes/PartyA/logs
+Database connection url is              : jdbc:h2:tcp://localhost:10007/node

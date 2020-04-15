@@ -1,0 +1,114 @@
+Manifest-Version: 1.0
+Cordapp-Contract-Vendor: Corda Open Source
+Cordapp-Contract-Version: 1
+Cordapp-Contract-Name: CorDapp Example
+Target-Platform-Version: 5
+Sealed: true
+Min-Platform-Version: 5
+Cordapp-Contract-Licence: Apache License, Version 2.0
+
+Name: com/example/schema/IOUSchema 2.class
+SHA-256-Digest: d41Lk4tRsXKIDpLXqu/aHKP90sviAwgE306gFI572gk=
+
+Name: com/example/contract/IOUContract 3.class
+SHA-256-Digest: z0TqSxD568bEsToxF96ryWirIvtWRM2cPZFauLAMVNc=
+
+Name: com/example/contract/IOUContract$Commands$Create.class
+SHA-256-Digest: i6BMB74zlmEwuFZy455Lrp+cpStu0Ibv9buutk9n1QQ=
+
+Name: com/example/contract/IOUContract$Commands$Create 3.class
+SHA-256-Digest: i6BMB74zlmEwuFZy455Lrp+cpStu0Ibv9buutk9n1QQ=
+
+Name: com/example/contract/IOUContract 5.class
+SHA-256-Digest: z0TqSxD568bEsToxF96ryWirIvtWRM2cPZFauLAMVNc=
+
+Name: com/example/schema/IOUSchemaV1$PersistentIOU 5.class
+SHA-256-Digest: +OU+QYpYhWWzpx94cOkEdxEE+34tqa74v62fK8N5laE=
+
+Name: com/example/schema/IOUSchemaV1 4.class
+SHA-256-Digest: YlmzSDFtwi9zWso/bRKwzxYUwbxwDFXWSSyu8hdlBHw=
+
+Name: com/example/contract/IOUContract$Commands 5.class
+SHA-256-Digest: ZbfcxXwAqJ1b+0GblYEldTDTXUaUjyVhxQ1DilNZ1Xk=
+
+Name: com/example/contract/IOUContract$Commands$Create 5.class
+SHA-256-Digest: i6BMB74zlmEwuFZy455Lrp+cpStu0Ibv9buutk9n1QQ=
+
+Name: com/example/schema/IOUSchemaV1 3.class
+SHA-256-Digest: YlmzSDFtwi9zWso/bRKwzxYUwbxwDFXWSSyu8hdlBHw=
+
+Name: com/example/schema/IOUSchema 5.class
+SHA-256-Digest: d41Lk4tRsXKIDpLXqu/aHKP90sviAwgE306gFI572gk=
+
+Name: com/example/schema/IOUSchemaV1$PersistentIOU 2.class
+SHA-256-Digest: +OU+QYpYhWWzpx94cOkEdxEE+34tqa74v62fK8N5laE=
+
+Name: com/example/contract/IOUContract.class
+SHA-256-Digest: z0TqSxD568bEsToxF96ryWirIvtWRM2cPZFauLAMVNc=
+
+Name: com/example/state/IOUState 2.class
+SHA-256-Digest: Sc7j8PLE3ghogowE9IKsVR+HcoxH/eZskBQeGzZGOtU=
+
+Name: com/example/state/IOUState 5.class
+SHA-256-Digest: Sc7j8PLE3ghogowE9IKsVR+HcoxH/eZskBQeGzZGOtU=
+
+Name: com/example/contract/IOUContract$Commands 3.class
+SHA-256-Digest: ZbfcxXwAqJ1b+0GblYEldTDTXUaUjyVhxQ1DilNZ1Xk=
+
+Name: com/example/state/IOUState.class
+SHA-256-Digest: Sc7j8PLE3ghogowE9IKsVR+HcoxH/eZskBQeGzZGOtU=
+
+Name: com/example/schema/IOUSchemaV1 5.class
+SHA-256-Digest: YlmzSDFtwi9zWso/bRKwzxYUwbxwDFXWSSyu8hdlBHw=
+
+Name: com/example/schema/IOUSchemaV1$PersistentIOU 4.class
+SHA-256-Digest: +OU+QYpYhWWzpx94cOkEdxEE+34tqa74v62fK8N5laE=
+
+Name: com/example/contract/IOUContract$Commands 4.class
+SHA-256-Digest: ZbfcxXwAqJ1b+0GblYEldTDTXUaUjyVhxQ1DilNZ1Xk=
+
+Name: com/example/schema/IOUSchema 3.class
+SHA-256-Digest: d41Lk4tRsXKIDpLXqu/aHKP90sviAwgE306gFI572gk=
+
+Name: com/example/state/IOUState 3.class
+SHA-256-Digest: Sc7j8PLE3ghogowE9IKsVR+HcoxH/eZskBQeGzZGOtU=
+
+Name: com/example/contract/IOUContract 4.class
+SHA-256-Digest: z0TqSxD568bEsToxF96ryWirIvtWRM2cPZFauLAMVNc=
+
+Name: com/example/contract/IOUContract$Commands$Create 2.class
+SHA-256-Digest: i6BMB74zlmEwuFZy455Lrp+cpStu0Ibv9buutk9n1QQ=
+
+Name: com/example/schema/IOUSchemaV1$PersistentIOU.class
+SHA-256-Digest: +OU+QYpYhWWzpx94cOkEdxEE+34tqa74v62fK8N5laE=
+
+Name: com/example/schema/IOUSchema 4.class
+SHA-256-Digest: d41Lk4tRsXKIDpLXqu/aHKP90sviAwgE306gFI572gk=
+
+Name: com/example/state/IOUState 4.class
+SHA-256-Digest: Sc7j8PLE3ghogowE9IKsVR+HcoxH/eZskBQeGzZGOtU=
+
+Name: com/example/schema/IOUSchema.class
+SHA-256-Digest: d41Lk4tRsXKIDpLXqu/aHKP90sviAwgE306gFI572gk=
+
+Name: com/example/schema/IOUSchemaV1.class
+SHA-256-Digest: YlmzSDFtwi9zWso/bRKwzxYUwbxwDFXWSSyu8hdlBHw=
+
+Name: com/example/contract/IOUContract$Commands.class
+SHA-256-Digest: ZbfcxXwAqJ1b+0GblYEldTDTXUaUjyVhxQ1DilNZ1Xk=
+
+Name: com/example/contract/IOUContract 2.class
+SHA-256-Digest: z0TqSxD568bEsToxF96ryWirIvtWRM2cPZFauLAMVNc=
+
+Name: com/example/contract/IOUContract$Commands 2.class
+SHA-256-Digest: ZbfcxXwAqJ1b+0GblYEldTDTXUaUjyVhxQ1DilNZ1Xk=
+
+Name: com/example/schema/IOUSchemaV1 2.class
+SHA-256-Digest: YlmzSDFtwi9zWso/bRKwzxYUwbxwDFXWSSyu8hdlBHw=
+
+Name: com/example/contract/IOUContract$Commands$Create 4.class
+SHA-256-Digest: i6BMB74zlmEwuFZy455Lrp+cpStu0Ibv9buutk9n1QQ=
+
+Name: com/example/schema/IOUSchemaV1$PersistentIOU 3.class
+SHA-256-Digest: +OU+QYpYhWWzpx94cOkEdxEE+34tqa74v62fK8N5laE=
+
