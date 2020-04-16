@@ -9,6 +9,7 @@ import net.corda.core.messaging.DataFeed;
 import net.corda.core.node.NodeInfo;
 import net.corda.core.node.services.Vault;
 import net.corda.core.utilities.NetworkHostAndPort;
+import org.r3.state.AssetState;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import rx.Observable;
@@ -24,6 +25,7 @@ public class JavaClientRpc {
 
     public static void main(String[] args) {
         //Get the node address to connect to, rpc username , rpc password via command line
+        logger.info("Starting");
         if (args.length != 3) throw new IllegalArgumentException("Usage: Client <node address> <rpc username> <rpc password>");
 
         NetworkHostAndPort networkHostAndPort = NetworkHostAndPort.parse(args[0]);
@@ -45,14 +47,15 @@ public class JavaClientRpc {
         List<NodeInfo> nodes = proxy.networkMapSnapshot();
         logger.info("All the nodes available in this network", nodes);
 
+
         //hit the node to get snapshot and observable for IOUState
-        DataFeed<Vault.Page<IOUState>, Vault.Update<IOUState>> dataFeed = proxy.vaultTrack(IOUState.class);
+        DataFeed<Vault.Page<AssetState>, Vault.Update<AssetState>> dataFeed = proxy.vaultTrack(AssetState.class);
 
         //this gives a snapshot of IOUState as of now. so if there are 11 IOUState as of now, this will return 11 IOUState objects
-        Vault.Page<IOUState> snapshot = dataFeed.getSnapshot();
+        Vault.Page<AssetState> snapshot = dataFeed.getSnapshot();
 
         //this returns an observable on IOUState
-        Observable<Vault.Update<IOUState>> updates = dataFeed.getUpdates();
+        Observable<Vault.Update<AssetState>> updates = dataFeed.getUpdates();
 
         // call a method for each IOUState
         snapshot.getStates().forEach(JavaClientRpc::actionToPerform);
@@ -65,7 +68,7 @@ public class JavaClientRpc {
      * Perform certain action because of any update to Observable IOUState
      * @param state
      */
-    private static void actionToPerform(StateAndRef<IOUState> state) {
-        logger.info("{}", state.getState().getData());
+    private static void actionToPerform(StateAndRef<AssetState> state) {
+        logger.info("{}", state.getState().getData().getDescription());
     }
 }

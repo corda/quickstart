@@ -1,0 +1,12 @@
+
+   ______               __
+  / ____/     _________/ /___ _
+ / /     __  / ___/ __  / __ `/         Check your contracts carefully. The fine print
+/ /___  /_/ / /  / /_/ / /_/ /          is usually a clause for suspicion 
+\____/     /_/   \__,_/\__,_/
+
+--- Corda Open Source 4.4 (21e8c4f) -------------------------------------------------------------
+
+
+Logs can be found in                    : /Users/garryjackson/Documents/GitHub/quickstart/cordapp-example/workflows-java/build/nodes/PartyC/logs
+Database connection url is              : jdbc:h2:tcp://localhost:10015/node
