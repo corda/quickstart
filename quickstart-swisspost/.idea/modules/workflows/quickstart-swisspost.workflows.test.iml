@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module version="4">
-  <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="com.template" externalSystemModuleType="sourceSet" externalSystemModuleVersion="0.1" linkedProjectId=":workflows:test" linkedProjectPath="$MODULE_DIR$/../../../workflows" rootProjectPath="$MODULE_DIR$/../../.." />
-  <component name="TestModuleProperties" production-module="quickstart-swisspost.workflows.main" />
-</module>
