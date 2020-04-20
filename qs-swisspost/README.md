@@ -2,9 +2,15 @@
   <img src="https://www.corda.net/wp-content/uploads/2016/11/fg005_corda_b.png" alt="Corda" width="500">
 </p>
 
+<<<<<<< HEAD
 # Quickstart Template - Java
 
 Welcome to the Quickstart template. The Quickstart template is a stubbed-out CorDapp that you can use to bootstrap 
+=======
+# Quickstart Template
+
+Welcome to the Quickstart template. The CorDapp template is a stubbed-out CorDapp that you can use to bootstrap 
+>>>>>>> 49032c759da6c27736ddba58a8fe2e54fcbbf0ef
 your own CorDapps.
 
 **This is the Java version of the CorDapp template. The Kotlin equivalent is 
