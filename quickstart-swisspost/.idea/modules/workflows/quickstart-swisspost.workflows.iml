@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="com.template" externalSystemModuleVersion="0.1" linkedProjectId=":workflows" linkedProjectPath="$MODULE_DIR$/../../../workflows" rootProjectPath="$MODULE_DIR$/../../.." />
+</module>

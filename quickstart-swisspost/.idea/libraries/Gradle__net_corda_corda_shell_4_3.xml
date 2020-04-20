@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.corda:corda-shell:4.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-shell/4.3/1a6715ce90959a7a217e2dc17705f8c7b7a163d8/corda-shell-4.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-shell/4.3/d4f52c6c1ec1f96d210ae51edc40543b9db3d618/corda-shell-4.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

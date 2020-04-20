@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: net.corda:corda-node-driver:4.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-node-driver/4.3/5ae0643bb42e1cc9a7efe219b6fe6bca4985b2da/corda-node-driver-4.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: net.corda:corda-common-configuration-parsing:4.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-common-configuration-parsing/4.3/c76ada0842890cf4766cba481b975254924120db/corda-common-configuration-parsing-4.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-common-configuration-parsing/4.3/b0289dab05f5f72072a86691749fdb6c10abac3/corda-common-configuration-parsing-4.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
