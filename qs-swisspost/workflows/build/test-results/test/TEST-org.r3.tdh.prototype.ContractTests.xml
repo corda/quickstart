@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.r3.tdh.prototype.ContractTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-20T13:28:25" hostname="GARRYs-I9-MBP" time="0.0">
+  <properties/>
+  <testcase name="dummyTest" classname="org.r3.tdh.prototype.ContractTests" time="0.0"/>
+  <system-out><![CDATA[?[37m[INFO] 14:28:23,154 [Test worker] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/qs-swisspost/workflows/build/generated-custom-cordapps/20200420-132822.186/custom-cordapp_1_5_27054a7a-96a0-4dd6-b918-96c30afe1796.jar, rootPackageName=null)
+?[m?[37m[INFO] 14:28:23,233 [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/qs-swisspost/workflows/build/generated-custom-cordapps/20200420-132822.186/custom-cordapp_1_5_27054a7a-96a0-4dd6-b918-96c30afe1796.jar
+?[m]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

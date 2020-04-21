@@ -1,7 +1,7 @@
 package com.template;
 
 import com.google.common.collect.ImmutableList;
-import com.template.flows.Responder;
+import org.r3.tdh.prototype.Responder;
 import net.corda.testing.node.MockNetwork;
 import net.corda.testing.node.MockNetworkParameters;
 import net.corda.testing.node.StartedMockNode;
