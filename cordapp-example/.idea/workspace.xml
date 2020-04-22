@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab377411-8e5f-4985-8873-421ad53c0ef0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contracts-java/bin/main/com/example/contract/CCDContract.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contracts-java/bin/main/com/example/state/CCDState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/contract/CCDCommands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/contract/CCDContract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/contract/CCDInvalidCommands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/contract/Publish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/entity/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/state/CCDState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows-java/bin/test/com/example/test/contract/CCDContractTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows-java/build/generated-custom-cordapps/20200422-123318.181/custom-cordapp_1_6_ada00dda-a8a2-46e3-93d5-1285ba0b5268.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows-java/build/generated-custom-cordapps/20200422-123318.181/custom-cordapp_1_6_f618b7ca-6b15-4ed7-9a98-40d5619f71a0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows-java/logs/archive/node-GARRYs-I9-MBP.2020-04-21-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workflows-java/src/test/java/com/example/test/contract/CCDContractTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows-java/build/generated-custom-cordapps/20200422-172128.959/custom-cordapp_1_6_7fff3466-d401-4779-81e5-c6107cb8687f.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows-java/build/generated-custom-cordapps/20200422-172128.959/custom-cordapp_1_6_9abc7b03-e2b4-43c9-890d-ae4b29021f1f.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows-java/build/generated-custom-cordapps/20200422-172951.047/custom-cordapp_1_6_b86a1db5-dad6-408b-8a0c-3414eae607e7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows-java/build/generated-custom-cordapps/20200422-172951.047/custom-cordapp_1_6_cf7490c8-1380-4348-af6f-9492be33d50f.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quickstart-swisspost/contracts/src/main/java/org/r3/kyc/contracts/CCDCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quickstart-swisspost/contracts/src/main/java/org/r3/kyc/states/TemplateState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -26,32 +19,459 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts-java/build/libs/cordapp-example-contracts-0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-java/build/libs/cordapp-example-contracts-0.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows-java/bin/main/com/example/flow/MessageFlow$Acceptor$1SignTxFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-java/bin/main/com/example/flow/MessageFlow$Acceptor$1SignTxFlow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows-java/bin/main/com/example/flow/MessageFlow$Acceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-java/bin/main/com/example/flow/MessageFlow$Acceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows-java/build/libs/cordapp-example-workflows-0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-java/build/libs/cordapp-example-workflows-0.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-java/build/reports/tests/test/classes/com.example.test.contract.CCDContractTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-java/build/reports/tests/test/classes/com.example.test.contract.CCDContractTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-java/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-java/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-java/build/reports/tests/test/packages/com.example.test.contract.html" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-java/build/reports/tests/test/packages/com.example.test.contract.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-java/build/test-results/test/TEST-com.example.test.contract.CCDContractTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-java/build/test-results/test/TEST-com.example.test.contract.CCDContractTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workflows-java/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-java/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-java/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-java/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-java/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-java/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workflows-java/logs/node-GARRYs-I9-MBP.log" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-java/logs/node-GARRYs-I9-MBP.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/kotlin/cordappexampleworkflows02jar-classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/kotlin/cordappexampleworkflows02jar-classes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/libs/cordapp-example-workflows-0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/libs/cordapp-example-workflows-0.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/contracts/build/libs/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/contracts/build/libs/contracts-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/contracts/src/main/java/org/r3/tdh/prototype/entity/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/contracts/src/main/java/org/r3/tdh/prototype/entity/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/workflows/build/reports/tests/test/classes/org.r3.tdh.prototype.ContractTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/workflows/build/reports/tests/test/classes/org.r3.tdh.prototype.ContractTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/workflows/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/workflows/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/workflows/build/reports/tests/test/packages/org.r3.tdh.prototype.html" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/workflows/build/reports/tests/test/packages/org.r3.tdh.prototype.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/workflows/build/test-results/test/TEST-org.r3.tdh.prototype.ContractTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/workflows/build/test-results/test/TEST-org.r3.tdh.prototype.ContractTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/workflows/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/workflows/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/workflows/logs/node-GARRYs-I9-MBP.log" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/workflows/logs/node-GARRYs-I9-MBP.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qs-swisspost/contracts/src/main/java/org/r3/tdh/prototype/entity/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/generated-custom-cordapps/20200422-163313.680/custom-cordapp_1_6_5da1a538-6590-4ce4-a029-4d5e5a46d11f.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/NotaryService/additional-node-infos/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/NotaryService/additional-node-infos/nodeInfo-B1F1FD9F15FCFDE1C9EE7A59504A44D669AB67B655597D60B691138E9C12E93C" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/NotaryService/additional-node-infos/nodeInfo-E4477B559304AADFC0638772C0956A38FA2E2A7A5EB0E65D0D83E5884831879A" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/NotaryService/artemis/bindings/activemq-bindings-1.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/NotaryService/artemis/bindings/activemq-bindings-2.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/NotaryService/artemis/journal/activemq-data-1.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/NotaryService/artemis/journal/activemq-data-2.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/NotaryService/artemis/journal/server.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/NotaryService/brokers/rpc/bindings/activemq-bindings-1.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/NotaryService/brokers/rpc/bindings/activemq-bindings-2.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/NotaryService/brokers/rpc/journal/activemq-data-1.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/NotaryService/brokers/rpc/journal/activemq-data-2.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/NotaryService/brokers/rpc/journal/server.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/NotaryService/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/NotaryService/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/NotaryService/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/NotaryService/cordapps/config/custom-cordapp_1_6_5da1a538-6590-4ce4-a029-4d5e5a46d11f.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/NotaryService/cordapps/custom-cordapp_1_6_5da1a538-6590-4ce4-a029-4d5e5a46d11f.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/NotaryService/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/NotaryService/node.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/NotaryService/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyA/additional-node-infos/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyA/additional-node-infos/nodeInfo-B1F1FD9F15FCFDE1C9EE7A59504A44D669AB67B655597D60B691138E9C12E93C" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyA/additional-node-infos/nodeInfo-E4477B559304AADFC0638772C0956A38FA2E2A7A5EB0E65D0D83E5884831879A" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyA/artemis/bindings/activemq-bindings-1.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyA/artemis/bindings/activemq-bindings-2.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyA/artemis/journal/activemq-data-1.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyA/artemis/journal/activemq-data-2.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyA/artemis/journal/server.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyA/brokers/rpc/bindings/activemq-bindings-1.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyA/brokers/rpc/bindings/activemq-bindings-2.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyA/brokers/rpc/journal/activemq-data-1.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyA/brokers/rpc/journal/activemq-data-2.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyA/brokers/rpc/journal/server.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyA/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyA/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyA/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyA/cordapps/config/custom-cordapp_1_6_5da1a538-6590-4ce4-a029-4d5e5a46d11f.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyA/cordapps/custom-cordapp_1_6_5da1a538-6590-4ce4-a029-4d5e5a46d11f.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyA/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyA/node.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyA/nodeInfo-E4477B559304AADFC0638772C0956A38FA2E2A7A5EB0E65D0D83E5884831879A" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyB/additional-node-infos/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyB/additional-node-infos/nodeInfo-B1F1FD9F15FCFDE1C9EE7A59504A44D669AB67B655597D60B691138E9C12E93C" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyB/additional-node-infos/nodeInfo-E4477B559304AADFC0638772C0956A38FA2E2A7A5EB0E65D0D83E5884831879A" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyB/artemis/bindings/activemq-bindings-1.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyB/artemis/bindings/activemq-bindings-2.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyB/artemis/journal/activemq-data-1.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyB/artemis/journal/activemq-data-2.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyB/artemis/journal/server.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyB/brokers/rpc/bindings/activemq-bindings-1.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyB/brokers/rpc/bindings/activemq-bindings-2.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyB/brokers/rpc/journal/activemq-data-1.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyB/brokers/rpc/journal/activemq-data-2.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyB/brokers/rpc/journal/server.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyB/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyB/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyB/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyB/cordapps/config/custom-cordapp_1_6_5da1a538-6590-4ce4-a029-4d5e5a46d11f.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyB/cordapps/custom-cordapp_1_6_5da1a538-6590-4ce4-a029-4d5e5a46d11f.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyB/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyB/node.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/build/node-driver/20200422-163311.199/PartyB/nodeInfo-B1F1FD9F15FCFDE1C9EE7A59504A44D669AB67B655597D60B691138E9C12E93C" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/clients/src/main/java/com/template/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/clients/src/main/java/org/r3/kyc/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/clients/src/main/java/com/template/webserver/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/clients/src/main/java/org/r3/kyc/webserver/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/clients/src/main/java/com/template/webserver/NodeRPCConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/clients/src/main/java/org/r3/kyc/webserver/NodeRPCConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/clients/src/main/java/com/template/webserver/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/clients/src/main/java/org/r3/kyc/webserver/Starter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/contracts/bin/main/com/template/contracts/TemplateContract$Commands$Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/contracts/bin/main/com/template/contracts/TemplateContract$Commands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/contracts/bin/main/com/template/contracts/TemplateContract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/contracts/bin/main/com/template/states/TemplateState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/contracts/bin/main/org/r3/tdh/kyc/contracts/SampleContract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/contracts/bin/main/org/r3/tdh/kyc/states/SampleState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/contracts/build/libs/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/contracts/build/libs/contracts-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/contracts/src/main/java/com/template/contracts/TemplateContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/contracts/src/main/java/org/r3/kyc/contracts/TemplateContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/contracts/src/main/java/com/template/states/TemplateState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/contracts/src/main/java/org/r3/tdh/kyc/contracts/SampleContract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/contracts/src/main/java/org/r3/tdh/kyc/states/SampleState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/contracts/src/test/java/com/template/contracts/ContractTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/contracts/src/test/java/org/r3/kyc/contracts/ContractTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/contracts/src/test/java/org/r3/tdh/kyc/SampleContractTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/logs/node-GARRYs-I9-MBP.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/bin/main/com/template/ContractTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/bin/main/com/template/FlowTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/bin/main/com/template/NodeDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/bin/main/com/template/flows/Initiator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/bin/main/com/template/flows/Responder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/bin/main/org/r3/tdh/kyc/SampleContractTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/bin/main/org/r3/tdh/kyc/SampleFlowTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/bin/main/org/r3/tdh/kyc/SampleNodeDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/bin/main/org/r3/tdh/kyc/flows/Initiator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/bin/main/org/r3/tdh/kyc/flows/Responder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/classes/java/integrationTest/com/template/DriverBasedTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/classes/java/integrationTest/org/r3/tdh/kyc/SampleDriverBasedTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-161504.049/custom-cordapp_1_6_2c36ac01-4386-47b9-86fb-1a04c40959a4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-161520.534/custom-cordapp_1_6_016bc838-f293-4446-8e03-dcaa93a50288.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-162321.169/custom-cordapp_1_6_17075cb6-4d17-4302-8cfb-73a7664667f1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-162811.068/custom-cordapp_1_6_8f096c1f-aa67-44e7-9dd4-ffc7bd1f604e.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-162829.492/custom-cordapp_1_6_6f8d7b65-558b-4d06-995b-3b3cca9143af.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-163119.478/custom-cordapp_1_6_eaf16366-ea36-4d96-8ef3-290e07ee48f6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-163223.829/custom-cordapp_1_6_f3eaa144-fd0e-46ee-b8d2-0c6321248437.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/libs/workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/libs/workflows-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/0/additional-node-infos/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/0/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/0/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/0/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/0/cordapps/config/contracts-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/0/cordapps/config/workflows-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/0/cordapps/contracts-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/0/cordapps/workflows-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/0/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/0/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/1/additional-node-infos/nodeInfo-A8544DFCBA84D0B85B56D7985556CF71EC2F4C1F82800ECB9485E9C70A909B07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/1/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/1/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/1/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/1/cordapps/config/contracts-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/1/cordapps/config/workflows-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/1/cordapps/contracts-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/1/cordapps/workflows-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/1/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/1/nodeInfo-A8544DFCBA84D0B85B56D7985556CF71EC2F4C1F82800ECB9485E9C70A909B07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/2/additional-node-infos/nodeInfo-F33DD0AFC6AA1C3DA5BBB809206BCBD75352B18581B9132BB93FEC434E07E8E3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/2/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/2/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/2/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/2/cordapps/config/contracts-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/2/cordapps/config/workflows-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/2/cordapps/contracts-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/2/cordapps/workflows-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/2/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161404.294/nodes/2/nodeInfo-F33DD0AFC6AA1C3DA5BBB809206BCBD75352B18581B9132BB93FEC434E07E8E3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/0/additional-node-infos/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/0/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/0/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/0/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/0/cordapps/config/contracts-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/0/cordapps/config/workflows-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/0/cordapps/contracts-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/0/cordapps/workflows-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/0/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/0/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/1/additional-node-infos/nodeInfo-A8544DFCBA84D0B85B56D7985556CF71EC2F4C1F82800ECB9485E9C70A909B07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/1/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/1/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/1/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/1/cordapps/config/contracts-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/1/cordapps/config/workflows-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/1/cordapps/contracts-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/1/cordapps/workflows-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/1/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/1/nodeInfo-A8544DFCBA84D0B85B56D7985556CF71EC2F4C1F82800ECB9485E9C70A909B07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/2/additional-node-infos/nodeInfo-F33DD0AFC6AA1C3DA5BBB809206BCBD75352B18581B9132BB93FEC434E07E8E3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/2/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/2/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/2/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/2/cordapps/config/contracts-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/2/cordapps/config/workflows-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/2/cordapps/contracts-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/2/cordapps/workflows-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/2/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-161435.279/nodes/2/nodeInfo-F33DD0AFC6AA1C3DA5BBB809206BCBD75352B18581B9132BB93FEC434E07E8E3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/0/additional-node-infos/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/0/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/0/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/0/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/0/cordapps/config/contracts-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/0/cordapps/config/workflows-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/0/cordapps/contracts-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/0/cordapps/workflows-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/0/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/0/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/1/additional-node-infos/nodeInfo-A8544DFCBA84D0B85B56D7985556CF71EC2F4C1F82800ECB9485E9C70A909B07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/1/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/1/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/1/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/1/cordapps/config/contracts-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/1/cordapps/config/workflows-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/1/cordapps/contracts-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/1/cordapps/workflows-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/1/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/1/nodeInfo-A8544DFCBA84D0B85B56D7985556CF71EC2F4C1F82800ECB9485E9C70A909B07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/2/additional-node-infos/nodeInfo-F33DD0AFC6AA1C3DA5BBB809206BCBD75352B18581B9132BB93FEC434E07E8E3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/2/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/2/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/2/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/2/cordapps/config/contracts-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/2/cordapps/config/workflows-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/2/cordapps/contracts-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/2/cordapps/workflows-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/2/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162253.279/nodes/2/nodeInfo-F33DD0AFC6AA1C3DA5BBB809206BCBD75352B18581B9132BB93FEC434E07E8E3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162851.896/nodes/0/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162851.896/nodes/0/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162924.310/nodes/0/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-162924.310/nodes/0/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/0/additional-node-infos/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/0/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/0/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/0/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/0/cordapps/config/contracts-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/0/cordapps/config/workflows-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/0/cordapps/contracts-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/0/cordapps/workflows-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/0/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/0/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/1/additional-node-infos/nodeInfo-A8544DFCBA84D0B85B56D7985556CF71EC2F4C1F82800ECB9485E9C70A909B07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/1/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/1/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/1/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/1/cordapps/config/contracts-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/1/cordapps/config/workflows-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/1/cordapps/contracts-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/1/cordapps/workflows-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/1/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/1/nodeInfo-A8544DFCBA84D0B85B56D7985556CF71EC2F4C1F82800ECB9485E9C70A909B07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/2/additional-node-infos/nodeInfo-F33DD0AFC6AA1C3DA5BBB809206BCBD75352B18581B9132BB93FEC434E07E8E3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/2/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/2/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/2/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/2/cordapps/config/contracts-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/2/cordapps/config/workflows-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/2/cordapps/contracts-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/2/cordapps/workflows-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/2/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163033.714/nodes/2/nodeInfo-F33DD0AFC6AA1C3DA5BBB809206BCBD75352B18581B9132BB93FEC434E07E8E3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/0/additional-node-infos/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/0/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/0/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/0/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/0/cordapps/config/contracts-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/0/cordapps/config/workflows-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/0/cordapps/contracts-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/0/cordapps/workflows-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/0/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/0/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/1/additional-node-infos/nodeInfo-A8544DFCBA84D0B85B56D7985556CF71EC2F4C1F82800ECB9485E9C70A909B07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/1/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/1/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/1/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/1/cordapps/config/contracts-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/1/cordapps/config/workflows-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/1/cordapps/contracts-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/1/cordapps/workflows-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/1/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/1/nodeInfo-A8544DFCBA84D0B85B56D7985556CF71EC2F4C1F82800ECB9485E9C70A909B07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/2/additional-node-infos/nodeInfo-F33DD0AFC6AA1C3DA5BBB809206BCBD75352B18581B9132BB93FEC434E07E8E3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/2/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/2/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/2/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/2/cordapps/config/contracts-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/2/cordapps/config/workflows-0.1.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/2/cordapps/contracts-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/2/cordapps/workflows-0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/2/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/mock-network/20200422-163152.343/nodes/2/nodeInfo-F33DD0AFC6AA1C3DA5BBB809206BCBD75352B18581B9132BB93FEC434E07E8E3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankA/additional-node-infos/nodeInfo-05D44202063106A73C5E5C1BD39C6E560F2F65244904900D3DFE4B04230AE695" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankA/additional-node-infos/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankA/additional-node-infos/nodeInfo-EC3A33039DF8A4F9EC0BF646A13A1CF5B08593DF78881F75489D25C9AA51CFD1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankA/artemis/bindings/activemq-bindings-1.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankA/artemis/bindings/activemq-bindings-2.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankA/artemis/journal/activemq-data-1.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankA/artemis/journal/activemq-data-2.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankA/artemis/journal/server.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankA/brokers/rpc/bindings/activemq-bindings-1.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankA/brokers/rpc/bindings/activemq-bindings-2.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankA/brokers/rpc/journal/activemq-data-1.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankA/brokers/rpc/journal/activemq-data-2.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankA/brokers/rpc/journal/server.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankA/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankA/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankA/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankA/cordapps/config/custom-cordapp_1_6_016bc838-f293-4446-8e03-dcaa93a50288.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankA/cordapps/custom-cordapp_1_6_016bc838-f293-4446-8e03-dcaa93a50288.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankA/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankA/node.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankA/nodeInfo-EC3A33039DF8A4F9EC0BF646A13A1CF5B08593DF78881F75489D25C9AA51CFD1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankB/additional-node-infos/nodeInfo-05D44202063106A73C5E5C1BD39C6E560F2F65244904900D3DFE4B04230AE695" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankB/additional-node-infos/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankB/additional-node-infos/nodeInfo-EC3A33039DF8A4F9EC0BF646A13A1CF5B08593DF78881F75489D25C9AA51CFD1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankB/artemis/bindings/activemq-bindings-1.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankB/artemis/bindings/activemq-bindings-2.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankB/artemis/journal/activemq-data-1.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankB/artemis/journal/activemq-data-2.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankB/artemis/journal/server.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankB/brokers/rpc/bindings/activemq-bindings-1.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankB/brokers/rpc/bindings/activemq-bindings-2.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankB/brokers/rpc/journal/activemq-data-1.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankB/brokers/rpc/journal/activemq-data-2.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankB/brokers/rpc/journal/server.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankB/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankB/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankB/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankB/cordapps/config/custom-cordapp_1_6_016bc838-f293-4446-8e03-dcaa93a50288.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankB/cordapps/custom-cordapp_1_6_016bc838-f293-4446-8e03-dcaa93a50288.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankB/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankB/node.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/BankB/nodeInfo-05D44202063106A73C5E5C1BD39C6E560F2F65244904900D3DFE4B04230AE695" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/NotaryService/additional-node-infos/nodeInfo-05D44202063106A73C5E5C1BD39C6E560F2F65244904900D3DFE4B04230AE695" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/NotaryService/additional-node-infos/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/NotaryService/additional-node-infos/nodeInfo-EC3A33039DF8A4F9EC0BF646A13A1CF5B08593DF78881F75489D25C9AA51CFD1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/NotaryService/artemis/bindings/activemq-bindings-1.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/NotaryService/artemis/bindings/activemq-bindings-2.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/NotaryService/artemis/journal/activemq-data-1.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/NotaryService/artemis/journal/activemq-data-2.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/NotaryService/artemis/journal/server.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/NotaryService/brokers/rpc/bindings/activemq-bindings-1.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/NotaryService/brokers/rpc/bindings/activemq-bindings-2.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/NotaryService/brokers/rpc/journal/activemq-data-1.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/NotaryService/brokers/rpc/journal/activemq-data-2.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/NotaryService/brokers/rpc/journal/server.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/NotaryService/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/NotaryService/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/NotaryService/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/NotaryService/cordapps/config/custom-cordapp_1_6_016bc838-f293-4446-8e03-dcaa93a50288.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/NotaryService/cordapps/custom-cordapp_1_6_016bc838-f293-4446-8e03-dcaa93a50288.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/NotaryService/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/NotaryService/node.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-161520.400/NotaryService/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankA/additional-node-infos/nodeInfo-05D44202063106A73C5E5C1BD39C6E560F2F65244904900D3DFE4B04230AE695" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankA/additional-node-infos/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankA/additional-node-infos/nodeInfo-EC3A33039DF8A4F9EC0BF646A13A1CF5B08593DF78881F75489D25C9AA51CFD1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankA/artemis/bindings/activemq-bindings-1.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankA/artemis/bindings/activemq-bindings-2.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankA/artemis/journal/activemq-data-1.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankA/artemis/journal/activemq-data-2.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankA/artemis/journal/server.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankA/brokers/rpc/bindings/activemq-bindings-1.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankA/brokers/rpc/bindings/activemq-bindings-2.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankA/brokers/rpc/journal/activemq-data-1.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankA/brokers/rpc/journal/activemq-data-2.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankA/brokers/rpc/journal/server.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankA/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankA/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankA/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankA/cordapps/config/custom-cordapp_1_6_eaf16366-ea36-4d96-8ef3-290e07ee48f6.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankA/cordapps/custom-cordapp_1_6_eaf16366-ea36-4d96-8ef3-290e07ee48f6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankA/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankA/node.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankA/nodeInfo-EC3A33039DF8A4F9EC0BF646A13A1CF5B08593DF78881F75489D25C9AA51CFD1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankB/additional-node-infos/nodeInfo-05D44202063106A73C5E5C1BD39C6E560F2F65244904900D3DFE4B04230AE695" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankB/additional-node-infos/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankB/additional-node-infos/nodeInfo-EC3A33039DF8A4F9EC0BF646A13A1CF5B08593DF78881F75489D25C9AA51CFD1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankB/artemis/bindings/activemq-bindings-1.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankB/artemis/bindings/activemq-bindings-2.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankB/artemis/journal/activemq-data-1.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankB/artemis/journal/activemq-data-2.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankB/artemis/journal/server.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankB/brokers/rpc/bindings/activemq-bindings-1.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankB/brokers/rpc/bindings/activemq-bindings-2.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankB/brokers/rpc/journal/activemq-data-1.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankB/brokers/rpc/journal/activemq-data-2.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankB/brokers/rpc/journal/server.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankB/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankB/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankB/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankB/cordapps/config/custom-cordapp_1_6_eaf16366-ea36-4d96-8ef3-290e07ee48f6.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankB/cordapps/custom-cordapp_1_6_eaf16366-ea36-4d96-8ef3-290e07ee48f6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankB/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankB/node.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/BankB/nodeInfo-05D44202063106A73C5E5C1BD39C6E560F2F65244904900D3DFE4B04230AE695" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/NotaryService/additional-node-infos/nodeInfo-05D44202063106A73C5E5C1BD39C6E560F2F65244904900D3DFE4B04230AE695" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/NotaryService/additional-node-infos/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/NotaryService/additional-node-infos/nodeInfo-EC3A33039DF8A4F9EC0BF646A13A1CF5B08593DF78881F75489D25C9AA51CFD1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/NotaryService/artemis/bindings/activemq-bindings-1.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/NotaryService/artemis/bindings/activemq-bindings-2.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/NotaryService/artemis/journal/activemq-data-1.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/NotaryService/artemis/journal/activemq-data-2.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/NotaryService/artemis/journal/server.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/NotaryService/brokers/rpc/bindings/activemq-bindings-1.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/NotaryService/brokers/rpc/bindings/activemq-bindings-2.bindings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/NotaryService/brokers/rpc/journal/activemq-data-1.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/NotaryService/brokers/rpc/journal/activemq-data-2.amq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/NotaryService/brokers/rpc/journal/server.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/NotaryService/certificates/nodekeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/NotaryService/certificates/sslkeystore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/NotaryService/certificates/truststore.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/NotaryService/cordapps/config/custom-cordapp_1_6_eaf16366-ea36-4d96-8ef3-290e07ee48f6.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/NotaryService/cordapps/custom-cordapp_1_6_eaf16366-ea36-4d96-8ef3-290e07ee48f6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/NotaryService/network-parameters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/NotaryService/node.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/node-driver/20200422-163119.336/NotaryService/nodeInfo-9305A969F68D45C1CECDDA5BE4C12989D7414F71A38B03F07687716ED79E2F36" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/reports/tests/integrationTest/classes/org.r3.tdh.kyc.SampleDriverBasedTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/reports/tests/integrationTest/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/reports/tests/integrationTest/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/reports/tests/integrationTest/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/reports/tests/integrationTest/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/reports/tests/integrationTest/packages/org.r3.tdh.kyc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/reports/tests/test/classes/org.r3.tdh.kyc.SampleContractTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/reports/tests/test/packages/org.r3.tdh.kyc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/test-results/integrationTest/TEST-org.r3.tdh.kyc.SampleDriverBasedTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/test-results/integrationTest/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/test-results/integrationTest/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/test-results/integrationTest/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/test-results/test/TEST-org.r3.tdh.kyc.SampleContractTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/tmp/test/jar_extract_1984332195524795643_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/tmp/test/jar_extract_2281710926833686308_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/tmp/test/jar_extract_2679893830365652812_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/tmp/test/jar_extract_3180701560427424747_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/tmp/test/jar_extract_3717412695600788462_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/tmp/test/jar_extract_4947391247561872807_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/tmp/test/jar_extract_5255481958179706374_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/tmp/test/jar_extract_5359088269811717370_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/tmp/test/jar_extract_6612145562800575176_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/tmp/test/jar_extract_7082152821742229142_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/tmp/test/jar_extract_7558663871952874156_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/tmp/test/jar_extract_8192882671123812480_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/logs/node-GARRYs-I9-MBP.log" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/logs/node-GARRYs-I9-MBP.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/integrationTest/java/com/template/DriverBasedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/integrationTest/java/org/r3/kyc/DriverBasedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/integrationTest/java/org/r3/tdh/kyc/SampleDriverBasedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/main/java/com/template/flows/Initiator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/main/java/org/r3/kyc/flows/Initiator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/main/java/com/template/flows/Responder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/main/java/org/r3/kyc/flows/Responder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/main/java/org/r3/tdh/kyc/flows/Initiator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/main/java/org/r3/tdh/kyc/flows/Responder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/test/java/com/template/ContractTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/test/java/org/r3/kyc/ContractTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/test/java/com/template/FlowTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/test/java/org/r3/kyc/FlowTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/test/java/com/template/NodeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/test/java/org/r3/kyc/NodeDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/test/java/org/r3/tdh/kyc/SampleContractTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/test/java/org/r3/tdh/kyc/SampleFlowTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/test/java/org/r3/tdh/kyc/SampleNodeDriver.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +609,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/contracts-java/src/main/java/com/example/contract" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -311,6 +731,7 @@
       <item itemvalue="Gradle.cordapp-example:workflows-kotlin [integrationTest]" />
       <item itemvalue="Gradle.cordapp-example:workflows-java [integrationTest]" />
       <item itemvalue="Gradle.MessageFlowTests" />
+      <item itemvalue="Gradle.CCDContractTests" />
       <item itemvalue="JUnit.Run Contract Tests - Java" />
       <item itemvalue="JUnit.Run Contract Tests - Kotlin" />
       <item itemvalue="JUnit.Run Flow Tests - Java" />
@@ -319,7 +740,6 @@
       <item itemvalue="JUnit.Run Integration Tests - Kotlin" />
       <item itemvalue="Kotlin.Run Example Cordapp - Kotlin" />
       <item itemvalue="Remote.Debug CorDapp" />
-      <item itemvalue="Gradle.CCDContractTests" />
     </list>
     <recent_temporary>
       <list>
@@ -381,54 +801,54 @@
       <screen x="0" y="23" width="1792" height="1045" />
     </state>
     <state x="255" y="146" key="CommitChangelistDialog2/0.23.1792.1045@0.23.1792.1045" timestamp="1586447517564" />
-    <state width="1969" height="320" key="GridCell.Tab.0.bottom" timestamp="1587563635336">
-      <screen x="2048" y="243" width="1920" height="1057" />
+    <state width="1750" height="269" key="GridCell.Tab.0.bottom" timestamp="1587576586578">
+      <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state width="1750" height="391" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1586698511434" />
     <state width="1582" height="271" key="GridCell.Tab.0.bottom/0.23.1792.1042@0.23.1792.1042" timestamp="1586354710203" />
     <state width="1582" height="271" key="GridCell.Tab.0.bottom/0.23.1792.1043@0.23.1792.1043" timestamp="1586353901569" />
     <state width="1582" height="382" key="GridCell.Tab.0.bottom/0.23.1792.1044@0.23.1792.1044" timestamp="1586446123767" />
     <state width="1582" height="381" key="GridCell.Tab.0.bottom/0.23.1792.1045@0.23.1792.1045" timestamp="1586448835233" />
-    <state width="1582" height="381" key="GridCell.Tab.0.bottom/0.23.1792.1049@0.23.1792.1049" timestamp="1586515143730" />
+    <state width="1750" height="269" key="GridCell.Tab.0.bottom/0.23.1792.1049@0.23.1792.1049" timestamp="1587576586578" />
     <state width="1582" height="382" key="GridCell.Tab.0.bottom/2048.243.1920.1057/0.23.2048.1193@0.23.2048.1193" timestamp="1586358328694" />
     <state width="1582" height="382" key="GridCell.Tab.0.bottom/2048.243.1920.1057/0.23.2048.1201@0.23.2048.1201" timestamp="1586370440505" />
     <state width="1969" height="320" key="GridCell.Tab.0.bottom/2048.243.1920.1057/0.23.2048.1203@2048.243.1920.1057" timestamp="1587563635336" />
     <state width="1969" height="258" key="GridCell.Tab.0.bottom/2048.243.1920.1057/0.23.2048.1204@2048.243.1920.1057" timestamp="1587562006243" />
-    <state width="1969" height="320" key="GridCell.Tab.0.center" timestamp="1587563635334">
-      <screen x="2048" y="243" width="1920" height="1057" />
+    <state width="1750" height="269" key="GridCell.Tab.0.center" timestamp="1587576586577">
+      <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state width="1750" height="391" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1586698511433" />
     <state width="1582" height="271" key="GridCell.Tab.0.center/0.23.1792.1042@0.23.1792.1042" timestamp="1586354710203" />
     <state width="1582" height="271" key="GridCell.Tab.0.center/0.23.1792.1043@0.23.1792.1043" timestamp="1586353901568" />
     <state width="1582" height="382" key="GridCell.Tab.0.center/0.23.1792.1044@0.23.1792.1044" timestamp="1586446123767" />
     <state width="1582" height="381" key="GridCell.Tab.0.center/0.23.1792.1045@0.23.1792.1045" timestamp="1586448835232" />
-    <state width="1582" height="381" key="GridCell.Tab.0.center/0.23.1792.1049@0.23.1792.1049" timestamp="1586515143730" />
+    <state width="1750" height="269" key="GridCell.Tab.0.center/0.23.1792.1049@0.23.1792.1049" timestamp="1587576586577" />
     <state width="1582" height="382" key="GridCell.Tab.0.center/2048.243.1920.1057/0.23.2048.1193@0.23.2048.1193" timestamp="1586358328693" />
     <state width="1582" height="382" key="GridCell.Tab.0.center/2048.243.1920.1057/0.23.2048.1201@0.23.2048.1201" timestamp="1586370440504" />
     <state width="1969" height="320" key="GridCell.Tab.0.center/2048.243.1920.1057/0.23.2048.1203@2048.243.1920.1057" timestamp="1587563635334" />
     <state width="1969" height="258" key="GridCell.Tab.0.center/2048.243.1920.1057/0.23.2048.1204@2048.243.1920.1057" timestamp="1587562006237" />
-    <state width="1969" height="320" key="GridCell.Tab.0.left" timestamp="1587563635333">
-      <screen x="2048" y="243" width="1920" height="1057" />
+    <state width="1750" height="269" key="GridCell.Tab.0.left" timestamp="1587576586576">
+      <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state width="1750" height="391" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1586698511433" />
     <state width="1582" height="271" key="GridCell.Tab.0.left/0.23.1792.1042@0.23.1792.1042" timestamp="1586354710202" />
     <state width="1582" height="271" key="GridCell.Tab.0.left/0.23.1792.1043@0.23.1792.1043" timestamp="1586353901568" />
     <state width="1582" height="382" key="GridCell.Tab.0.left/0.23.1792.1044@0.23.1792.1044" timestamp="1586446123766" />
     <state width="1582" height="381" key="GridCell.Tab.0.left/0.23.1792.1045@0.23.1792.1045" timestamp="1586448835231" />
-    <state width="1582" height="381" key="GridCell.Tab.0.left/0.23.1792.1049@0.23.1792.1049" timestamp="1586515143729" />
+    <state width="1750" height="269" key="GridCell.Tab.0.left/0.23.1792.1049@0.23.1792.1049" timestamp="1587576586576" />
     <state width="1582" height="382" key="GridCell.Tab.0.left/2048.243.1920.1057/0.23.2048.1193@0.23.2048.1193" timestamp="1586358328693" />
     <state width="1582" height="382" key="GridCell.Tab.0.left/2048.243.1920.1057/0.23.2048.1201@0.23.2048.1201" timestamp="1586370440504" />
     <state width="1969" height="320" key="GridCell.Tab.0.left/2048.243.1920.1057/0.23.2048.1203@2048.243.1920.1057" timestamp="1587563635333" />
     <state width="1969" height="258" key="GridCell.Tab.0.left/2048.243.1920.1057/0.23.2048.1204@2048.243.1920.1057" timestamp="1587562006236" />
-    <state width="1969" height="320" key="GridCell.Tab.0.right" timestamp="1587563635335">
-      <screen x="2048" y="243" width="1920" height="1057" />
+    <state width="1750" height="269" key="GridCell.Tab.0.right" timestamp="1587576586577">
+      <screen x="0" y="23" width="1792" height="1049" />
     </state>
     <state width="1750" height="391" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1586698511434" />
     <state width="1582" height="271" key="GridCell.Tab.0.right/0.23.1792.1042@0.23.1792.1042" timestamp="1586354710203" />
     <state width="1582" height="271" key="GridCell.Tab.0.right/0.23.1792.1043@0.23.1792.1043" timestamp="1586353901569" />
     <state width="1582" height="382" key="GridCell.Tab.0.right/0.23.1792.1044@0.23.1792.1044" timestamp="1586446123767" />
     <state width="1582" height="381" key="GridCell.Tab.0.right/0.23.1792.1045@0.23.1792.1045" timestamp="1586448835232" />
-    <state width="1582" height="381" key="GridCell.Tab.0.right/0.23.1792.1049@0.23.1792.1049" timestamp="1586515143730" />
+    <state width="1750" height="269" key="GridCell.Tab.0.right/0.23.1792.1049@0.23.1792.1049" timestamp="1587576586577" />
     <state width="1582" height="382" key="GridCell.Tab.0.right/2048.243.1920.1057/0.23.2048.1193@0.23.2048.1193" timestamp="1586358328694" />
     <state width="1582" height="382" key="GridCell.Tab.0.right/2048.243.1920.1057/0.23.2048.1201@0.23.2048.1201" timestamp="1586370440505" />
     <state width="1969" height="320" key="GridCell.Tab.0.right/2048.243.1920.1057/0.23.2048.1203@2048.243.1920.1057" timestamp="1587563635335" />
@@ -488,16 +908,5 @@
     <state x="561" y="263" width="670" height="676" key="search.everywhere.popup/0.23.1792.1041@0.23.1792.1041" timestamp="1586251017724" />
     <state x="561" y="263" width="670" height="678" key="search.everywhere.popup/0.23.1792.1043@0.23.1792.1043" timestamp="1586353151366" />
     <state x="561" y="263" width="670" height="680" key="search.everywhere.popup/0.23.1792.1045@0.23.1792.1045" timestamp="1586447939778" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/workflows-java/src/test/java/com/example/test/contract/CCDContractTests.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
