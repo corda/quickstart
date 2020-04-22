@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.r3.tdh.prototype.ContractTests" tests="2" skipped="0" failures="2" errors="0" timestamp="2020-04-22T12:30:40" hostname="GARRYs-I9-MBP" time="0.004">
+<testsuite name="org.r3.tdh.prototype.ContractTests" tests="2" skipped="0" failures="2" errors="0" timestamp="2020-04-22T13:43:41" hostname="GARRYs-I9-MBP" time="0.002">
   <properties/>
-  <testcase name="dummyTest" classname="org.r3.tdh.prototype.ContractTests" time="0.004">
+  <testcase name="dummyTest" classname="org.r3.tdh.prototype.ContractTests" time="0.002">
     <failure message="java.lang.ExceptionInInitializerError" type="java.lang.ExceptionInInitializerError">java.lang.ExceptionInInitializerError
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -49,7 +49,7 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.IllegalStateException: The CorDapp (name: Contract: custom-cordapp, Workflow: custom-cordapp, file: custom-cordapp_1_6_1d976356-ab87-4d14-bd0b-148d86ec5150) is installed multiple times on the node. The following files correspond to the exact same content: [custom-cordapp_1_6_c5cb4d6f-5684-45c2-acb2-4040ec86f324]
+Caused by: java.lang.IllegalStateException: The CorDapp (name: Contract: custom-cordapp, Workflow: custom-cordapp, file: custom-cordapp_1_6_b4f4655f-eea3-4445-9872-c73853ce757c) is installed multiple times on the node. The following files correspond to the exact same content: [custom-cordapp_1_6_12cdbdd8-e43a-4a94-93c9-7598b4996da1]
 	at net.corda.node.internal.cordapp.JarScanningCordappLoader.register(JarScanningCordappLoader.kt:147)
 	at net.corda.node.internal.cordapp.JarScanningCordappLoader.loadCordapps(JarScanningCordappLoader.kt:130)
 	at net.corda.node.internal.cordapp.JarScanningCordappLoader.access$loadCordapps(JarScanningCordappLoader.kt:43)

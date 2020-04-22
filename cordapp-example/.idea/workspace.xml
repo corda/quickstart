@@ -2,17 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab377411-8e5f-4985-8873-421ad53c0ef0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../qs-swisspost/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../qs-swisspost/contracts/logs/archive/node-GARRYs-I9-MBP.2020-04-21-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../qs-swisspost/contracts/logs/node-GARRYs-I9-MBP.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../qs-swisspost/contracts/src/main/java/org/r3/tdh/prototype/contracts/CCDCommands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../qs-swisspost/contracts/src/main/java/org/r3/tdh/prototype/contracts/CCDContract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../qs-swisspost/contracts/src/main/java/org/r3/tdh/prototype/entity/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../qs-swisspost/contracts/src/main/java/org/r3/tdh/prototype/states/CCDState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../qs-swisspost/logs/node-GARRYs-I9-MBP.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../qs-swisspost/workflows/logs/archive/node-GARRYs-I9-MBP.2020-04-21-1.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../qs-swisspost/workflows/logs/node-GARRYs-I9-MBP.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts-java/bin/main/com/example/contract/CCDContract.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts-java/bin/main/com/example/state/CCDState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/contract/CCDCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/contract/CCDContract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/contract/CCDInvalidCommands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/contract/Publish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts-java/src/main/java/com/example/state/CCDState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows-java/bin/test/com/example/test/contract/CCDContractTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows-java/build/generated-custom-cordapps/20200422-123318.181/custom-cordapp_1_6_ada00dda-a8a2-46e3-93d5-1285ba0b5268.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows-java/build/generated-custom-cordapps/20200422-123318.181/custom-cordapp_1_6_f618b7ca-6b15-4ed7-9a98-40d5619f71a0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows-java/logs/archive/node-GARRYs-I9-MBP.2020-04-21-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows-java/src/test/java/com/example/test/contract/CCDContractTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-java/build/libs/cordapp-example-contracts-0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-java/build/libs/cordapp-example-contracts-0.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-java/bin/main/com/example/flow/MessageFlow$Acceptor$1SignTxFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-java/bin/main/com/example/flow/MessageFlow$Acceptor$1SignTxFlow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-java/bin/main/com/example/flow/MessageFlow$Acceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-java/bin/main/com/example/flow/MessageFlow$Acceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-java/build/libs/cordapp-example-workflows-0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-java/build/libs/cordapp-example-workflows-0.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-java/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-java/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-java/logs/node-GARRYs-I9-MBP.log" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-java/logs/node-GARRYs-I9-MBP.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/kotlin/cordappexampleworkflows02jar-classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/kotlin/cordappexampleworkflows02jar-classes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build/libs/cordapp-example-workflows-0.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build/libs/cordapp-example-workflows-0.2.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -23,18 +44,14 @@
       <change beforePath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../qs-swisspost/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/contracts/bin/test/com/template/contracts/ContractTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/contracts/bin/test/com/template/contracts/ContractTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../qs-swisspost/contracts/build/libs/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/contracts/build/libs/contracts-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/contracts/src/test/java/com/template/contracts/ContractTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/contracts/src/test/java/com/template/contracts/ContractTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/workflows/bin/main/com/template/ContractTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/workflows/bin/main/com/template/FlowTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/workflows/bin/main/com/template/NodeDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/workflows/build/libs/workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/workflows/build/libs/workflows-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/workflows/src/test/java/com/template/ContractTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/workflows/src/test/java/org/r3/tdh/prototype/ContractTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/workflows/src/test/java/com/template/FlowTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/workflows/src/test/java/org/r3/tdh/prototype/FlowTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../qs-swisspost/workflows/src/test/java/com/template/NodeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/workflows/src/test/java/org/r3/tdh/prototype/NodeDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qs-swisspost/contracts/src/main/java/org/r3/tdh/prototype/entity/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/contracts/src/main/java/org/r3/tdh/prototype/entity/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qs-swisspost/workflows/build/reports/tests/test/classes/org.r3.tdh.prototype.ContractTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/workflows/build/reports/tests/test/classes/org.r3.tdh.prototype.ContractTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qs-swisspost/workflows/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/workflows/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qs-swisspost/workflows/build/reports/tests/test/packages/org.r3.tdh.prototype.html" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/workflows/build/reports/tests/test/packages/org.r3.tdh.prototype.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qs-swisspost/workflows/build/test-results/test/TEST-org.r3.tdh.prototype.ContractTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/workflows/build/test-results/test/TEST-org.r3.tdh.prototype.ContractTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qs-swisspost/workflows/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/workflows/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qs-swisspost/workflows/logs/node-GARRYs-I9-MBP.log" beforeDir="false" afterPath="$PROJECT_DIR$/../qs-swisspost/workflows/logs/node-GARRYs-I9-MBP.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,18 +189,44 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/contracts-java/src/main/java/com/example/contract" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.contract" />
+      <recent name="com.example.test.contract" />
+      <recent name="com.example.entity" />
+      <recent name="com.example.state" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/contracts-java/src/main/java/com/example/contract" />
       <recent name="$PROJECT_DIR$/workflows-java/build/nodes/PartyA/cordapps" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MessageFlowTests">
+  <component name="RunManager" selected="Gradle.CCDContractTests">
+    <configuration name="CCDContractTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.example.test.contract.CCDContractTests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":workflows-java:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="MessageFlowTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -276,9 +319,11 @@
       <item itemvalue="JUnit.Run Integration Tests - Kotlin" />
       <item itemvalue="Kotlin.Run Example Cordapp - Kotlin" />
       <item itemvalue="Remote.Debug CorDapp" />
+      <item itemvalue="Gradle.CCDContractTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CCDContractTests" />
         <item itemvalue="Gradle.MessageFlowTests" />
         <item itemvalue="Gradle.cordapp-example:workflows-java [integrationTest]" />
         <item itemvalue="Gradle.cordapp-example:workflows-kotlin [integrationTest]" />
@@ -327,16 +372,17 @@
     </state>
     <state x="338" y="351" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1041@0.23.1792.1041" timestamp="1586248009343" />
     <state x="338" y="353" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1046@0.23.1792.1046" timestamp="1586449447364" />
-    <state x="709" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1586695982067">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="2808" y="503" key="#com.intellij.ide.util.MemberChooser" timestamp="1587559221966">
+      <screen x="2048" y="243" width="1920" height="1057" />
     </state>
     <state x="709" y="276" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1586695982067" />
+    <state x="2808" y="503" key="#com.intellij.ide.util.MemberChooser/2048.243.1920.1057/0.23.2048.1204@2048.243.1920.1057" timestamp="1587559221966" />
     <state x="255" y="146" key="CommitChangelistDialog2" timestamp="1586447517564">
       <screen x="0" y="23" width="1792" height="1045" />
     </state>
     <state x="255" y="146" key="CommitChangelistDialog2/0.23.1792.1045@0.23.1792.1045" timestamp="1586447517564" />
-    <state width="1750" height="391" key="GridCell.Tab.0.bottom" timestamp="1586698511434">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1969" height="320" key="GridCell.Tab.0.bottom" timestamp="1587563635336">
+      <screen x="2048" y="243" width="1920" height="1057" />
     </state>
     <state width="1750" height="391" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1586698511434" />
     <state width="1582" height="271" key="GridCell.Tab.0.bottom/0.23.1792.1042@0.23.1792.1042" timestamp="1586354710203" />
@@ -346,8 +392,10 @@
     <state width="1582" height="381" key="GridCell.Tab.0.bottom/0.23.1792.1049@0.23.1792.1049" timestamp="1586515143730" />
     <state width="1582" height="382" key="GridCell.Tab.0.bottom/2048.243.1920.1057/0.23.2048.1193@0.23.2048.1193" timestamp="1586358328694" />
     <state width="1582" height="382" key="GridCell.Tab.0.bottom/2048.243.1920.1057/0.23.2048.1201@0.23.2048.1201" timestamp="1586370440505" />
-    <state width="1750" height="391" key="GridCell.Tab.0.center" timestamp="1586698511433">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1969" height="320" key="GridCell.Tab.0.bottom/2048.243.1920.1057/0.23.2048.1203@2048.243.1920.1057" timestamp="1587563635336" />
+    <state width="1969" height="258" key="GridCell.Tab.0.bottom/2048.243.1920.1057/0.23.2048.1204@2048.243.1920.1057" timestamp="1587562006243" />
+    <state width="1969" height="320" key="GridCell.Tab.0.center" timestamp="1587563635334">
+      <screen x="2048" y="243" width="1920" height="1057" />
     </state>
     <state width="1750" height="391" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1586698511433" />
     <state width="1582" height="271" key="GridCell.Tab.0.center/0.23.1792.1042@0.23.1792.1042" timestamp="1586354710203" />
@@ -357,8 +405,10 @@
     <state width="1582" height="381" key="GridCell.Tab.0.center/0.23.1792.1049@0.23.1792.1049" timestamp="1586515143730" />
     <state width="1582" height="382" key="GridCell.Tab.0.center/2048.243.1920.1057/0.23.2048.1193@0.23.2048.1193" timestamp="1586358328693" />
     <state width="1582" height="382" key="GridCell.Tab.0.center/2048.243.1920.1057/0.23.2048.1201@0.23.2048.1201" timestamp="1586370440504" />
-    <state width="1750" height="391" key="GridCell.Tab.0.left" timestamp="1586698511433">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1969" height="320" key="GridCell.Tab.0.center/2048.243.1920.1057/0.23.2048.1203@2048.243.1920.1057" timestamp="1587563635334" />
+    <state width="1969" height="258" key="GridCell.Tab.0.center/2048.243.1920.1057/0.23.2048.1204@2048.243.1920.1057" timestamp="1587562006237" />
+    <state width="1969" height="320" key="GridCell.Tab.0.left" timestamp="1587563635333">
+      <screen x="2048" y="243" width="1920" height="1057" />
     </state>
     <state width="1750" height="391" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1586698511433" />
     <state width="1582" height="271" key="GridCell.Tab.0.left/0.23.1792.1042@0.23.1792.1042" timestamp="1586354710202" />
@@ -368,8 +418,10 @@
     <state width="1582" height="381" key="GridCell.Tab.0.left/0.23.1792.1049@0.23.1792.1049" timestamp="1586515143729" />
     <state width="1582" height="382" key="GridCell.Tab.0.left/2048.243.1920.1057/0.23.2048.1193@0.23.2048.1193" timestamp="1586358328693" />
     <state width="1582" height="382" key="GridCell.Tab.0.left/2048.243.1920.1057/0.23.2048.1201@0.23.2048.1201" timestamp="1586370440504" />
-    <state width="1750" height="391" key="GridCell.Tab.0.right" timestamp="1586698511434">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1969" height="320" key="GridCell.Tab.0.left/2048.243.1920.1057/0.23.2048.1203@2048.243.1920.1057" timestamp="1587563635333" />
+    <state width="1969" height="258" key="GridCell.Tab.0.left/2048.243.1920.1057/0.23.2048.1204@2048.243.1920.1057" timestamp="1587562006236" />
+    <state width="1969" height="320" key="GridCell.Tab.0.right" timestamp="1587563635335">
+      <screen x="2048" y="243" width="1920" height="1057" />
     </state>
     <state width="1750" height="391" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1586698511434" />
     <state width="1582" height="271" key="GridCell.Tab.0.right/0.23.1792.1042@0.23.1792.1042" timestamp="1586354710203" />
@@ -379,22 +431,32 @@
     <state width="1582" height="381" key="GridCell.Tab.0.right/0.23.1792.1049@0.23.1792.1049" timestamp="1586515143730" />
     <state width="1582" height="382" key="GridCell.Tab.0.right/2048.243.1920.1057/0.23.2048.1193@0.23.2048.1193" timestamp="1586358328694" />
     <state width="1582" height="382" key="GridCell.Tab.0.right/2048.243.1920.1057/0.23.2048.1201@0.23.2048.1201" timestamp="1586370440505" />
-    <state width="1750" height="391" key="GridCell.Tab.1.bottom" timestamp="1586698511436">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1969" height="320" key="GridCell.Tab.0.right/2048.243.1920.1057/0.23.2048.1203@2048.243.1920.1057" timestamp="1587563635335" />
+    <state width="1969" height="258" key="GridCell.Tab.0.right/2048.243.1920.1057/0.23.2048.1204@2048.243.1920.1057" timestamp="1587562006238" />
+    <state width="1969" height="270" key="GridCell.Tab.1.bottom" timestamp="1587560205187">
+      <screen x="2048" y="243" width="1920" height="1057" />
     </state>
     <state width="1750" height="391" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1586698511436" />
-    <state width="1750" height="391" key="GridCell.Tab.1.center" timestamp="1586698511435">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1969" height="439" key="GridCell.Tab.1.bottom/2048.243.1920.1057/0.23.2048.1203@2048.243.1920.1057" timestamp="1587559804424" />
+    <state width="1969" height="270" key="GridCell.Tab.1.bottom/2048.243.1920.1057/0.23.2048.1204@2048.243.1920.1057" timestamp="1587560205187" />
+    <state width="1969" height="270" key="GridCell.Tab.1.center" timestamp="1587560205186">
+      <screen x="2048" y="243" width="1920" height="1057" />
     </state>
     <state width="1750" height="391" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1586698511435" />
-    <state width="1750" height="391" key="GridCell.Tab.1.left" timestamp="1586698511435">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1969" height="439" key="GridCell.Tab.1.center/2048.243.1920.1057/0.23.2048.1203@2048.243.1920.1057" timestamp="1587559804423" />
+    <state width="1969" height="270" key="GridCell.Tab.1.center/2048.243.1920.1057/0.23.2048.1204@2048.243.1920.1057" timestamp="1587560205186" />
+    <state width="1969" height="270" key="GridCell.Tab.1.left" timestamp="1587560205185">
+      <screen x="2048" y="243" width="1920" height="1057" />
     </state>
     <state width="1750" height="391" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1586698511435" />
-    <state width="1750" height="391" key="GridCell.Tab.1.right" timestamp="1586698511436">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1969" height="439" key="GridCell.Tab.1.left/2048.243.1920.1057/0.23.2048.1203@2048.243.1920.1057" timestamp="1587559804422" />
+    <state width="1969" height="270" key="GridCell.Tab.1.left/2048.243.1920.1057/0.23.2048.1204@2048.243.1920.1057" timestamp="1587560205185" />
+    <state width="1969" height="270" key="GridCell.Tab.1.right" timestamp="1587560205187">
+      <screen x="2048" y="243" width="1920" height="1057" />
     </state>
     <state width="1750" height="391" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1586698511436" />
+    <state width="1969" height="439" key="GridCell.Tab.1.right/2048.243.1920.1057/0.23.2048.1203@2048.243.1920.1057" timestamp="1587559804424" />
+    <state width="1969" height="270" key="GridCell.Tab.1.right/2048.243.1920.1057/0.23.2048.1204@2048.243.1920.1057" timestamp="1587560205186" />
     <state x="554" y="215" key="NewModule_or_Project.wizard" timestamp="1586353127406">
       <screen x="0" y="23" width="1792" height="1043" />
     </state>
@@ -426,5 +488,16 @@
     <state x="561" y="263" width="670" height="676" key="search.everywhere.popup/0.23.1792.1041@0.23.1792.1041" timestamp="1586251017724" />
     <state x="561" y="263" width="670" height="678" key="search.everywhere.popup/0.23.1792.1043@0.23.1792.1043" timestamp="1586353151366" />
     <state x="561" y="263" width="670" height="680" key="search.everywhere.popup/0.23.1792.1045@0.23.1792.1045" timestamp="1586447939778" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/workflows-java/src/test/java/com/example/test/contract/CCDContractTests.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

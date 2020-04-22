@@ -1,5 +1,8 @@
 package org.r3.tdh.prototype.entity;
 
+import net.corda.core.serialization.CordaSerializable;
+
+@CordaSerializable
 public class Address {
     private final String addressLine1;
     private final String town;
