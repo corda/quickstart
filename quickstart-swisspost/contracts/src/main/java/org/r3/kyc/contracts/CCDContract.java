@@ -16,7 +16,7 @@ import static net.corda.core.contracts.ContractsDSL.requireThat;
 
 public class CCDContract implements Contract {
 
-    public static String ID="org.r3.tdh.kyc.contracts.CCDContract";
+    public static String ID="org.r3.kyc.contracts.CCDContract";
 
     @Override
     public void verify(@NotNull LedgerTransaction tx) throws IllegalArgumentException {
@@ -50,6 +50,7 @@ public class CCDContract implements Contract {
     }
 
     private void verifyAmend(LedgerTransaction tx, CommandWithParties command) {
+
 
     }
     private void verifyApprove(LedgerTransaction tx, CommandWithParties command) {

@@ -1,14 +1,17 @@
 package org.r3.kyc.states;
 
+import net.corda.core.contracts.BelongsToContract;
 import net.corda.core.contracts.ContractState;
 import net.corda.core.contracts.UniqueIdentifier;
 import net.corda.core.identity.AbstractParty;
 import net.corda.core.identity.Party;
+import org.r3.kyc.contracts.CCDContract;
 import org.r3.kyc.entity.Address;
 
 import java.util.Arrays;
 import java.util.List;
 
+@BelongsToContract(CCDContract.class)
 public class CCDState implements ContractState {
 
 

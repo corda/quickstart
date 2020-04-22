@@ -1,5 +1,6 @@
 package org.r3.kyc.states;
 
+import org.r3.kyc.contracts.CCDContract;
 import org.r3.kyc.contracts.TemplateContract;
 import net.corda.core.contracts.BelongsToContract;
 import net.corda.core.contracts.ContractState;

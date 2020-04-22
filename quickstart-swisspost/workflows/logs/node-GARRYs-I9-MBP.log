@@ -13,3 +13,688 @@
 [INFO ] 2020-04-22T18:59:13,502Z [Test worker] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-185913.110/custom-cordapp_1_6_beee7c60-3fe5-4f3d-96ba-39564cad47ac.jar, rootPackageName=null), RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-185913.110/custom-cordapp_1_6_e5444a2b-11a7-4247-b921-7218ad4ff43f.jar, rootPackageName=null) {}
 [INFO ] 2020-04-22T18:59:13,573Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-185913.110/custom-cordapp_1_6_beee7c60-3fe5-4f3d-96ba-39564cad47ac.jar {}
 [INFO ] 2020-04-22T18:59:13,653Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-185913.110/custom-cordapp_1_6_e5444a2b-11a7-4247-b921-7218ad4ff43f.jar {}
+[INFO ] 2020-04-22T19:01:10,191Z [Test worker] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-190109.824/custom-cordapp_1_6_ef55cc72-e8cc-4f7d-b70b-03b553b6ce88.jar, rootPackageName=null), RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-190109.824/custom-cordapp_1_6_4eda55c1-4c1e-46d2-8b86-95bd40a6153b.jar, rootPackageName=null) {}
+[INFO ] 2020-04-22T19:01:10,262Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-190109.824/custom-cordapp_1_6_ef55cc72-e8cc-4f7d-b70b-03b553b6ce88.jar {}
+[INFO ] 2020-04-22T19:01:10,337Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-190109.824/custom-cordapp_1_6_4eda55c1-4c1e-46d2-8b86-95bd40a6153b.jar {}
+[INFO ] 2020-04-22T19:04:09,219Z [Test worker] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-190408.874/custom-cordapp_1_6_399cb429-5f80-4179-af14-98b0bb1ab5db.jar, rootPackageName=null), RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-190408.874/custom-cordapp_1_6_b4c60471-ec27-4267-a24a-ecb7b6009020.jar, rootPackageName=null) {}
+[INFO ] 2020-04-22T19:04:09,291Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-190408.874/custom-cordapp_1_6_399cb429-5f80-4179-af14-98b0bb1ab5db.jar {}
+[INFO ] 2020-04-22T19:04:09,364Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-190408.874/custom-cordapp_1_6_b4c60471-ec27-4267-a24a-ecb7b6009020.jar {}
+[INFO ] 2020-04-22T19:16:47,567Z [Test worker] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-191647.211/custom-cordapp_1_6_35d35efe-9ba3-44ea-9c47-92c68131f23a.jar, rootPackageName=null), RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-191647.211/custom-cordapp_1_6_f49642cb-9bae-42c3-9db3-5eefc5e064b9.jar, rootPackageName=null) {}
+[INFO ] 2020-04-22T19:16:47,634Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-191647.211/custom-cordapp_1_6_35d35efe-9ba3-44ea-9c47-92c68131f23a.jar {}
+[INFO ] 2020-04-22T19:16:47,703Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-191647.211/custom-cordapp_1_6_f49642cb-9bae-42c3-9db3-5eefc5e064b9.jar {}
+[WARN ] 2020-04-22T19:16:49,987Z [Test worker] contracts.TransactionState. - State class org.r3.kyc.states.CCDState belongs to contract org.r3.kyc.contracts.CCDContract, but is bundled with contract org.r3.tdh.kyc.contracts.CCDContract in TransactionState. Annotate CCDState with @BelongsToContract(org.r3.tdh.kyc.contracts.CCDContract.class) to remove this warning. {}
+[INFO ] 2020-04-22T19:18:01,526Z [Test worker] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-191801.177/custom-cordapp_1_6_ec677b8d-0044-489d-a1cb-bc8a137094ef.jar, rootPackageName=null), RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-191801.177/custom-cordapp_1_6_b306d590-4a1d-4256-8a66-abb90741d00c.jar, rootPackageName=null) {}
+[INFO ] 2020-04-22T19:18:01,597Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-191801.177/custom-cordapp_1_6_ec677b8d-0044-489d-a1cb-bc8a137094ef.jar {}
+[INFO ] 2020-04-22T19:18:01,669Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-191801.177/custom-cordapp_1_6_b306d590-4a1d-4256-8a66-abb90741d00c.jar {}
+[WARN ] 2020-04-22T19:18:03,832Z [Test worker] contracts.TransactionState. - State class org.r3.kyc.states.TemplateState belongs to contract org.r3.kyc.contracts.CCDContract, but is bundled with contract org.r3.kyc.contracts.TemplateContract in TransactionState. Annotate TemplateState with @BelongsToContract(org.r3.kyc.contracts.TemplateContract.class) to remove this warning. {}
+[WARN ] 2020-04-22T19:18:03,853Z [Test worker] contracts.TransactionState. - State class org.r3.kyc.states.TemplateState belongs to contract org.r3.kyc.contracts.CCDContract, but is bundled with contract org.r3.kyc.contracts.TemplateContract in TransactionState. Annotate TemplateState with @BelongsToContract(org.r3.kyc.contracts.TemplateContract.class) to remove this warning. {}
+[WARN ] 2020-04-22T19:18:04,035Z [Test worker] contracts.TransactionState. - State class org.r3.kyc.states.TemplateState belongs to contract org.r3.kyc.contracts.CCDContract, but is bundled with contract org.r3.kyc.contracts.TemplateContract in TransactionState. Annotate TemplateState with @BelongsToContract(org.r3.kyc.contracts.TemplateContract.class) to remove this warning. {}
+[WARN ] 2020-04-22T19:18:04,041Z [Test worker] contracts.TransactionState. - State class org.r3.kyc.states.TemplateState belongs to contract org.r3.kyc.contracts.CCDContract, but is bundled with contract org.r3.kyc.contracts.TemplateContract in TransactionState. Annotate TemplateState with @BelongsToContract(org.r3.kyc.contracts.TemplateContract.class) to remove this warning. {}
+[INFO ] 2020-04-22T19:18:37,433Z [Test worker] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-191837.065/custom-cordapp_1_6_e40b796e-72da-4e47-a9e4-755a6f0fb926.jar, rootPackageName=null), RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-191837.065/custom-cordapp_1_6_89471157-d618-4dcf-9a61-ce512e090351.jar, rootPackageName=null) {}
+[INFO ] 2020-04-22T19:18:37,504Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-191837.065/custom-cordapp_1_6_e40b796e-72da-4e47-a9e4-755a6f0fb926.jar {}
+[INFO ] 2020-04-22T19:18:37,575Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-191837.065/custom-cordapp_1_6_89471157-d618-4dcf-9a61-ce512e090351.jar {}
+[INFO ] 2020-04-22T19:19:51,517Z [Test worker] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-191951.124/custom-cordapp_1_6_4338659f-9ce1-44f9-adf4-97224cbb8967.jar, rootPackageName=null), RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-191951.124/custom-cordapp_1_6_2a4e89df-d93e-4a72-a6fc-4b3135f4e1af.jar, rootPackageName=null) {}
+[INFO ] 2020-04-22T19:19:51,589Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-191951.124/custom-cordapp_1_6_4338659f-9ce1-44f9-adf4-97224cbb8967.jar {}
+[INFO ] 2020-04-22T19:19:51,662Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-191951.124/custom-cordapp_1_6_2a4e89df-d93e-4a72-a6fc-4b3135f4e1af.jar {}
+[INFO ] 2020-04-22T19:25:37,304Z [Test worker] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-192536.942/custom-cordapp_1_6_4b2c0f27-833a-4614-9c2c-06ea221a33e0.jar, rootPackageName=null), RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-192536.942/custom-cordapp_1_6_6086942e-01b5-48d2-9f82-e2119115a872.jar, rootPackageName=null) {}
+[INFO ] 2020-04-22T19:25:37,374Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-192536.942/custom-cordapp_1_6_4b2c0f27-833a-4614-9c2c-06ea221a33e0.jar {}
+[INFO ] 2020-04-22T19:25:37,448Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-192536.942/custom-cordapp_1_6_6086942e-01b5-48d2-9f82-e2119115a872.jar {}
+[INFO ] 2020-04-22T19:30:01,109Z [Test worker] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-193000.729/custom-cordapp_1_6_034ee2c2-8f51-404b-b1f5-c049ac8cc14b.jar, rootPackageName=null), RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-193000.729/custom-cordapp_1_6_394820bc-9e32-4b1f-85bb-246bc4a57e67.jar, rootPackageName=null) {}
+[INFO ] 2020-04-22T19:30:01,175Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-193000.729/custom-cordapp_1_6_034ee2c2-8f51-404b-b1f5-c049ac8cc14b.jar {}
+[INFO ] 2020-04-22T19:30:01,258Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-193000.729/custom-cordapp_1_6_394820bc-9e32-4b1f-85bb-246bc4a57e67.jar {}
+[INFO ] 2020-04-22T19:34:22,961Z [Test worker] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-193422.573/custom-cordapp_1_6_04339c3b-0789-4c6b-a806-af4c9b05d443.jar, rootPackageName=null), RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-193422.573/custom-cordapp_1_6_5c65db9a-157e-4535-a9da-70f5396a0286.jar, rootPackageName=null) {}
+[INFO ] 2020-04-22T19:34:23,029Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-193422.573/custom-cordapp_1_6_04339c3b-0789-4c6b-a806-af4c9b05d443.jar {}
+[INFO ] 2020-04-22T19:34:23,103Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-193422.573/custom-cordapp_1_6_5c65db9a-157e-4535-a9da-70f5396a0286.jar {}
+[INFO ] 2020-04-22T19:36:55,811Z [Test worker] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-193655.441/custom-cordapp_1_6_5035cc29-444f-417d-9d1d-07679727c34e.jar, rootPackageName=null), RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-193655.441/custom-cordapp_1_6_358755d8-6abe-46d0-b532-960ee6392142.jar, rootPackageName=null) {}
+[INFO ] 2020-04-22T19:36:55,878Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-193655.441/custom-cordapp_1_6_5035cc29-444f-417d-9d1d-07679727c34e.jar {}
+[INFO ] 2020-04-22T19:36:55,950Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-193655.441/custom-cordapp_1_6_358755d8-6abe-46d0-b532-960ee6392142.jar {}
+[ERROR] 2020-04-22T19:36:58,552Z [Test worker] internal.Verifier. - Error validating transaction 234F44386D55578ADB64AF9FC28B49F2FFD7A33726E7D62315470DF33B197EBB. [errorCode=15v9nhv, moreInformationAt=https://errors.corda.net/OS/4.4/15v9nhv] {}
+java.lang.IllegalArgumentException: Failed requirement: The Issuer and the owner cannot be the same entity
+	at net.corda.core.contracts.Requirements.using(ContractsDSL.kt:26) ~[corda-core-4.4.jar:?]
+	at org.r3.kyc.contracts.CCDContract.lambda$verifyIssue$0(CCDContract.java:41) ~[contracts-0.1.jar:?]
+	at net.corda.core.contracts.ContractsDSL.requireThat(ContractsDSL.kt:30) ~[corda-core-4.4.jar:?]
+	at org.r3.kyc.contracts.CCDContract.verifyIssue(CCDContract.java:37) ~[contracts-0.1.jar:?]
+	at org.r3.kyc.contracts.CCDContract.doCCD(CCDContract.java:29) ~[contracts-0.1.jar:?]
+	at org.r3.kyc.contracts.CCDContract.verify(CCDContract.java:23) ~[contracts-0.1.jar:?]
+	at net.corda.core.internal.ContractVerifier.apply(TransactionVerifierServiceInternal.kt:424) ~[corda-core-4.4.jar:?]
+	at net.corda.core.internal.BasicVerifier.verifyContracts(TransactionVerifierServiceInternal.kt:375) ~[corda-core-4.4.jar:?]
+	at net.corda.core.internal.Verifier.verify(TransactionVerifierServiceInternal.kt:69) ~[corda-core-4.4.jar:?]
+	at net.corda.core.transactions.LedgerTransaction.verify(LedgerTransaction.kt:207) ~[corda-core-4.4.jar:?]
+	at net.corda.core.transactions.TransactionBuilder.addMissingDependency(TransactionBuilder.kt:206) ~[corda-core-4.4.jar:?]
+	at net.corda.core.transactions.TransactionBuilder.toWireTransactionWithContext(TransactionBuilder.kt:186) ~[corda-core-4.4.jar:?]
+	at net.corda.core.transactions.TransactionBuilder.toWireTransactionWithContext$core(TransactionBuilder.kt:146) ~[corda-core-4.4.jar:?]
+	at net.corda.core.transactions.TransactionBuilder.toWireTransaction(TransactionBuilder.kt:140) ~[corda-core-4.4.jar:?]
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.toWireTransaction$test_utils(TestDSL.kt:139) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.verifies(TestDSL.kt:183) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.Verifies$DefaultImpls.failsWith(LedgerDSLInterpreter.kt:45) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TransactionDSLInterpreter$DefaultImpls.failsWith(TransactionDSLInterpreter.kt) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.failsWith(TestDSL.kt:77) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TransactionDSL.failsWith(TransactionDSLInterpreter.kt) ~[corda-test-utils-4.4.jar:?]
+	at org.r3.kyc.ContractTests.lambda$null$4(ContractTests.java:143) ~[main/:?]
+	at net.corda.testing.dsl.LedgerDSL$transaction$1.invoke(LedgerDSLInterpreter.kt:141) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL$transaction$1.invoke(LedgerDSLInterpreter.kt:132) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TestLedgerDSLInterpreter.interpretTransactionDsl(TestDSL.kt:278) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TestLedgerDSLInterpreter.recordTransactionWithTransactionMap(TestDSL.kt:302) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TestLedgerDSLInterpreter._transaction(TestDSL.kt:338) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL._transaction(LedgerDSLInterpreter.kt) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL.transaction(LedgerDSLInterpreter.kt:141) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL.transaction$default(LedgerDSLInterpreter.kt:139) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL.transaction(LedgerDSLInterpreter.kt) ~[corda-test-utils-4.4.jar:?]
+	at org.r3.kyc.ContractTests.lambda$testOwnerIssuerMatchFailure$5(ContractTests.java:137) ~[main/:?]
+	at net.corda.testing.node.NodeTestUtils$ledger$2.invoke(NodeTestUtils.kt:39) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.testing.node.NodeTestUtils$ledger$2.invoke(NodeTestUtils.kt) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.testing.internal.InternalTestUtilsKt$withTestSerializationEnvIfNotSet$1.invoke(InternalTestUtils.kt:231) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.internal.InternalTestUtilsKt$withTestSerializationEnvIfNotSet$1.invoke(InternalTestUtils.kt) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.common.internal.CommonSerializationTestHelpersKt.asContextEnv(CommonSerializationTestHelpers.kt:19) ~[corda-test-common-4.4.jar:?]
+	at net.corda.testing.internal.InternalSerializationTestHelpersKt.asTestContextEnv(InternalSerializationTestHelpers.kt:48) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.internal.InternalTestUtilsKt.withTestSerializationEnvIfNotSet(InternalTestUtils.kt:231) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.node.NodeTestUtils.ledger(NodeTestUtils.kt:36) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.testing.node.NodeTestUtils.ledger$default(NodeTestUtils.kt:23) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.testing.node.NodeTestUtils.ledger(NodeTestUtils.kt) ~[corda-node-driver-4.4.jar:?]
+	at org.r3.kyc.ContractTests.testOwnerIssuerMatchFailure(ContractTests.java:136) ~[main/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) ~[?:?]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175) ~[?:?]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157) ~[?:?]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) ~[?:?]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_241]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_241]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_241]
+[ERROR] 2020-04-22T19:36:58,555Z [Test worker] internal.Verifier. - Error validating transaction 234F44386D55578ADB64AF9FC28B49F2FFD7A33726E7D62315470DF33B197EBB. [errorCode=15v9nhv, moreInformationAt=https://errors.corda.net/OS/4.4/15v9nhv] {}
+java.lang.IllegalArgumentException: Failed requirement: The Issuer and the owner cannot be the same entity
+	at net.corda.core.contracts.Requirements.using(ContractsDSL.kt:26) ~[corda-core-4.4.jar:?]
+	at org.r3.kyc.contracts.CCDContract.lambda$verifyIssue$0(CCDContract.java:41) ~[contracts-0.1.jar:?]
+	at net.corda.core.contracts.ContractsDSL.requireThat(ContractsDSL.kt:30) ~[corda-core-4.4.jar:?]
+	at org.r3.kyc.contracts.CCDContract.verifyIssue(CCDContract.java:37) ~[contracts-0.1.jar:?]
+	at org.r3.kyc.contracts.CCDContract.doCCD(CCDContract.java:29) ~[contracts-0.1.jar:?]
+	at org.r3.kyc.contracts.CCDContract.verify(CCDContract.java:23) ~[contracts-0.1.jar:?]
+	at net.corda.core.internal.ContractVerifier.apply(TransactionVerifierServiceInternal.kt:424) ~[corda-core-4.4.jar:?]
+	at net.corda.core.internal.BasicVerifier.verifyContracts(TransactionVerifierServiceInternal.kt:375) ~[corda-core-4.4.jar:?]
+	at net.corda.core.internal.Verifier.verify(TransactionVerifierServiceInternal.kt:69) ~[corda-core-4.4.jar:?]
+	at net.corda.core.transactions.LedgerTransaction.verify(LedgerTransaction.kt:207) ~[corda-core-4.4.jar:?]
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.verifies(TestDSL.kt:183) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.Verifies$DefaultImpls.failsWith(LedgerDSLInterpreter.kt:45) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TransactionDSLInterpreter$DefaultImpls.failsWith(TransactionDSLInterpreter.kt) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.failsWith(TestDSL.kt:77) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TransactionDSL.failsWith(TransactionDSLInterpreter.kt) ~[corda-test-utils-4.4.jar:?]
+	at org.r3.kyc.ContractTests.lambda$null$4(ContractTests.java:143) ~[main/:?]
+	at net.corda.testing.dsl.LedgerDSL$transaction$1.invoke(LedgerDSLInterpreter.kt:141) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL$transaction$1.invoke(LedgerDSLInterpreter.kt:132) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TestLedgerDSLInterpreter.interpretTransactionDsl(TestDSL.kt:278) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TestLedgerDSLInterpreter.recordTransactionWithTransactionMap(TestDSL.kt:302) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TestLedgerDSLInterpreter._transaction(TestDSL.kt:338) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL._transaction(LedgerDSLInterpreter.kt) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL.transaction(LedgerDSLInterpreter.kt:141) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL.transaction$default(LedgerDSLInterpreter.kt:139) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL.transaction(LedgerDSLInterpreter.kt) ~[corda-test-utils-4.4.jar:?]
+	at org.r3.kyc.ContractTests.lambda$testOwnerIssuerMatchFailure$5(ContractTests.java:137) ~[main/:?]
+	at net.corda.testing.node.NodeTestUtils$ledger$2.invoke(NodeTestUtils.kt:39) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.testing.node.NodeTestUtils$ledger$2.invoke(NodeTestUtils.kt) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.testing.internal.InternalTestUtilsKt$withTestSerializationEnvIfNotSet$1.invoke(InternalTestUtils.kt:231) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.internal.InternalTestUtilsKt$withTestSerializationEnvIfNotSet$1.invoke(InternalTestUtils.kt) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.common.internal.CommonSerializationTestHelpersKt.asContextEnv(CommonSerializationTestHelpers.kt:19) ~[corda-test-common-4.4.jar:?]
+	at net.corda.testing.internal.InternalSerializationTestHelpersKt.asTestContextEnv(InternalSerializationTestHelpers.kt:48) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.internal.InternalTestUtilsKt.withTestSerializationEnvIfNotSet(InternalTestUtils.kt:231) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.node.NodeTestUtils.ledger(NodeTestUtils.kt:36) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.testing.node.NodeTestUtils.ledger$default(NodeTestUtils.kt:23) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.testing.node.NodeTestUtils.ledger(NodeTestUtils.kt) ~[corda-node-driver-4.4.jar:?]
+	at org.r3.kyc.ContractTests.testOwnerIssuerMatchFailure(ContractTests.java:136) ~[main/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) ~[?:?]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175) ~[?:?]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157) ~[?:?]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) ~[?:?]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_241]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_241]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_241]
+[ERROR] 2020-04-22T19:36:58,563Z [Test worker] internal.Verifier. - Error validating transaction 234F44386D55578ADB64AF9FC28B49F2FFD7A33726E7D62315470DF33B197EBB. [errorCode=15v9nhv, moreInformationAt=https://errors.corda.net/OS/4.4/15v9nhv] {}
+java.lang.IllegalArgumentException: Failed requirement: The Issuer and the owner cannot be the same entity
+	at net.corda.core.contracts.Requirements.using(ContractsDSL.kt:26) ~[corda-core-4.4.jar:?]
+	at org.r3.kyc.contracts.CCDContract.lambda$verifyIssue$0(CCDContract.java:41) ~[contracts-0.1.jar:?]
+	at net.corda.core.contracts.ContractsDSL.requireThat(ContractsDSL.kt:30) ~[corda-core-4.4.jar:?]
+	at org.r3.kyc.contracts.CCDContract.verifyIssue(CCDContract.java:37) ~[contracts-0.1.jar:?]
+	at org.r3.kyc.contracts.CCDContract.doCCD(CCDContract.java:29) ~[contracts-0.1.jar:?]
+	at org.r3.kyc.contracts.CCDContract.verify(CCDContract.java:23) ~[contracts-0.1.jar:?]
+	at net.corda.core.internal.ContractVerifier.apply(TransactionVerifierServiceInternal.kt:424) ~[corda-core-4.4.jar:?]
+	at net.corda.core.internal.BasicVerifier.verifyContracts(TransactionVerifierServiceInternal.kt:375) ~[corda-core-4.4.jar:?]
+	at net.corda.core.internal.Verifier.verify(TransactionVerifierServiceInternal.kt:69) ~[corda-core-4.4.jar:?]
+	at net.corda.core.transactions.LedgerTransaction.verify(LedgerTransaction.kt:207) ~[corda-core-4.4.jar:?]
+	at net.corda.core.transactions.TransactionBuilder.addMissingDependency(TransactionBuilder.kt:206) ~[corda-core-4.4.jar:?]
+	at net.corda.core.transactions.TransactionBuilder.toWireTransactionWithContext(TransactionBuilder.kt:186) ~[corda-core-4.4.jar:?]
+	at net.corda.core.transactions.TransactionBuilder.toWireTransactionWithContext$core(TransactionBuilder.kt:146) ~[corda-core-4.4.jar:?]
+	at net.corda.core.transactions.TransactionBuilder.toWireTransaction(TransactionBuilder.kt:140) ~[corda-core-4.4.jar:?]
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.toWireTransaction$test_utils(TestDSL.kt:139) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TestLedgerDSLInterpreter.recordTransactionWithTransactionMap(TestDSL.kt:306) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TestLedgerDSLInterpreter._transaction(TestDSL.kt:338) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL._transaction(LedgerDSLInterpreter.kt) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL.transaction(LedgerDSLInterpreter.kt:141) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL.transaction$default(LedgerDSLInterpreter.kt:139) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL.transaction(LedgerDSLInterpreter.kt) ~[corda-test-utils-4.4.jar:?]
+	at org.r3.kyc.ContractTests.lambda$testOwnerIssuerMatchFailure$5(ContractTests.java:137) ~[main/:?]
+	at net.corda.testing.node.NodeTestUtils$ledger$2.invoke(NodeTestUtils.kt:39) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.testing.node.NodeTestUtils$ledger$2.invoke(NodeTestUtils.kt) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.testing.internal.InternalTestUtilsKt$withTestSerializationEnvIfNotSet$1.invoke(InternalTestUtils.kt:231) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.internal.InternalTestUtilsKt$withTestSerializationEnvIfNotSet$1.invoke(InternalTestUtils.kt) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.common.internal.CommonSerializationTestHelpersKt.asContextEnv(CommonSerializationTestHelpers.kt:19) ~[corda-test-common-4.4.jar:?]
+	at net.corda.testing.internal.InternalSerializationTestHelpersKt.asTestContextEnv(InternalSerializationTestHelpers.kt:48) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.internal.InternalTestUtilsKt.withTestSerializationEnvIfNotSet(InternalTestUtils.kt:231) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.node.NodeTestUtils.ledger(NodeTestUtils.kt:36) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.testing.node.NodeTestUtils.ledger$default(NodeTestUtils.kt:23) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.testing.node.NodeTestUtils.ledger(NodeTestUtils.kt) ~[corda-node-driver-4.4.jar:?]
+	at org.r3.kyc.ContractTests.testOwnerIssuerMatchFailure(ContractTests.java:136) ~[main/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) ~[?:?]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175) ~[?:?]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157) ~[?:?]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) ~[?:?]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_241]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_241]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_241]
+[INFO ] 2020-04-22T19:37:32,681Z [Test worker] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-193732.306/custom-cordapp_1_6_ef758069-69a2-44ad-b91c-aba8f50bedbe.jar, rootPackageName=null), RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-193732.306/custom-cordapp_1_6_6bd0e34b-0c55-4c45-b25b-75879d92f24d.jar, rootPackageName=null) {}
+[INFO ] 2020-04-22T19:37:32,746Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-193732.306/custom-cordapp_1_6_ef758069-69a2-44ad-b91c-aba8f50bedbe.jar {}
+[INFO ] 2020-04-22T19:37:32,818Z [Test worker] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/generated-custom-cordapps/20200422-193732.306/custom-cordapp_1_6_6bd0e34b-0c55-4c45-b25b-75879d92f24d.jar {}
+[ERROR] 2020-04-22T19:37:35,189Z [Test worker] internal.Verifier. - Error validating transaction BA3E7FBF034622B4310BA76175502392390A37DB938D7E775AD43C778344CC21. [errorCode=15v9nhv, moreInformationAt=https://errors.corda.net/OS/4.4/15v9nhv] {}
+java.lang.IllegalArgumentException: Failed requirement: The Issuer and the owner cannot be the same entity
+	at net.corda.core.contracts.Requirements.using(ContractsDSL.kt:26) ~[corda-core-4.4.jar:?]
+	at org.r3.kyc.contracts.CCDContract.lambda$verifyIssue$0(CCDContract.java:41) ~[contracts-0.1.jar:?]
+	at net.corda.core.contracts.ContractsDSL.requireThat(ContractsDSL.kt:30) ~[corda-core-4.4.jar:?]
+	at org.r3.kyc.contracts.CCDContract.verifyIssue(CCDContract.java:37) ~[contracts-0.1.jar:?]
+	at org.r3.kyc.contracts.CCDContract.doCCD(CCDContract.java:29) ~[contracts-0.1.jar:?]
+	at org.r3.kyc.contracts.CCDContract.verify(CCDContract.java:23) ~[contracts-0.1.jar:?]
+	at net.corda.core.internal.ContractVerifier.apply(TransactionVerifierServiceInternal.kt:424) ~[corda-core-4.4.jar:?]
+	at net.corda.core.internal.BasicVerifier.verifyContracts(TransactionVerifierServiceInternal.kt:375) ~[corda-core-4.4.jar:?]
+	at net.corda.core.internal.Verifier.verify(TransactionVerifierServiceInternal.kt:69) ~[corda-core-4.4.jar:?]
+	at net.corda.core.transactions.LedgerTransaction.verify(LedgerTransaction.kt:207) ~[corda-core-4.4.jar:?]
+	at net.corda.core.transactions.TransactionBuilder.addMissingDependency(TransactionBuilder.kt:206) ~[corda-core-4.4.jar:?]
+	at net.corda.core.transactions.TransactionBuilder.toWireTransactionWithContext(TransactionBuilder.kt:186) ~[corda-core-4.4.jar:?]
+	at net.corda.core.transactions.TransactionBuilder.toWireTransactionWithContext$core(TransactionBuilder.kt:146) ~[corda-core-4.4.jar:?]
+	at net.corda.core.transactions.TransactionBuilder.toWireTransaction(TransactionBuilder.kt:140) ~[corda-core-4.4.jar:?]
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.toWireTransaction$test_utils(TestDSL.kt:139) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.verifies(TestDSL.kt:183) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TransactionDSL.verifies(TransactionDSLInterpreter.kt) ~[corda-test-utils-4.4.jar:?]
+	at org.r3.kyc.ContractTests.lambda$null$4(ContractTests.java:144) ~[main/:?]
+	at net.corda.testing.dsl.LedgerDSL$transaction$1.invoke(LedgerDSLInterpreter.kt:141) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL$transaction$1.invoke(LedgerDSLInterpreter.kt:132) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TestLedgerDSLInterpreter.interpretTransactionDsl(TestDSL.kt:278) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TestLedgerDSLInterpreter.recordTransactionWithTransactionMap(TestDSL.kt:302) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TestLedgerDSLInterpreter._transaction(TestDSL.kt:338) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL._transaction(LedgerDSLInterpreter.kt) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL.transaction(LedgerDSLInterpreter.kt:141) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL.transaction$default(LedgerDSLInterpreter.kt:139) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL.transaction(LedgerDSLInterpreter.kt) ~[corda-test-utils-4.4.jar:?]
+	at org.r3.kyc.ContractTests.lambda$testOwnerIssuerMatchFailure$5(ContractTests.java:137) ~[main/:?]
+	at net.corda.testing.node.NodeTestUtils$ledger$2.invoke(NodeTestUtils.kt:39) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.testing.node.NodeTestUtils$ledger$2.invoke(NodeTestUtils.kt) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.testing.internal.InternalTestUtilsKt$withTestSerializationEnvIfNotSet$1.invoke(InternalTestUtils.kt:231) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.internal.InternalTestUtilsKt$withTestSerializationEnvIfNotSet$1.invoke(InternalTestUtils.kt) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.common.internal.CommonSerializationTestHelpersKt.asContextEnv(CommonSerializationTestHelpers.kt:19) ~[corda-test-common-4.4.jar:?]
+	at net.corda.testing.internal.InternalSerializationTestHelpersKt.asTestContextEnv(InternalSerializationTestHelpers.kt:48) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.internal.InternalTestUtilsKt.withTestSerializationEnvIfNotSet(InternalTestUtils.kt:231) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.node.NodeTestUtils.ledger(NodeTestUtils.kt:36) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.testing.node.NodeTestUtils.ledger$default(NodeTestUtils.kt:23) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.testing.node.NodeTestUtils.ledger(NodeTestUtils.kt) ~[corda-node-driver-4.4.jar:?]
+	at org.r3.kyc.ContractTests.testOwnerIssuerMatchFailure(ContractTests.java:136) ~[main/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) ~[?:?]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175) ~[?:?]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157) ~[?:?]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) ~[?:?]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_241]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_241]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_241]
+[ERROR] 2020-04-22T19:37:35,191Z [Test worker] internal.Verifier. - Error validating transaction BA3E7FBF034622B4310BA76175502392390A37DB938D7E775AD43C778344CC21. [errorCode=15v9nhv, moreInformationAt=https://errors.corda.net/OS/4.4/15v9nhv] {}
+java.lang.IllegalArgumentException: Failed requirement: The Issuer and the owner cannot be the same entity
+	at net.corda.core.contracts.Requirements.using(ContractsDSL.kt:26) ~[corda-core-4.4.jar:?]
+	at org.r3.kyc.contracts.CCDContract.lambda$verifyIssue$0(CCDContract.java:41) ~[contracts-0.1.jar:?]
+	at net.corda.core.contracts.ContractsDSL.requireThat(ContractsDSL.kt:30) ~[corda-core-4.4.jar:?]
+	at org.r3.kyc.contracts.CCDContract.verifyIssue(CCDContract.java:37) ~[contracts-0.1.jar:?]
+	at org.r3.kyc.contracts.CCDContract.doCCD(CCDContract.java:29) ~[contracts-0.1.jar:?]
+	at org.r3.kyc.contracts.CCDContract.verify(CCDContract.java:23) ~[contracts-0.1.jar:?]
+	at net.corda.core.internal.ContractVerifier.apply(TransactionVerifierServiceInternal.kt:424) ~[corda-core-4.4.jar:?]
+	at net.corda.core.internal.BasicVerifier.verifyContracts(TransactionVerifierServiceInternal.kt:375) ~[corda-core-4.4.jar:?]
+	at net.corda.core.internal.Verifier.verify(TransactionVerifierServiceInternal.kt:69) ~[corda-core-4.4.jar:?]
+	at net.corda.core.transactions.LedgerTransaction.verify(LedgerTransaction.kt:207) ~[corda-core-4.4.jar:?]
+	at net.corda.testing.dsl.TestTransactionDSLInterpreter.verifies(TestDSL.kt:183) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TransactionDSL.verifies(TransactionDSLInterpreter.kt) ~[corda-test-utils-4.4.jar:?]
+	at org.r3.kyc.ContractTests.lambda$null$4(ContractTests.java:144) ~[main/:?]
+	at net.corda.testing.dsl.LedgerDSL$transaction$1.invoke(LedgerDSLInterpreter.kt:141) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL$transaction$1.invoke(LedgerDSLInterpreter.kt:132) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TestLedgerDSLInterpreter.interpretTransactionDsl(TestDSL.kt:278) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TestLedgerDSLInterpreter.recordTransactionWithTransactionMap(TestDSL.kt:302) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.TestLedgerDSLInterpreter._transaction(TestDSL.kt:338) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL._transaction(LedgerDSLInterpreter.kt) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL.transaction(LedgerDSLInterpreter.kt:141) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL.transaction$default(LedgerDSLInterpreter.kt:139) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.dsl.LedgerDSL.transaction(LedgerDSLInterpreter.kt) ~[corda-test-utils-4.4.jar:?]
+	at org.r3.kyc.ContractTests.lambda$testOwnerIssuerMatchFailure$5(ContractTests.java:137) ~[main/:?]
+	at net.corda.testing.node.NodeTestUtils$ledger$2.invoke(NodeTestUtils.kt:39) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.testing.node.NodeTestUtils$ledger$2.invoke(NodeTestUtils.kt) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.testing.internal.InternalTestUtilsKt$withTestSerializationEnvIfNotSet$1.invoke(InternalTestUtils.kt:231) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.internal.InternalTestUtilsKt$withTestSerializationEnvIfNotSet$1.invoke(InternalTestUtils.kt) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.common.internal.CommonSerializationTestHelpersKt.asContextEnv(CommonSerializationTestHelpers.kt:19) ~[corda-test-common-4.4.jar:?]
+	at net.corda.testing.internal.InternalSerializationTestHelpersKt.asTestContextEnv(InternalSerializationTestHelpers.kt:48) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.internal.InternalTestUtilsKt.withTestSerializationEnvIfNotSet(InternalTestUtils.kt:231) ~[corda-test-utils-4.4.jar:?]
+	at net.corda.testing.node.NodeTestUtils.ledger(NodeTestUtils.kt:36) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.testing.node.NodeTestUtils.ledger$default(NodeTestUtils.kt:23) ~[corda-node-driver-4.4.jar:?]
+	at net.corda.testing.node.NodeTestUtils.ledger(NodeTestUtils.kt) ~[corda-node-driver-4.4.jar:?]
+	at org.r3.kyc.ContractTests.testOwnerIssuerMatchFailure(ContractTests.java:136) ~[main/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) ~[?:?]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) ~[?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175) ~[?:?]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157) ~[?:?]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) ~[?:?]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) ~[?:1.8.0_241]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) ~[?:1.8.0_241]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) ~[gradle-tooling-api-5.4.1.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_241]
+[INFO ] 2020-04-22T19:39:20,074Z [driver-pool-thread-0] network.NodeInfoFilesCopier. - Now watching: /Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/node-driver/20200422-193917.689/NotaryService {}
+[INFO ] 2020-04-22T19:39:20,410Z [driver-pool-thread-1] internal.DriverDSLImpl. - Starting in-process Node Notary Service {}
+[INFO ] 2020-04-22T19:39:20,497Z [driver-pool-thread-1] cordapp.JarScanningCordappLoader. - Looking for CorDapps in [/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/node-driver/20200422-193917.689/NotaryService/cordapps] {}
+[INFO ] 2020-04-22T19:39:20,510Z [driver-pool-thread-1] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/node-driver/20200422-193917.689/NotaryService/cordapps/custom-cordapp_1_6_ffde989a-cc5b-444e-8f5b-9ea177be7a43.jar, rootPackageName=null) {}
+[INFO ] 2020-04-22T19:39:20,517Z [driver-pool-thread-1] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/node-driver/20200422-193917.689/NotaryService/cordapps/custom-cordapp_1_6_ffde989a-cc5b-444e-8f5b-9ea177be7a43.jar {}
+[INFO ] 2020-04-22T19:39:21,001Z [driver-pool-thread-1] internal.Node. - Flow external operation executor has a max of 10 threads {}
+[INFO ] 2020-04-22T19:39:21,023Z [driver-pool-thread-1] internal.Node. - Node starting up ... {}
+[INFO ] 2020-04-22T19:39:21,067Z [driver-pool-thread-1] internal.NodeFlowManager. - Registered org.r3.kyc.flows.Initiator to initiate org.r3.kyc.flows.Responder (version 1) {}
+[INFO ] 2020-04-22T19:39:21,161Z [driver-pool-thread-1] internal.Node. - Loaded network parameters: NetworkParameters {
+      minimumPlatformVersion=1
+      notaries=[NotaryInfo(identity=O=Notary Service, L=Zurich, C=CH, validating=true)]
+      maxMessageSize=10485760
+      maxTransactionSize=524288000
+      whitelistedContractImplementations {
+        
+      }
+      eventHorizon=PT720H
+      packageOwnership {
+        
+      }
+      modifiedTime=2020-04-22T19:39:17.700Z
+      epoch=1
+  } {}
+[INFO ] 2020-04-22T19:39:24,464Z [driver-pool-thread-1] persistence.AttachmentVersionNumberMigration. - Start executing... {changeSet=migration/node-services.changelog-init.xml::update-version-of-whitelisted-jars::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:24,468Z [driver-pool-thread-1] persistence.AttachmentVersionNumberMigration. - Attachment version creation from whitelisted JARs using network parameters from /Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/node-driver/20200422-193917.689/NotaryService/network-parameters, whitelistedContractImplementations: {}. {changeSet=migration/node-services.changelog-init.xml::update-version-of-whitelisted-jars::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:24,468Z [driver-pool-thread-1] persistence.AttachmentVersionNumberMigration. - Attachment version creation from whitelisted JARs skipped, no attachments not found. {changeSet=migration/node-services.changelog-init.xml::update-version-of-whitelisted-jars::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:24,504Z [driver-pool-thread-1] migration.VaultStateMigration. - Migrating vault state data to V4 tables {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:24,553Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [VaultMigrationSchemaV1(name=net.corda.node.migration.VaultMigrationSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1)] {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:24,559Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Creating session factory for schemas: [VaultMigrationSchemaV1(name=net.corda.node.migration.VaultMigrationSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1)] {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:26,593Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Created session factory for schemas: [VaultMigrationSchemaV1(name=net.corda.node.migration.VaultMigrationSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1)] {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:27,094Z [driver-pool-thread-1] migration.VaultStateMigration. - Finished performing vault state data migration for 0 states {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:27,097Z [driver-pool-thread-1] migration.PersistentIdentityMigrationNewTable. - Migrating persistent identities with certificates table into persistent table with no certificate data. {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:27,101Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [MappedSchema(name=net.corda.node.migration.PersistentIdentitiesMigrationSchema, version=1)] {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:27,101Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Creating session factory for schemas: [MappedSchema(name=net.corda.node.migration.PersistentIdentitiesMigrationSchema, version=1)] {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:27,180Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Created session factory for schemas: [MappedSchema(name=net.corda.node.migration.PersistentIdentitiesMigrationSchema, version=1)] {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:27,213Z [driver-pool-thread-1] internal.Node. - Connected to H2 database. {}
+[INFO ] 2020-04-22T19:39:27,226Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), NodeNotarySchemaV1(name=net.corda.node.services.transactions.NodeNotarySchema, version=1)] {}
+[INFO ] 2020-04-22T19:39:27,226Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Creating session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), NodeNotarySchemaV1(name=net.corda.node.services.transactions.NodeNotarySchema, version=1)] {}
+[INFO ] 2020-04-22T19:39:27,412Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Created session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1), NodeNotarySchemaV1(name=net.corda.node.services.transactions.NodeNotarySchema, version=1)] {}
+[INFO ] 2020-04-22T19:39:27,419Z [driver-pool-thread-1] internal.Node. - Node-info has changed so submitting update. Old node-info was null {}
+[INFO ] 2020-04-22T19:39:27,419Z [driver-pool-thread-1] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10377], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=6, serial=1587584367419) {}
+[INFO ] 2020-04-22T19:39:27,422Z [driver-pool-thread-1] network.PersistentNetworkMapCache. - No previous node found for O=Notary Service, L=Zurich, C=CH {}
+[INFO ] 2020-04-22T19:39:27,523Z [driver-pool-thread-1] internal.Node. - New node-info: NodeInfo(addresses=[localhost:10377], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=6, serial=1587584367419) {}
+[INFO ] 2020-04-22T19:39:27,565Z [driver-pool-thread-1] network.NetworkMapUpdater. - Auto-accept enabled for network parameter changes which modify only: [epoch, modifiedTime, packageOwnership, whitelistedContractImplementations] {}
+[INFO ] 2020-04-22T19:39:27,573Z [InProcessNode-1-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10377], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=6, serial=1587584367419) {}
+[INFO ] 2020-04-22T19:39:27,575Z [driver-pool-thread-1] security.RPCSecurityManagerImpl. - Constructing realm from list of users in config [User(default, permissions=[ALL])] {}
+[INFO ] 2020-04-22T19:39:27,590Z [InProcessNode-1-2] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2020-04-22T19:39:27,819Z [driver-pool-thread-1] BasicInfo. - Advertised P2P messaging addresses      : localhost:10377 {}
+[INFO ] 2020-04-22T19:39:27,821Z [driver-pool-thread-1] BasicInfo. - RPC connection address                  : localhost:10378 {}
+[INFO ] 2020-04-22T19:39:27,821Z [driver-pool-thread-1] BasicInfo. - RPC admin connection address            : localhost:10379 {}
+[INFO ] 2020-04-22T19:39:29,287Z [driver-pool-thread-1] messaging.ArtemisMessagingServer. - P2P messaging server listening on 0.0.0.0:10377 {}
+[INFO ] 2020-04-22T19:39:29,447Z [driver-pool-thread-1] internal.ArtemisMessagingClient. - Connecting to message broker: localhost:10377 {}
+[INFO ] 2020-04-22T19:39:29,846Z [driver-pool-thread-1] internal.ArtemisMessagingClient. - Connecting to message broker: localhost:10377 {}
+[INFO ] 2020-04-22T19:39:30,108Z [driver-pool-thread-1] messaging.P2PMessagingClient. - Connecting to message broker: localhost:10377 {}
+[INFO ] 2020-04-22T19:39:30,141Z [driver-pool-thread-1] messaging.P2PMessagingClient. - Create fresh queue p2p.inbound.DL7XE5bVaUdoNqLfWkdbBpuqjgqCUtTu2KuLXguwDWBkZB bound on same address {}
+[INFO ] 2020-04-22T19:39:30,189Z [Thread-0 (ActiveMQ-client-factory-threads-606247458)] bridging.BridgeControlListener. - Received bridge control message NodeToBridgeSnapshot(nodeIdentity=O=Notary Service, L=Zurich, C=CH, inboxQueues=[p2p.inbound.DL7XE5bVaUdoNqLfWkdbBpuqjgqCUtTu2KuLXguwDWBkZB], sendQueues=[]) {}
+[INFO ] 2020-04-22T19:39:30,206Z [driver-pool-thread-1] persistence.NodeAttachmentService. - Stored new attachment: id=E2CC09A5A0E74C80433F459E306BAFF492FF730C7E5DD30B976298750A92F033 uploader=app filename=Contract: custom-cordapp, Workflow: custom-cordapp {}
+[INFO ] 2020-04-22T19:39:30,212Z [driver-pool-thread-1] utilities.NotaryLoader. - Starting notary service: class net.corda.node.services.transactions.SimpleNotaryService {}
+[INFO ] 2020-04-22T19:39:30,214Z [driver-pool-thread-1] notary.SinglePartyNotaryService. - Starting notary in validating mode {}
+[INFO ] 2020-04-22T19:39:30,515Z [driver-pool-thread-1] statemachine.SingleThreadedStateMachineManager. - Node ready, info: NodeInfo(addresses=[localhost:10377], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=6, serial=1587584367419) {}
+[INFO ] 2020-04-22T19:39:30,530Z [Node thread-1] internal.Node. - Registering JMX reporter: {}
+[INFO ] 2020-04-22T19:39:30,530Z [Node thread-1] internal.Node. - Registering Jolokia JMX reporter: {}
+[INFO ] 2020-04-22T19:39:30,537Z [Notary Service] rpc.RPCServer. - Starting RPC server with configuration RPCServerConfiguration(rpcThreadPoolSize=4, reapInterval=PT1S, deduplicationCacheExpiry=PT24H) {}
+[INFO ] 2020-04-22T19:39:30,585Z [Notary Service] BasicInfo. - Running P2PMessaging loop {}
+[INFO ] 2020-04-22T19:39:30,709Z [driver-pool-thread-1] internal.RPCClient. - Startup took 152 msec {}
+[INFO ] 2020-04-22T19:39:30,800Z [Test worker] network.NodeInfoFilesCopier. - Now watching: /Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/node-driver/20200422-193917.689/BankA {}
+[INFO ] 2020-04-22T19:39:30,800Z [driver-pool-thread-0] internal.DriverDSLImpl. - Starting in-process Node BankA {}
+[INFO ] 2020-04-22T19:39:30,801Z [driver-pool-thread-0] cordapp.JarScanningCordappLoader. - Looking for CorDapps in [/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/node-driver/20200422-193917.689/BankA/cordapps] {}
+[INFO ] 2020-04-22T19:39:30,801Z [driver-pool-thread-0] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/node-driver/20200422-193917.689/BankA/cordapps/custom-cordapp_1_6_ffde989a-cc5b-444e-8f5b-9ea177be7a43.jar, rootPackageName=null) {}
+[INFO ] 2020-04-22T19:39:30,801Z [driver-pool-thread-0] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/node-driver/20200422-193917.689/BankA/cordapps/custom-cordapp_1_6_ffde989a-cc5b-444e-8f5b-9ea177be7a43.jar {}
+[INFO ] 2020-04-22T19:39:30,813Z [driver-pool-thread-0] internal.Node. - Flow external operation executor has a max of 10 threads {}
+[INFO ] 2020-04-22T19:39:30,814Z [driver-pool-thread-0] internal.Node. - Node starting up ... {}
+[INFO ] 2020-04-22T19:39:30,818Z [Test worker] network.NodeInfoFilesCopier. - Now watching: /Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/node-driver/20200422-193917.689/BankB {}
+[INFO ] 2020-04-22T19:39:30,820Z [driver-pool-thread-1] internal.DriverDSLImpl. - Starting in-process Node BankB {}
+[INFO ] 2020-04-22T19:39:30,821Z [driver-pool-thread-1] cordapp.JarScanningCordappLoader. - Looking for CorDapps in [/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/node-driver/20200422-193917.689/BankB/cordapps] {}
+[INFO ] 2020-04-22T19:39:30,822Z [driver-pool-thread-1] cordapp.JarScanningCordappLoader. - Loading CorDapps from RestrictedURL(url=file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/node-driver/20200422-193917.689/BankB/cordapps/custom-cordapp_1_6_ffde989a-cc5b-444e-8f5b-9ea177be7a43.jar, rootPackageName=null) {}
+[INFO ] 2020-04-22T19:39:30,822Z [driver-pool-thread-1] cordapp.JarScanningCordappLoader. - Scanning CorDapp in file:/Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/node-driver/20200422-193917.689/BankB/cordapps/custom-cordapp_1_6_ffde989a-cc5b-444e-8f5b-9ea177be7a43.jar {}
+[INFO ] 2020-04-22T19:39:30,838Z [driver-pool-thread-1] internal.Node. - Flow external operation executor has a max of 10 threads {}
+[INFO ] 2020-04-22T19:39:30,838Z [driver-pool-thread-1] internal.Node. - Node starting up ... {}
+[INFO ] 2020-04-22T19:39:30,842Z [driver-pool-thread-0] internal.NodeFlowManager. - Registered org.r3.kyc.flows.Initiator to initiate org.r3.kyc.flows.Responder (version 1) {}
+[INFO ] 2020-04-22T19:39:30,845Z [driver-pool-thread-0] internal.Node. - Loaded network parameters: NetworkParameters {
+      minimumPlatformVersion=1
+      notaries=[NotaryInfo(identity=O=Notary Service, L=Zurich, C=CH, validating=true)]
+      maxMessageSize=10485760
+      maxTransactionSize=524288000
+      whitelistedContractImplementations {
+        
+      }
+      eventHorizon=PT720H
+      packageOwnership {
+        
+      }
+      modifiedTime=2020-04-22T19:39:17.700Z
+      epoch=1
+  } {}
+[INFO ] 2020-04-22T19:39:30,862Z [driver-pool-thread-1] internal.NodeFlowManager. - Registered org.r3.kyc.flows.Initiator to initiate org.r3.kyc.flows.Responder (version 1) {}
+[INFO ] 2020-04-22T19:39:30,865Z [driver-pool-thread-1] internal.Node. - Loaded network parameters: NetworkParameters {
+      minimumPlatformVersion=1
+      notaries=[NotaryInfo(identity=O=Notary Service, L=Zurich, C=CH, validating=true)]
+      maxMessageSize=10485760
+      maxTransactionSize=524288000
+      whitelistedContractImplementations {
+        
+      }
+      eventHorizon=PT720H
+      packageOwnership {
+        
+      }
+      modifiedTime=2020-04-22T19:39:17.700Z
+      epoch=1
+  } {}
+[INFO ] 2020-04-22T19:39:31,252Z [driver-pool-thread-0] persistence.AttachmentVersionNumberMigration. - Start executing... {changeSet=migration/node-services.changelog-init.xml::update-version-of-whitelisted-jars::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,253Z [driver-pool-thread-0] persistence.AttachmentVersionNumberMigration. - Attachment version creation from whitelisted JARs using network parameters from /Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/node-driver/20200422-193917.689/BankB/network-parameters, whitelistedContractImplementations: {}. {changeSet=migration/node-services.changelog-init.xml::update-version-of-whitelisted-jars::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,253Z [driver-pool-thread-0] persistence.AttachmentVersionNumberMigration. - Attachment version creation from whitelisted JARs skipped, no attachments not found. {changeSet=migration/node-services.changelog-init.xml::update-version-of-whitelisted-jars::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,269Z [driver-pool-thread-0] migration.VaultStateMigration. - Migrating vault state data to V4 tables {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,272Z [driver-pool-thread-0] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [VaultMigrationSchemaV1(name=net.corda.node.migration.VaultMigrationSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1)] {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,272Z [driver-pool-thread-0] persistence.HibernateConfiguration. - Creating session factory for schemas: [VaultMigrationSchemaV1(name=net.corda.node.migration.VaultMigrationSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1)] {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,377Z [driver-pool-thread-0] persistence.HibernateConfiguration. - Created session factory for schemas: [VaultMigrationSchemaV1(name=net.corda.node.migration.VaultMigrationSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1)] {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,387Z [driver-pool-thread-0] migration.VaultStateMigration. - Finished performing vault state data migration for 0 states {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,388Z [driver-pool-thread-0] migration.PersistentIdentityMigrationNewTable. - Migrating persistent identities with certificates table into persistent table with no certificate data. {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,389Z [driver-pool-thread-0] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [MappedSchema(name=net.corda.node.migration.PersistentIdentitiesMigrationSchema, version=1)] {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,389Z [driver-pool-thread-0] persistence.HibernateConfiguration. - Creating session factory for schemas: [MappedSchema(name=net.corda.node.migration.PersistentIdentitiesMigrationSchema, version=1)] {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,442Z [driver-pool-thread-0] persistence.HibernateConfiguration. - Created session factory for schemas: [MappedSchema(name=net.corda.node.migration.PersistentIdentitiesMigrationSchema, version=1)] {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,446Z [driver-pool-thread-0] internal.Node. - Connected to H2 database. {}
+[INFO ] 2020-04-22T19:39:31,448Z [driver-pool-thread-0] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1)] {}
+[INFO ] 2020-04-22T19:39:31,448Z [driver-pool-thread-0] persistence.HibernateConfiguration. - Creating session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1)] {}
+[INFO ] 2020-04-22T19:39:31,558Z [driver-pool-thread-0] persistence.HibernateConfiguration. - Created session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1)] {}
+[INFO ] 2020-04-22T19:39:31,561Z [driver-pool-thread-0] internal.Node. - identity-private-key not found in key store, generating fresh key! {}
+[INFO ] 2020-04-22T19:39:31,589Z [driver-pool-thread-0] internal.Node. - Node-info has changed so submitting update. Old node-info was null {}
+[INFO ] 2020-04-22T19:39:31,589Z [driver-pool-thread-0] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10381], legalIdentitiesAndCerts=[O=BankA, L=, C=GB], platformVersion=6, serial=1587584371589) {}
+[INFO ] 2020-04-22T19:39:31,591Z [driver-pool-thread-0] network.PersistentNetworkMapCache. - No previous node found for O=BankA, L=, C=GB {}
+[INFO ] 2020-04-22T19:39:31,600Z [driver-pool-thread-0] internal.Node. - New node-info: NodeInfo(addresses=[localhost:10381], legalIdentitiesAndCerts=[O=BankA, L=, C=GB], platformVersion=6, serial=1587584371589) {}
+[INFO ] 2020-04-22T19:39:31,611Z [driver-pool-thread-0] network.NetworkMapUpdater. - Auto-accept enabled for network parameter changes which modify only: [epoch, modifiedTime, packageOwnership, whitelistedContractImplementations] {}
+[INFO ] 2020-04-22T19:39:31,611Z [driver-pool-thread-0] security.RPCSecurityManagerImpl. - Constructing realm from list of users in config [User(default, permissions=[ALL])] {}
+[INFO ] 2020-04-22T19:39:31,614Z [driver-pool-thread-0] BasicInfo. - Advertised P2P messaging addresses      : localhost:10381 {}
+[INFO ] 2020-04-22T19:39:31,614Z [driver-pool-thread-0] BasicInfo. - RPC connection address                  : localhost:10382 {}
+[INFO ] 2020-04-22T19:39:31,614Z [driver-pool-thread-0] BasicInfo. - RPC admin connection address            : localhost:10383 {}
+[INFO ] 2020-04-22T19:39:31,617Z [InProcessNode-2-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10381], legalIdentitiesAndCerts=[O=BankA, L=, C=GB], platformVersion=6, serial=1587584371589) {}
+[INFO ] 2020-04-22T19:39:31,632Z [InProcessNode-2-2] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2020-04-22T19:39:31,632Z [InProcessNode-2-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10377], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=6, serial=1587584367419) {}
+[INFO ] 2020-04-22T19:39:31,634Z [InProcessNode-2-2] network.PersistentNetworkMapCache. - No previous node found for O=Notary Service, L=Zurich, C=CH {}
+[INFO ] 2020-04-22T19:39:31,737Z [driver-pool-thread-0] messaging.ArtemisMessagingServer. - P2P messaging server listening on 0.0.0.0:10381 {}
+[INFO ] 2020-04-22T19:39:31,848Z [driver-pool-thread-1] persistence.AttachmentVersionNumberMigration. - Start executing... {changeSet=migration/node-services.changelog-init.xml::update-version-of-whitelisted-jars::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,849Z [driver-pool-thread-1] persistence.AttachmentVersionNumberMigration. - Attachment version creation from whitelisted JARs using network parameters from /Users/garryjackson/Documents/GitHub/quickstart/quickstart-swisspost/workflows/build/node-driver/20200422-193917.689/BankB/network-parameters, whitelistedContractImplementations: {}. {changeSet=migration/node-services.changelog-init.xml::update-version-of-whitelisted-jars::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,849Z [driver-pool-thread-1] persistence.AttachmentVersionNumberMigration. - Attachment version creation from whitelisted JARs skipped, no attachments not found. {changeSet=migration/node-services.changelog-init.xml::update-version-of-whitelisted-jars::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,856Z [driver-pool-thread-0] internal.ArtemisMessagingClient. - Connecting to message broker: localhost:10381 {}
+[INFO ] 2020-04-22T19:39:31,870Z [driver-pool-thread-1] migration.VaultStateMigration. - Migrating vault state data to V4 tables {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,877Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [VaultMigrationSchemaV1(name=net.corda.node.migration.VaultMigrationSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1)] {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,877Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Creating session factory for schemas: [VaultMigrationSchemaV1(name=net.corda.node.migration.VaultMigrationSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1)] {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,922Z [driver-pool-thread-0] internal.ArtemisMessagingClient. - Connecting to message broker: localhost:10381 {}
+[INFO ] 2020-04-22T19:39:31,965Z [driver-pool-thread-0] messaging.P2PMessagingClient. - Connecting to message broker: localhost:10381 {}
+[INFO ] 2020-04-22T19:39:31,987Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Created session factory for schemas: [VaultMigrationSchemaV1(name=net.corda.node.migration.VaultMigrationSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1)] {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,996Z [driver-pool-thread-0] messaging.P2PMessagingClient. - Create fresh queue p2p.inbound.DLCWND6hL5GimDmtHMouaeCr9qazpg87f8s2UPJdUEDnG6 bound on same address {}
+[INFO ] 2020-04-22T19:39:31,996Z [driver-pool-thread-1] migration.VaultStateMigration. - Finished performing vault state data migration for 0 states {changeSet=migration/vault-schema.changelog-v9.xml::update-vault-states::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,997Z [driver-pool-thread-1] migration.PersistentIdentityMigrationNewTable. - Migrating persistent identities with certificates table into persistent table with no certificate data. {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,999Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [MappedSchema(name=net.corda.node.migration.PersistentIdentitiesMigrationSchema, version=1)] {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:31,999Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Creating session factory for schemas: [MappedSchema(name=net.corda.node.migration.PersistentIdentitiesMigrationSchema, version=1)] {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:32,018Z [Thread-0 (ActiveMQ-client-factory-threads-83013279)] bridging.BridgeControlListener. - Received bridge control message NodeToBridgeSnapshot(nodeIdentity=O=BankA, L=, C=GB, inboxQueues=[p2p.inbound.DLCWND6hL5GimDmtHMouaeCr9qazpg87f8s2UPJdUEDnG6], sendQueues=[]) {}
+[INFO ] 2020-04-22T19:39:32,032Z [driver-pool-thread-0] persistence.NodeAttachmentService. - Stored new attachment: id=E2CC09A5A0E74C80433F459E306BAFF492FF730C7E5DD30B976298750A92F033 uploader=app filename=Contract: custom-cordapp, Workflow: custom-cordapp {}
+[INFO ] 2020-04-22T19:39:32,040Z [driver-pool-thread-0] statemachine.SingleThreadedStateMachineManager. - Node ready, info: NodeInfo(addresses=[localhost:10381], legalIdentitiesAndCerts=[O=BankA, L=, C=GB], platformVersion=6, serial=1587584371589) {}
+[INFO ] 2020-04-22T19:39:32,048Z [Node thread-2] internal.Node. - Registering JMX reporter: {}
+[INFO ] 2020-04-22T19:39:32,048Z [Node thread-2] internal.Node. - Registering Jolokia JMX reporter: {}
+[INFO ] 2020-04-22T19:39:32,048Z [BankA] rpc.RPCServer. - Starting RPC server with configuration RPCServerConfiguration(rpcThreadPoolSize=4, reapInterval=PT1S, deduplicationCacheExpiry=PT24H) {}
+[INFO ] 2020-04-22T19:39:32,058Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Created session factory for schemas: [MappedSchema(name=net.corda.node.migration.PersistentIdentitiesMigrationSchema, version=1)] {changeSet=migration/node-services.changelog-init.xml::transfer-to-new-persistence-table::R3.Corda, databaseChangeLog=master.changelog.json}
+[INFO ] 2020-04-22T19:39:32,065Z [driver-pool-thread-1] internal.Node. - Connected to H2 database. {}
+[INFO ] 2020-04-22T19:39:32,066Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Init HibernateConfiguration for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1)] {}
+[INFO ] 2020-04-22T19:39:32,066Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Creating session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1)] {}
+[INFO ] 2020-04-22T19:39:32,096Z [BankA] BasicInfo. - Running P2PMessaging loop {}
+[INFO ] 2020-04-22T19:39:32,110Z [driver-pool-thread-0] internal.RPCClient. - Startup took 61 msec {}
+[INFO ] 2020-04-22T19:39:32,180Z [driver-pool-thread-1] persistence.HibernateConfiguration. - Created session factory for schemas: [CommonSchemaV1(name=net.corda.core.schemas.CommonSchema, version=1), VaultSchemaV1(name=net.corda.node.services.vault.VaultSchema, version=1), NodeInfoSchemaV1(name=net.corda.node.internal.schemas.NodeInfoSchema, version=1), NodeCoreV1(name=net.corda.node.services.schema.NodeSchemaService$NodeCore, version=1)] {}
+[INFO ] 2020-04-22T19:39:32,181Z [driver-pool-thread-1] internal.Node. - identity-private-key not found in key store, generating fresh key! {}
+[INFO ] 2020-04-22T19:39:32,194Z [driver-pool-thread-1] internal.Node. - Node-info has changed so submitting update. Old node-info was null {}
+[INFO ] 2020-04-22T19:39:32,194Z [driver-pool-thread-1] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10385], legalIdentitiesAndCerts=[O=BankB, L=, C=US], platformVersion=6, serial=1587584372194) {}
+[INFO ] 2020-04-22T19:39:32,195Z [driver-pool-thread-1] network.PersistentNetworkMapCache. - No previous node found for O=BankB, L=, C=US {}
+[INFO ] 2020-04-22T19:39:32,200Z [driver-pool-thread-1] internal.Node. - New node-info: NodeInfo(addresses=[localhost:10385], legalIdentitiesAndCerts=[O=BankB, L=, C=US], platformVersion=6, serial=1587584372194) {}
+[INFO ] 2020-04-22T19:39:32,205Z [driver-pool-thread-1] network.NetworkMapUpdater. - Auto-accept enabled for network parameter changes which modify only: [epoch, modifiedTime, packageOwnership, whitelistedContractImplementations] {}
+[INFO ] 2020-04-22T19:39:32,205Z [driver-pool-thread-1] security.RPCSecurityManagerImpl. - Constructing realm from list of users in config [User(default, permissions=[ALL])] {}
+[INFO ] 2020-04-22T19:39:32,206Z [driver-pool-thread-1] BasicInfo. - Advertised P2P messaging addresses      : localhost:10385 {}
+[INFO ] 2020-04-22T19:39:32,206Z [driver-pool-thread-1] BasicInfo. - RPC connection address                  : localhost:10386 {}
+[INFO ] 2020-04-22T19:39:32,206Z [driver-pool-thread-1] BasicInfo. - RPC admin connection address            : localhost:10387 {}
+[INFO ] 2020-04-22T19:39:32,214Z [InProcessNode-3-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10381], legalIdentitiesAndCerts=[O=BankA, L=, C=GB], platformVersion=6, serial=1587584371589) {}
+[INFO ] 2020-04-22T19:39:32,216Z [InProcessNode-3-2] network.PersistentNetworkMapCache. - No previous node found for O=BankA, L=, C=GB {}
+[INFO ] 2020-04-22T19:39:32,233Z [InProcessNode-3-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10377], legalIdentitiesAndCerts=[O=Notary Service, L=Zurich, C=CH], platformVersion=6, serial=1587584367419) {}
+[INFO ] 2020-04-22T19:39:32,234Z [InProcessNode-3-2] network.PersistentNetworkMapCache. - No previous node found for O=Notary Service, L=Zurich, C=CH {}
+[INFO ] 2020-04-22T19:39:32,242Z [InProcessNode-3-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10385], legalIdentitiesAndCerts=[O=BankB, L=, C=US], platformVersion=6, serial=1587584372194) {}
+[INFO ] 2020-04-22T19:39:32,245Z [InProcessNode-3-2] network.PersistentNetworkMapCache. - Previous node was identical to incoming one - doing nothing {}
+[INFO ] 2020-04-22T19:39:32,299Z [driver-pool-thread-1] messaging.ArtemisMessagingServer. - P2P messaging server listening on 0.0.0.0:10385 {}
+[INFO ] 2020-04-22T19:39:32,381Z [driver-pool-thread-1] internal.ArtemisMessagingClient. - Connecting to message broker: localhost:10385 {}
+[INFO ] 2020-04-22T19:39:32,410Z [driver-pool-thread-1] internal.ArtemisMessagingClient. - Connecting to message broker: localhost:10385 {}
+[INFO ] 2020-04-22T19:39:32,436Z [driver-pool-thread-1] messaging.P2PMessagingClient. - Connecting to message broker: localhost:10385 {}
+[INFO ] 2020-04-22T19:39:32,459Z [driver-pool-thread-1] messaging.P2PMessagingClient. - Create fresh queue p2p.inbound.DL6JgqEokhoxSyzXLqNGeojEH4HWA1taXxKyzGtHKjarMp bound on same address {}
+[INFO ] 2020-04-22T19:39:32,476Z [Thread-0 (ActiveMQ-client-factory-threads-1494583456)] bridging.BridgeControlListener. - Received bridge control message NodeToBridgeSnapshot(nodeIdentity=O=BankB, L=, C=US, inboxQueues=[p2p.inbound.DL6JgqEokhoxSyzXLqNGeojEH4HWA1taXxKyzGtHKjarMp], sendQueues=[]) {}
+[INFO ] 2020-04-22T19:39:32,487Z [driver-pool-thread-1] persistence.NodeAttachmentService. - Stored new attachment: id=E2CC09A5A0E74C80433F459E306BAFF492FF730C7E5DD30B976298750A92F033 uploader=app filename=Contract: custom-cordapp, Workflow: custom-cordapp {}
+[INFO ] 2020-04-22T19:39:32,492Z [driver-pool-thread-1] statemachine.SingleThreadedStateMachineManager. - Node ready, info: NodeInfo(addresses=[localhost:10385], legalIdentitiesAndCerts=[O=BankB, L=, C=US], platformVersion=6, serial=1587584372194) {}
+[INFO ] 2020-04-22T19:39:32,496Z [Node thread-3] internal.Node. - Registering JMX reporter: {}
+[INFO ] 2020-04-22T19:39:32,496Z [Node thread-3] internal.Node. - Registering Jolokia JMX reporter: {}
+[INFO ] 2020-04-22T19:39:32,496Z [BankB] rpc.RPCServer. - Starting RPC server with configuration RPCServerConfiguration(rpcThreadPoolSize=4, reapInterval=PT1S, deduplicationCacheExpiry=PT24H) {}
+[INFO ] 2020-04-22T19:39:32,544Z [BankB] BasicInfo. - Running P2PMessaging loop {}
+[INFO ] 2020-04-22T19:39:32,557Z [driver-pool-thread-1] internal.RPCClient. - Startup took 60 msec {}
+[INFO ] 2020-04-22T19:39:32,573Z [InProcessNode-1-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10381], legalIdentitiesAndCerts=[O=BankA, L=, C=GB], platformVersion=6, serial=1587584371589) {}
+[INFO ] 2020-04-22T19:39:32,574Z [InProcessNode-1-2] network.PersistentNetworkMapCache. - No previous node found for O=BankA, L=, C=GB {}
+[INFO ] 2020-04-22T19:39:32,581Z [InProcessNode-1-2] messaging.P2PMessagingClient. - Updating bridges on network map change: NodeInfo(addresses=[localhost:10381], legalIdentitiesAndCerts=[O=BankA, L=, C=GB], platformVersion=6, serial=1587584371589) {}
+[INFO ] 2020-04-22T19:39:33,574Z [InProcessNode-1-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10385], legalIdentitiesAndCerts=[O=BankB, L=, C=US], platformVersion=6, serial=1587584372194) {}
+[INFO ] 2020-04-22T19:39:33,575Z [InProcessNode-1-2] network.PersistentNetworkMapCache. - No previous node found for O=BankB, L=, C=US {}
+[INFO ] 2020-04-22T19:39:33,583Z [InProcessNode-1-2] messaging.P2PMessagingClient. - Updating bridges on network map change: NodeInfo(addresses=[localhost:10385], legalIdentitiesAndCerts=[O=BankB, L=, C=US], platformVersion=6, serial=1587584372194) {}
+[INFO ] 2020-04-22T19:39:33,613Z [InProcessNode-2-2] network.PersistentNetworkMapCache. - Adding node with info: NodeInfo(addresses=[localhost:10385], legalIdentitiesAndCerts=[O=BankB, L=, C=US], platformVersion=6, serial=1587584372194) {}
+[INFO ] 2020-04-22T19:39:33,614Z [InProcessNode-2-2] network.PersistentNetworkMapCache. - No previous node found for O=BankB, L=, C=US {}
+[INFO ] 2020-04-22T19:39:33,621Z [InProcessNode-2-2] messaging.P2PMessagingClient. - Updating bridges on network map change: NodeInfo(addresses=[localhost:10385], legalIdentitiesAndCerts=[O=BankB, L=, C=US], platformVersion=6, serial=1587584372194) {}
+[INFO ] 2020-04-22T19:39:33,678Z [Thread-0 (ActiveMQ-client-factory-threads-1091117319)] rpc.RPCServer. - Detected RPC client disconnect on address rpc.client.default.9188054506154121687, scheduling for reaping {actor_id=default, actor_owning_identity=O=BankB, L=, C=US, actor_store_id=NODE_CONFIG, invocation_id=35f5cc63-05da-4751-a4e0-fc867bf4f574, invocation_timestamp=2020-04-22T19:39:33.646Z, origin=default, session_id=e4d311d8-4135-419f-b8c7-319d10ec9bfc, session_timestamp=2020-04-22T19:39:32.498Z}
+[INFO ] 2020-04-22T19:39:33,703Z [Test worker] BasicInfo. - Shutting down ... {}
+[INFO ] 2020-04-22T19:39:33,703Z [Thread-0 (ActiveMQ-client-factory-threads-438466467)] rpc.RPCServer. - Detected RPC client disconnect on address rpc.client.default.7332302427195627792, scheduling for reaping {actor_id=default, actor_owning_identity=O=BankA, L=, C=GB, actor_store_id=NODE_CONFIG, invocation_id=3fbd6900-ad59-40f3-a4a0-d99d662badb1, invocation_timestamp=2020-04-22T19:39:33.639Z, origin=default, session_id=f743bfea-2593-442f-ba37-8a9b6d54f9c0, session_timestamp=2020-04-22T19:39:32.049Z}
+[INFO ] 2020-04-22T19:39:36,034Z [Test worker] internal.Node. - Shutdown complete {}
+[INFO ] 2020-04-22T19:39:36,034Z [Test worker] BasicInfo. - Shutting down ... {}
+[INFO ] 2020-04-22T19:39:38,296Z [Test worker] internal.Node. - Shutdown complete {}
+[INFO ] 2020-04-22T19:39:38,300Z [Test worker] BasicInfo. - Shutting down ... {}
+[INFO ] 2020-04-22T19:39:38,302Z [Thread-0 (ActiveMQ-client-factory-threads-1226867907)] rpc.RPCServer. - Detected RPC client disconnect on address rpc.client.default.2140337022318618913, scheduling for reaping {actor_id=default, actor_owning_identity=O=Notary Service, L=Zurich, C=CH, actor_store_id=NODE_CONFIG, invocation_id=842a98dd-5210-4db5-91d3-c63bab2b3448, invocation_timestamp=2020-04-22T19:39:30.777Z, origin=default, session_id=3804dfad-d4ab-4f07-8a02-93542ebdc254, session_timestamp=2020-04-22T19:39:30.560Z}
+[INFO ] 2020-04-22T19:39:40,548Z [Test worker] internal.Node. - Shutdown complete {}
