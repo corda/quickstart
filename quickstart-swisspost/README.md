@@ -42,13 +42,27 @@ In brief, the available node types to invoke are:
 * ROU: Regional Operating Unit - Issuance of KYC records
 * Master : Obtains metadata of all transactions to be able to search for records
 * Bank: The entities that require the KYC data
-* Observer: a regulator who can view transaction metadata
+* Regulator: a regulator who can view transaction metadata
 
 To deploy the corda nodes after unit testing and following integration testing:
 * Run Gradle task "deployNodes". After that start the nodes by executing "runnodes" in the build directory.
 * To run nodes individually, from within the build/nodes/<entity> directory run java -jar corda.jar
   
+  
+## Running the tests
+This suite provides a skeleton framework for doing integration and mock testing
+It also extends out to final testing with node deployments and a notary.
+
+  
 ## Interacting with the nodes
+
+* Deploy the nodes with ./gradlew deployNodes and wait for the construction of the nodes
+* Go into the build/nodes directory and from within each party and notary startup via:
+If you wish to expose the JDBC endpoint for H2 then use this configuration in the node.conf
+h2Settings {
+    address: "localhost:12345"
+}
+
 
 ### Shell
 
@@ -105,41 +119,12 @@ the username `user1` and the password `test`.
 Run the `Run Template Client` run configuration. By default, it connects to the node with RPC address `localhost:10006` 
 with the username `user1` and the password `test`.
 
-### Webserver
-
-`clients/src/main/java/com/template/webserver/` defines a simple Spring webserver that connects to a node via RPC and 
-allows you to interact with the node over HTTP.
-
-The API endpoints are defined here:
-
-     clients/src/main/java/com/template/webserver/Controller.java
-
-And a static webpage is defined here:
-
-     clients/src/main/resources/static/
-
-#### Running the webserver
-
-##### Via the command line
-
-Run the `runTemplateServer` Gradle task. By default, it connects to the node with RPC address `localhost:10006` with 
-the username `user1` and the password `test`, and serves the webserver on port `localhost:10050`.
-
 ##### Via IntelliJ
 
 Run the `Run Template Server` run configuration. By default, it connects to the node with RPC address `localhost:10006` 
 with the username `user1` and the password `test`, and serves the webserver on port `localhost:10050`.
 
-#### Interacting with the webserver
 
-The static webpage is served on:
-
-    http://localhost:10050
-
-While the sole template endpoint is served on:
-
-    http://localhost:10050/templateendpoint
-    
 # Extending the template
 
 You should extend this template as follows:
