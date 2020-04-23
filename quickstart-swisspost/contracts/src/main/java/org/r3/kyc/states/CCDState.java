@@ -2,6 +2,7 @@ package org.r3.kyc.states;
 
 import net.corda.core.contracts.BelongsToContract;
 import net.corda.core.contracts.ContractState;
+import net.corda.core.contracts.LinearState;
 import net.corda.core.contracts.UniqueIdentifier;
 import net.corda.core.identity.AbstractParty;
 import net.corda.core.identity.Party;
@@ -12,7 +13,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @BelongsToContract(CCDContract.class)
-public class CCDState implements ContractState {
+public class CCDState implements LinearState {
 
 
     private Party issuer;
@@ -27,9 +28,9 @@ public class CCDState implements ContractState {
 
 
     // Additional meta fields on to master node
-    private String qal;   // quality assurance level High Medium Low
+    private int qal;   // quality assurance level High Medium Low
 
-    public CCDState(Party issuer, Party masterNode, Address address, UniqueIdentifier linearId, Party owner, UniqueIdentifier gleifId, String company, String qal) {
+    public CCDState(Party issuer, Party masterNode, Address address, UniqueIdentifier linearId, Party owner, UniqueIdentifier gleifId, String company, int qal) {
         this.issuer = issuer;
         this.masterNode = masterNode;
         this.address = address;
@@ -75,7 +76,7 @@ public class CCDState implements ContractState {
         return company;
     }
 
-    public String getQal() {
+    public int getQal() {
         return qal;
     }
 
@@ -108,7 +109,7 @@ public class CCDState implements ContractState {
         this.company = company;
     }
 
-    public void setQal(String qal) {
+    public void setQal(int qal) {
         this.qal = qal;
     }
 

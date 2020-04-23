@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab377411-8e5f-4985-8873-421ad53c0ef0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/main/java/org/r3/kyc/flows/CCDIssueFlow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
@@ -13,21 +14,14 @@
       <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/contracts/bin/main/org/r3/kyc/contracts/CCDContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/contracts/bin/main/org/r3/kyc/contracts/CCDContract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/contracts/bin/main/org/r3/kyc/states/CCDState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/contracts/bin/main/org/r3/kyc/states/CCDState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/contracts/bin/main/org/r3/kyc/states/TemplateState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/contracts/bin/main/org/r3/kyc/states/TemplateState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/contracts/build/libs/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/contracts/build/libs/contracts-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/contracts/src/main/java/org/r3/kyc/contracts/CCDContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/contracts/src/main/java/org/r3/kyc/contracts/CCDContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/contracts/src/main/java/org/r3/kyc/states/CCDState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/contracts/src/main/java/org/r3/kyc/states/CCDState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/contracts/src/main/java/org/r3/kyc/states/TemplateState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/contracts/src/main/java/org/r3/kyc/states/TemplateState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/bin/main/org/r3/kyc/ContractTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/bin/main/org/r3/kyc/ContractTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/bin/main/org/r3/kyc/FlowTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/bin/main/org/r3/kyc/FlowTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/libs/workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/libs/workflows-0.1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/logs/node-GARRYs-I9-MBP.log" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/logs/node-GARRYs-I9-MBP.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/test/java/org/r3/kyc/ContractTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/test/java/org/r3/kyc/ContractTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/test/java/org/r3/kyc/FlowTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../quickstart-swisspost/workflows/src/test/java/org/r3/kyc/FlowTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -357,8 +351,8 @@
       <screen x="0" y="23" width="1792" height="1045" />
     </state>
     <state x="255" y="146" key="CommitChangelistDialog2/0.23.1792.1045@0.23.1792.1045" timestamp="1586447517564" />
-    <state width="1750" height="269" key="GridCell.Tab.0.bottom" timestamp="1587576586578">
-      <screen x="0" y="23" width="1792" height="1049" />
+    <state width="1750" height="269" key="GridCell.Tab.0.bottom" timestamp="1587586822002">
+      <screen x="0" y="23" width="2048" height="1204" />
     </state>
     <state width="1750" height="391" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1586698511434" />
     <state width="1582" height="271" key="GridCell.Tab.0.bottom/0.23.1792.1042@0.23.1792.1042" timestamp="1586354710203" />
@@ -369,9 +363,10 @@
     <state width="1582" height="382" key="GridCell.Tab.0.bottom/2048.243.1920.1057/0.23.2048.1193@0.23.2048.1193" timestamp="1586358328694" />
     <state width="1582" height="382" key="GridCell.Tab.0.bottom/2048.243.1920.1057/0.23.2048.1201@0.23.2048.1201" timestamp="1586370440505" />
     <state width="1969" height="320" key="GridCell.Tab.0.bottom/2048.243.1920.1057/0.23.2048.1203@2048.243.1920.1057" timestamp="1587563635336" />
+    <state width="1750" height="269" key="GridCell.Tab.0.bottom/2048.243.1920.1057/0.23.2048.1204@0.23.2048.1204" timestamp="1587586822002" />
     <state width="1969" height="258" key="GridCell.Tab.0.bottom/2048.243.1920.1057/0.23.2048.1204@2048.243.1920.1057" timestamp="1587562006243" />
-    <state width="1750" height="269" key="GridCell.Tab.0.center" timestamp="1587576586577">
-      <screen x="0" y="23" width="1792" height="1049" />
+    <state width="1750" height="269" key="GridCell.Tab.0.center" timestamp="1587586822001">
+      <screen x="0" y="23" width="2048" height="1204" />
     </state>
     <state width="1750" height="391" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1586698511433" />
     <state width="1582" height="271" key="GridCell.Tab.0.center/0.23.1792.1042@0.23.1792.1042" timestamp="1586354710203" />
@@ -382,9 +377,10 @@
     <state width="1582" height="382" key="GridCell.Tab.0.center/2048.243.1920.1057/0.23.2048.1193@0.23.2048.1193" timestamp="1586358328693" />
     <state width="1582" height="382" key="GridCell.Tab.0.center/2048.243.1920.1057/0.23.2048.1201@0.23.2048.1201" timestamp="1586370440504" />
     <state width="1969" height="320" key="GridCell.Tab.0.center/2048.243.1920.1057/0.23.2048.1203@2048.243.1920.1057" timestamp="1587563635334" />
+    <state width="1750" height="269" key="GridCell.Tab.0.center/2048.243.1920.1057/0.23.2048.1204@0.23.2048.1204" timestamp="1587586822001" />
     <state width="1969" height="258" key="GridCell.Tab.0.center/2048.243.1920.1057/0.23.2048.1204@2048.243.1920.1057" timestamp="1587562006237" />
-    <state width="1750" height="269" key="GridCell.Tab.0.left" timestamp="1587576586576">
-      <screen x="0" y="23" width="1792" height="1049" />
+    <state width="1750" height="269" key="GridCell.Tab.0.left" timestamp="1587586822001">
+      <screen x="0" y="23" width="2048" height="1204" />
     </state>
     <state width="1750" height="391" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1586698511433" />
     <state width="1582" height="271" key="GridCell.Tab.0.left/0.23.1792.1042@0.23.1792.1042" timestamp="1586354710202" />
@@ -395,9 +391,10 @@
     <state width="1582" height="382" key="GridCell.Tab.0.left/2048.243.1920.1057/0.23.2048.1193@0.23.2048.1193" timestamp="1586358328693" />
     <state width="1582" height="382" key="GridCell.Tab.0.left/2048.243.1920.1057/0.23.2048.1201@0.23.2048.1201" timestamp="1586370440504" />
     <state width="1969" height="320" key="GridCell.Tab.0.left/2048.243.1920.1057/0.23.2048.1203@2048.243.1920.1057" timestamp="1587563635333" />
+    <state width="1750" height="269" key="GridCell.Tab.0.left/2048.243.1920.1057/0.23.2048.1204@0.23.2048.1204" timestamp="1587586822001" />
     <state width="1969" height="258" key="GridCell.Tab.0.left/2048.243.1920.1057/0.23.2048.1204@2048.243.1920.1057" timestamp="1587562006236" />
-    <state width="1750" height="269" key="GridCell.Tab.0.right" timestamp="1587576586577">
-      <screen x="0" y="23" width="1792" height="1049" />
+    <state width="1750" height="269" key="GridCell.Tab.0.right" timestamp="1587586822002">
+      <screen x="0" y="23" width="2048" height="1204" />
     </state>
     <state width="1750" height="391" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1586698511434" />
     <state width="1582" height="271" key="GridCell.Tab.0.right/0.23.1792.1042@0.23.1792.1042" timestamp="1586354710203" />
@@ -408,6 +405,7 @@
     <state width="1582" height="382" key="GridCell.Tab.0.right/2048.243.1920.1057/0.23.2048.1193@0.23.2048.1193" timestamp="1586358328694" />
     <state width="1582" height="382" key="GridCell.Tab.0.right/2048.243.1920.1057/0.23.2048.1201@0.23.2048.1201" timestamp="1586370440505" />
     <state width="1969" height="320" key="GridCell.Tab.0.right/2048.243.1920.1057/0.23.2048.1203@2048.243.1920.1057" timestamp="1587563635335" />
+    <state width="1750" height="269" key="GridCell.Tab.0.right/2048.243.1920.1057/0.23.2048.1204@0.23.2048.1204" timestamp="1587586822002" />
     <state width="1969" height="258" key="GridCell.Tab.0.right/2048.243.1920.1057/0.23.2048.1204@2048.243.1920.1057" timestamp="1587562006238" />
     <state width="1969" height="270" key="GridCell.Tab.1.bottom" timestamp="1587560205187">
       <screen x="2048" y="243" width="1920" height="1057" />

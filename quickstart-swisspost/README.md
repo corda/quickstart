@@ -2,17 +2,17 @@
   <img src="https://www.corda.net/wp-content/uploads/2016/11/fg005_corda_b.png" alt="Corda" width="500">
 </p>
 
-# CorDapp Template - Java
+# TDH - Trusted Data Hub
 
-Welcome to the Java CorDapp template. The CorDapp template is a stubbed-out CorDapp that you can use to bootstrap 
-your own CorDapps.
+Share KYC Records. And more.
 
-**This is the Java version of the CorDapp template. The Kotlin equivalent is 
-[here](https://github.com/corda/cordapp-template-kotlin/).**
+
 
 # Pre-Requisites
 
 See https://docs.corda.net/getting-set-up.html.
+* Gradle: Just use the Gradle-Wrapper (./gradlew) and try to build the project, things will be handled for you.
+* JDK: Make sure to downgrade to Java 8
 
 # Usage
 
@@ -38,6 +38,16 @@ and set the run directory to the project root directory for each test.
 
 See https://docs.corda.net/tutorial-cordapp.html#running-the-example-cordapp.
 
+In brief, the available node types to invoke are:
+* ROU: Regional Operating Unit - Issuance of KYC records
+* Master : Obtains metadata of all transactions to be able to search for records
+* Bank: The entities that require the KYC data
+* Observer: a regulator who can view transaction metadata
+
+To deploy the corda nodes after unit testing and following integration testing:
+* Run Gradle task "deployNodes". After that start the nodes by executing "runnodes" in the build directory.
+* To run nodes individually, from within the build/nodes/<entity> directory run java -jar corda.jar
+  
 ## Interacting with the nodes
 
 ### Shell
