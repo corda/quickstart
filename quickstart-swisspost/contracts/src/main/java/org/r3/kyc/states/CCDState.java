@@ -6,6 +6,10 @@ import net.corda.core.contracts.LinearState;
 import net.corda.core.contracts.UniqueIdentifier;
 import net.corda.core.identity.AbstractParty;
 import net.corda.core.identity.Party;
+import net.corda.core.schemas.MappedSchema;
+import net.corda.core.schemas.PersistentState;
+import net.corda.core.schemas.QueryableState;
+import org.jetbrains.annotations.NotNull;
 import org.r3.kyc.contracts.CCDContract;
 import org.r3.kyc.entity.Address;
 
@@ -13,7 +17,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @BelongsToContract(CCDContract.class)
-public class CCDState implements LinearState {
+public class CCDState implements LinearState{
 
 
     private Party issuer;
@@ -112,6 +116,7 @@ public class CCDState implements LinearState {
     public void setQal(int qal) {
         this.qal = qal;
     }
+
 
 
 }

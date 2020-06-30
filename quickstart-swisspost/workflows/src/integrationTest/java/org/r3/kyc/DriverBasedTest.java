@@ -29,6 +29,7 @@ public class DriverBasedTest {
 
             try {
                 NodeHandle partyGatewayHandle = handleFutures.get(0).get();
+
                 NodeHandle partyRouHandle = handleFutures.get(1).get();
 
                 // From each node, make an RPC call to retrieve another node's name from the network map, to verify that the

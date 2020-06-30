@@ -13,7 +13,10 @@ import org.r3.kyc.contracts.CCDCommands;
 import org.r3.kyc.contracts.CCDContract;
 import org.r3.kyc.entity.Address;
 import org.r3.kyc.states.CCDState;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+import java.time.Duration;
 import java.util.Arrays;
 
 import static net.corda.core.contracts.ContractsDSL.requireThat;
@@ -29,6 +32,9 @@ public class CCDIssueFlow {
     @StartableByRPC
     public static class Initiator extends FlowLogic<SignedTransaction> {
 
+        private static final Logger logger = LoggerFactory.getLogger(Initiator.class);
+
+
         private final Party otherParty;
         private final String companyName;
         private final UniqueIdentifier gleifId;
@@ -39,12 +45,13 @@ public class CCDIssueFlow {
         private final ProgressTracker.Step SIGNING_TRANSACTION = new ProgressTracker.Step("Signing the transaction");
         private final ProgressTracker.Step GATHERING_SIGNATURES = new ProgressTracker.Step("Gathering the transaction");
         private final ProgressTracker.Step FINALISING_TRANSACTION = new ProgressTracker.Step("Finalising the transaction");
-        public Initiator(Party otherParty, String companyName, UniqueIdentifier gleifId, int qal) {
-            this.otherParty = otherParty;
-            this.companyName = companyName;
-            this.gleifId = gleifId;
-            this.qal = qal;
-        }
+            public Initiator(Party otherParty, String companyName, UniqueIdentifier gleifId, int qal) {
+                this.otherParty = otherParty;
+                this.companyName = companyName;
+                this.gleifId = gleifId;
+                this.qal = qal;
+                System.out.println("Initiated CCDIssueFlow");
+            }
 
 
         private final ProgressTracker progressTracker = new ProgressTracker(
@@ -62,12 +69,13 @@ public class CCDIssueFlow {
         @Suspendable
         @Override
         public SignedTransaction call() throws FlowException {
+
             // Initiator flow logic goes here.
             final Party notary = getServiceHub().getNetworkMapCache().getNotaryIdentities().get(0);
 
             // This is the issuer, the gateway in this case
             Party me = getOurIdentity();
-
+            logger.info("Running as "+me.getName().toString());
 
             // Constructs
             Address address = new Address("1 test street", "Town");

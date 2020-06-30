@@ -135,3 +135,15 @@ You should extend this template as follows:
 
 For a guided example of how to extend this template, see the Hello, World! tutorial 
 [here](https://docs.corda.net/hello-world-introduction.html).
+
+
+# 
+
+You should extend this template as follows:
+
+* Add your own state and contract definitions under `contracts/src/main/java/`
+* Add your own flow definitions under `workflows/src/main/java/`
+* Extend or replace the client and webserver under `clients/src/main/java/`
+
+For a guided example of how to extend this template, see the Hello, World! tutorial 
+[here](https://docs.corda.net/hello-world-introduction.html).

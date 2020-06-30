@@ -1,4 +1,4 @@
-package org.r3.kyc;
+package org.r3.kyc.clients;
 
 import net.corda.client.rpc.CordaRPCClient;
 import net.corda.core.messaging.CordaRPCOps;
@@ -9,20 +9,14 @@ import org.slf4j.LoggerFactory;
 
 import java.util.List;
 
-import static net.corda.core.utilities.NetworkHostAndPort.parse;
 
-/**
- * Connects to a Corda node via RPC and performs RPC operations on the node.
- *
- * The RPC connection is configured using command line arguments.
- */
-public class Client {
-    private static final Logger logger = LoggerFactory.getLogger(Client.class);
+public class RPCClient {
+    private static final Logger logger = LoggerFactory.getLogger(RPCClient.class);
 
     public static void main(String[] args) {
         // Create an RPC connection to the node.
         if (args.length != 3) throw new IllegalArgumentException("Usage: Client <node address> <rpc username> <rpc password>");
-        final NetworkHostAndPort nodeAddress = parse(args[0]);
+        final NetworkHostAndPort nodeAddress = NetworkHostAndPort.parse(args[0]);
         final String rpcUsername = args[1];
         final String rpcPassword = args[2];
         final CordaRPCClient client = new CordaRPCClient(nodeAddress);
